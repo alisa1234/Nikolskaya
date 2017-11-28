@@ -1,0 +1,36 @@
+/* line 21, ../sass/slider.scss */
+.slider .prew-btn, .slider .next-btn {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: calc(50% - 30px);
+  font-size: 30px;
+  overflow: hidden;
+  color: #808080;
+  opacity: 0.7;
+  z-index: 3;
+}
+/* line 34, ../sass/slider.scss */
+.slider .prew-btn {
+  left: 20px;
+}
+/* line 36, ../sass/slider.scss */
+.slider .prew-btn:hover {
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  transform: translateY(-10%);
+}
+/* line 43, ../sass/slider.scss */
+.slider .next-btn {
+  right: 20px;
+}
+/* line 46, ../sass/slider.scss */
+.slider .next-btn:hover {
+  opacity: 1;
+  color: #ffffff;
+  font-size: 40px;
+  transform: translateY(-10%);
+}

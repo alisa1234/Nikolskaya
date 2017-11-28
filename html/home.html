@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вокруг света</title>
+    <link rel="stylesheet" href="../sass/stylesheets/app.css">
+</head>
+<body>
+<header class="header">
+    <div class="header_adress">
+        <div class="header_adress_name">
+            <img src=""/>
+            <span>ул. Никольская 10</span>
+        </div>
+        <div class="header_adress_time">
+            <img src="">
+            <span>8:00 - 23:00</span>
+        </div>
+        <div class="header_adress_language">
+            <ul>
+                <li>Rus</li>
+                <li>Eng</li>
+            </ul>
+            <img src="" class="header_adress_language_triangle">
+        </div>
+    </div>
+    <div class="header_tabs">
+        <div class="header_tabs_search">
+            <img src="">
+            <input type="search" placeholder="Поиск"/>
+        </div>
+        <div class="header_tabs_login">
+            <img src="">
+            <span>Вход</span>
+        </div>
+        <div class="header_tabs_bucket">
+            <img src="">
+            <span>Корзина</span>
+        </div>
+    </div>
+</header>
+<div class="menu-tabs">
+    <div class="menu-tabs_menu">
+        <div class="menu-tabs_menu_item">
+            <span>Рестораны</span>
+        </div>
+        <div class="menu-tabs_menu_item">
+            <span>События</span>
+        </div>
+        <div class="menu-tabs_menu_item">
+            <span>О проекте</span>
+        </div>
+        <div class="menu-tabs_menu_item">
+            <span>Контакты</span>
+        </div>
+    </div>
+    <div class="menu-tabs_logo">
+        <img src="">
+    </div>
+    <div class="menu-tabs_addit">
+        <div class="menu-tabs_addit_delivery">
+            <div class="menu-tabs_addit_delivery_item">
+                <span>Кешбек</span>
+            </div>
+            <div class="menu-tabs_addit_delivery_item">
+                <span>Доставка</span>
+            </div>
+            <div class="menu-tabs_addit_delivery_item">
+                <span>Кейтеринг</span>
+            </div>
+        </div>
+        <div class="menu-tabs_addit_socials">
+            <div  class="menu-tabs_addit_socials_item facebook"></div>
+            <div  class="menu-tabs_addit_socials_item instagram"></div>
+            <div  class="menu-tabs_addit_socials_item pinterest"></div>
+            <div  class="menu-tabs_addit_socials_item twitter"></div>
+            <div  class="menu-tabs_addit_socials_item vk"></div>
+        </div>
+
+    </div>
+</div>
+<div class="slider">
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="../sass/images/pic_1.jpg"></div>
+        <div class="item"><img src="../sass/images/pic_1.jpg"></div>
+        <div class="item"><img src="../sass/images/pic_1.jpg"></div>
+        <div class="item"><img src="../sass/images/pic_1.jpg"></div>
+
+    </div>
+
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+
+            margin:10,
+            autoWidth: false,
+            items:1,
+            nav:true,
+            dots:false
+
+
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,14 @@
+%sprite_png {
+    content: '';
+    background: url('sass/stylesheets/img/png-sprite.png') no-repeat;
+    background-size: 20px 78px;
+    display: inline-block;
+
+}
+
+@mixin sp__icons {
+    @extend %sprite_png;
+    background-position: -0px -0px;
+    width: 20px;
+    height: 78px;
+}
