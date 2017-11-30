@@ -1,3 +1,71 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
 /* line 3, ../sass/_svg-sprite.scss */
 .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter {
   content: '';
@@ -11,11 +79,7 @@
 }
 
 /* line 1, ../sass/_png-sprite.scss */
-<<<<<<< HEAD
-.main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
-=======
-.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint {
->>>>>>> origin/master
+.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
   content: '';
   background: url("img/png-sprite.png") no-repeat;
   background-size: 288px 209px;
@@ -61,7 +125,7 @@
 /* line 33, ../sass/home.scss */
 .main .header_adress_name span {
   color: #7F7873;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
@@ -82,7 +146,7 @@
 /* line 49, ../sass/home.scss */
 .main .header_adress_time span {
   color: #7F7873;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
@@ -135,7 +199,7 @@
   height: 17px;
   width: 80px;
   color: #7F7873;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
   border: none;
@@ -160,7 +224,7 @@
   height: 17px;
   width: 32px;
   color: #231F20;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
@@ -182,7 +246,7 @@
   height: 17px;
   width: 55px;
   color: #231F20;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
@@ -198,7 +262,7 @@
 .main .menu-tabs_menu {
   display: flex;
   flex-direction: row;
-  font-family: UbuntuCondensed;
+  font-family: UbuntuCondensed, sans-serif;
   font-size: 16px;
   color: #231F20;
   font-weight: 600;
@@ -224,7 +288,7 @@
   display: flex;
   flex-direction: row;
   padding-right: 30px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-size: 14px;
   line-height: 17px;
   text-align: right;
@@ -319,7 +383,7 @@
   width: 600px;
   background-color: #F7F6F2;
   padding-bottom: 10px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   position: relative;
 }
 /* line 256, ../sass/home.scss */
@@ -427,7 +491,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: UbuntuCondensed;
+  font-family: UbuntuCondensed, sans-serif;
 }
 /* line 366, ../sass/home.scss */
 .main .content_menu_other_item {
@@ -462,7 +526,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 40px 0 0 0;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
 /* line 393, ../sass/home.scss */
 .main .instagram_content_item {
@@ -503,7 +567,7 @@
   top: 50%;
   left: 40px;
   transform: translateY(-50%);
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
 /* line 432, ../sass/home.scss */
 .main .main_map_buttons_button {
@@ -583,7 +647,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   align-items: center;
 }
 /* line 497, ../sass/home.scss */
@@ -616,7 +680,7 @@
   border: none;
   color: #FFFFFF;
 }
-/* line 494, ../sass/home.scss */
+/* line 525, ../sass/home.scss */
 .main .footer {
   display: flex;
   width: 100%;
@@ -624,7 +688,7 @@
   background-color: #FFFFFF;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
 }
-/* line 500, ../sass/home.scss */
+/* line 531, ../sass/home.scss */
 .main .footer_main {
   display: flex;
   flex-direction: row;
@@ -632,154 +696,146 @@
   width: 100%;
   justify-content: space-between;
 }
-/* line 508, ../sass/home.scss */
+/* line 539, ../sass/home.scss */
 .main .footer_main_menu {
   display: flex;
   flex-direction: column;
   width: 297px;
 }
-/* line 513, ../sass/home.scss */
+/* line 544, ../sass/home.scss */
 .main .footer_main_menu_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-/* line 518, ../sass/home.scss */
+/* line 549, ../sass/home.scss */
 .main .footer_main_menu_header_item {
   font-size: 16px;
   color: #231F20;
   line-height: 16px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
-/* line 526, ../sass/home.scss */
+/* line 557, ../sass/home.scss */
 .main .footer_main_menu_items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 12px 0 0;
 }
-/* line 531, ../sass/home.scss */
+/* line 562, ../sass/home.scss */
 .main .footer_main_menu_items_item {
   font-size: 13px;
   color: #7F7873;
   line-height: 13px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
-/* line 542, ../sass/home.scss */
+/* line 573, ../sass/home.scss */
 .main .footer_main_contacts {
   display: flex;
   flex-direction: column;
 }
-/* line 546, ../sass/home.scss */
+/* line 577, ../sass/home.scss */
 .main .footer_main_contacts_header {
   font-size: 16px;
   color: #231F20;
   line-height: 16px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   padding-bottom: 15px;
 }
-/* line 555, ../sass/home.scss */
+/* line 586, ../sass/home.scss */
 .main .footer_main_contacts_blocks {
   display: flex;
   flex-direction: row;
 }
-/* line 561, ../sass/home.scss */
+/* line 592, ../sass/home.scss */
 .main .footer_main_contacts_blocks_items_item {
   font-size: 13px;
   color: #1A1718;
   line-height: 26px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
 }
-/* line 568, ../sass/home.scss */
+/* line 599, ../sass/home.scss */
 .main .footer_main_contacts_blocks_items:first-child {
   padding-right: 40px;
 }
-/* line 578, ../sass/home.scss */
+/* line 609, ../sass/home.scss */
 .main .footer_info {
   display: flex;
   flex-direction: row;
   width: 100%;
   padding: 0 0 32px;
 }
-/* line 584, ../sass/home.scss */
+/* line 615, ../sass/home.scss */
 .main .footer_info_copyright {
   font-size: 13px;
   color: #7F7873;
   line-height: 13px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: 500;
   padding-right: 81px;
   width: 249px;
 }
-/* line 595, ../sass/home.scss */
+/* line 626, ../sass/home.scss */
 .main .footer_info_payments {
   display: flex;
   flex-direction: row;
   margin-right: 175px;
 }
-/* line 600, ../sass/home.scss */
+/* line 631, ../sass/home.scss */
 .main .footer_info_payments_visa {
   background-position: -218px -111px;
   width: 41px;
   height: 14px;
   margin-right: 19px;
 }
-/* line 604, ../sass/home.scss */
+/* line 635, ../sass/home.scss */
 .main .footer_info_payments_american-express {
   background-position: -89px -111px;
   width: 58px;
   height: 20px;
   margin-right: 21px;
 }
-/* line 609, ../sass/home.scss */
+/* line 640, ../sass/home.scss */
 .main .footer_info_payments_master-card {
   background-position: -39px -111px;
   width: 45px;
   height: 28px;
   margin-right: 24px;
 }
-/* line 615, ../sass/home.scss */
+/* line 646, ../sass/home.scss */
 .main .footer_info_payments_paypal {
   background-position: -152px -111px;
   width: 61px;
   height: 18px;
 }
-/* line 621, ../sass/home.scss */
+/* line 652, ../sass/home.scss */
 .main .footer_info_made-by {
   display: flex;
   flex-direction: row;
 }
-/* line 625, ../sass/home.scss */
+/* line 656, ../sass/home.scss */
 .main .footer_info_made-by_text {
   font-size: 13px;
   color: #1A1718;
   line-height: 24px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   padding-right: 10px;
 }
-/* line 633, ../sass/home.scss */
+/* line 664, ../sass/home.scss */
 .main .footer_info_made-by_icon {
   background-position: -0px -165px;
   width: 45px;
   height: 19px;
 }
 
-<<<<<<< HEAD
-/* line 642, ../sass/home.scss */
-=======
-/* line 527, ../sass/home.scss */
->>>>>>> origin/master
+/* line 673, ../sass/home.scss */
 .main_content {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   width: 1280px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/* line 648, ../sass/home.scss */
-=======
-/* line 532, ../sass/home.scss */
->>>>>>> origin/master
+/* line 679, ../sass/home.scss */
 .main_content .content_corners {
   padding: 40px;
   margin: 0 auto;
@@ -788,23 +844,15 @@
   flex-direction: column;
   align-items: center;
 }
-<<<<<<< HEAD
-/* line 656, ../sass/home.scss */
-=======
-/* line 540, ../sass/home.scss */
->>>>>>> origin/master
+/* line 687, ../sass/home.scss */
 .main_content .content_corners_title {
   color: #231F20;
-  font-family: UbuntuCondensed;
+  font-family: UbuntuCondensed, sans-serif;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 663, ../sass/home.scss */
-=======
-/* line 547, ../sass/home.scss */
->>>>>>> origin/master
+/* line 694, ../sass/home.scss */
 .main_content .content_corners_items {
   display: flex;
   flex-direction: row;
@@ -812,11 +860,7 @@
   flex-wrap: wrap;
   min-width: 1200px;
 }
-<<<<<<< HEAD
-/* line 669, ../sass/home.scss */
-=======
-/* line 553, ../sass/home.scss */
->>>>>>> origin/master
+/* line 700, ../sass/home.scss */
 .main_content .content_corners_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -825,33 +869,21 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin: 30px 0;
 }
-<<<<<<< HEAD
-/* line 680, ../sass/home.scss */
-=======
-/* line 564, ../sass/home.scss */
->>>>>>> origin/master
+/* line 711, ../sass/home.scss */
 .main_content .content_corners_items_item_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-<<<<<<< HEAD
-/* line 687, ../sass/home.scss */
-=======
-/* line 571, ../sass/home.scss */
->>>>>>> origin/master
+/* line 718, ../sass/home.scss */
 .main_content .content_corners_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-<<<<<<< HEAD
-/* line 692, ../sass/home.scss */
-=======
-/* line 576, ../sass/home.scss */
->>>>>>> origin/master
+/* line 723, ../sass/home.scss */
 .main_content .content_corners_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -861,11 +893,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-/* line 701, ../sass/home.scss */
-=======
-/* line 585, ../sass/home.scss */
->>>>>>> origin/master
+/* line 732, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -875,42 +903,29 @@
   line-height: 13px;
   padding: 10px 133px 20px 20px;
   align-items: center;
+  font-family: Ubuntu, sans-serif;
 }
-<<<<<<< HEAD
-/* line 714, ../sass/home.scss */
-=======
-/* line 598, ../sass/home.scss */
->>>>>>> origin/master
+/* line 746, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-<<<<<<< HEAD
-/* line 721, ../sass/home.scss */
-=======
-/* line 605, ../sass/home.scss */
->>>>>>> origin/master
+/* line 753, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text {
   display: flex;
   align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 725, ../sass/home.scss */
-=======
-/* line 609, ../sass/home.scss */
->>>>>>> origin/master
+/* line 759, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-/* line 731, ../sass/home.scss */
-=======
-/* line 615, ../sass/home.scss */
->>>>>>> origin/master
+/* line 765, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -920,20 +935,12 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* line 744, ../sass/home.scss */
-=======
-/* line 628, ../sass/home.scss */
->>>>>>> origin/master
+/* line 778, ../sass/home.scss */
 .main_content_events {
   background-color: #ffffff;
   min-width: 1280px;
 }
-<<<<<<< HEAD
-/* line 748, ../sass/home.scss */
-=======
-/* line 632, ../sass/home.scss */
->>>>>>> origin/master
+/* line 782, ../sass/home.scss */
 .main_content_events .content_events {
   padding: 40px;
   margin: 0 auto;
@@ -942,23 +949,15 @@
   flex-direction: column;
   align-items: center;
 }
-<<<<<<< HEAD
-/* line 756, ../sass/home.scss */
-=======
-/* line 640, ../sass/home.scss */
->>>>>>> origin/master
+/* line 790, ../sass/home.scss */
 .main_content_events .content_events_title {
   color: #231F20;
-  font-family: UbuntuCondensed;
+  font-family: UbuntuCondensed, sans-serif;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 763, ../sass/home.scss */
-=======
-/* line 647, ../sass/home.scss */
->>>>>>> origin/master
+/* line 797, ../sass/home.scss */
 .main_content_events .content_events_items {
   display: flex;
   flex-direction: row;
@@ -966,63 +965,39 @@
   flex-wrap: wrap;
   width: 100%;
 }
-<<<<<<< HEAD
-/* line 769, ../sass/home.scss */
-=======
-/* line 653, ../sass/home.scss */
->>>>>>> origin/master
+/* line 803, ../sass/home.scss */
 .main_content_events .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 30px 0;
 }
-<<<<<<< HEAD
-/* line 778, ../sass/home.scss */
-=======
-/* line 662, ../sass/home.scss */
->>>>>>> origin/master
+/* line 812, ../sass/home.scss */
 .main_content_events .content_events_items_item_content {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-<<<<<<< HEAD
-/* line 785, ../sass/home.scss */
-=======
-/* line 669, ../sass/home.scss */
->>>>>>> origin/master
+/* line 819, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-<<<<<<< HEAD
-/* line 790, ../sass/home.scss */
-=======
-/* line 674, ../sass/home.scss */
->>>>>>> origin/master
+/* line 824, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-<<<<<<< HEAD
-/* line 796, ../sass/home.scss */
-=======
-/* line 680, ../sass/home.scss */
->>>>>>> origin/master
+/* line 830, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-<<<<<<< HEAD
-/* line 802, ../sass/home.scss */
-=======
-/* line 686, ../sass/home.scss */
->>>>>>> origin/master
+/* line 836, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1034,11 +1009,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-/* line 813, ../sass/home.scss */
-=======
-/* line 697, ../sass/home.scss */
->>>>>>> origin/master
+/* line 847, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -1049,41 +1020,27 @@
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-<<<<<<< HEAD
-/* line 826, ../sass/home.scss */
-=======
-/* line 710, ../sass/home.scss */
->>>>>>> origin/master
+/* line 860, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-<<<<<<< HEAD
-/* line 833, ../sass/home.scss */
-=======
-/* line 717, ../sass/home.scss */
->>>>>>> origin/master
+/* line 867, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text {
   display: flex;
   align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 837, ../sass/home.scss */
-=======
-/* line 721, ../sass/home.scss */
->>>>>>> origin/master
+/* line 873, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-/* line 843, ../sass/home.scss */
-=======
-/* line 727, ../sass/home.scss */
->>>>>>> origin/master
+/* line 879, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -1093,11 +1050,7 @@
   text-align: center;
 }
 
-<<<<<<< HEAD
-/* line 855, ../sass/home.scss */
-=======
-/* line 739, ../sass/home.scss */
->>>>>>> origin/master
+/* line 891, ../sass/home.scss */
 .app_content {
   background: url(../images/phones_bg.png) right no-repeat;
   height: 710px;
@@ -1105,11 +1058,7 @@
   width: 1280px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/* line 862, ../sass/home.scss */
-=======
-/* line 745, ../sass/home.scss */
->>>>>>> origin/master
+/* line 898, ../sass/home.scss */
 .app_content_items {
   display: flex;
   flex-direction: row;
@@ -1117,21 +1066,13 @@
   padding: 0 40px;
   height: 100%;
 }
-<<<<<<< HEAD
-/* line 868, ../sass/home.scss */
-=======
-/* line 751, ../sass/home.scss */
->>>>>>> origin/master
+/* line 904, ../sass/home.scss */
 .app_content_items_text {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   padding: 212px 0;
   position: relative;
 }
-<<<<<<< HEAD
-/* line 871, ../sass/home.scss */
-=======
-/* line 755, ../sass/home.scss */
->>>>>>> origin/master
+/* line 908, ../sass/home.scss */
 .app_content_items_text_main {
   color: #231F20;
   font-size: 40px;
@@ -1139,11 +1080,7 @@
   line-height: 44px;
   width: 442px;
 }
-<<<<<<< HEAD
-/* line 878, ../sass/home.scss */
-=======
-/* line 762, ../sass/home.scss */
->>>>>>> origin/master
+/* line 915, ../sass/home.scss */
 .app_content_items_text_other {
   color: #7F7873;
   font-size: 26px;
@@ -1152,20 +1089,12 @@
   width: 400px;
   padding: 20px 0 30px;
 }
-<<<<<<< HEAD
-/* line 886, ../sass/home.scss */
-=======
-/* line 770, ../sass/home.scss */
->>>>>>> origin/master
+/* line 923, ../sass/home.scss */
 .app_content_items_text_download {
   display: flex;
   flex-direction: row;
 }
-<<<<<<< HEAD
-/* line 890, ../sass/home.scss */
-=======
-/* line 774, ../sass/home.scss */
->>>>>>> origin/master
+/* line 927, ../sass/home.scss */
 .app_content_items_text_download_google {
   background: url(../images/Playstore.png) center no-repeat;
   background-size: 100%;
@@ -1173,22 +1102,14 @@
   width: 149px;
   margin-right: 20px;
 }
-<<<<<<< HEAD
-/* line 897, ../sass/home.scss */
-=======
-/* line 781, ../sass/home.scss */
->>>>>>> origin/master
+/* line 934, ../sass/home.scss */
 .app_content_items_text_download_apple {
   background: url(../images/Appstore.png) center no-repeat;
   background-size: 100%;
   height: 44px;
   width: 149px;
 }
-<<<<<<< HEAD
-/* line 904, ../sass/home.scss */
-=======
-/* line 788, ../sass/home.scss */
->>>>>>> origin/master
+/* line 941, ../sass/home.scss */
 .app_content_items_text_logo {
   background: url(../images/logo_N.png) no-repeat;
   height: 212px;
@@ -1197,54 +1118,34 @@
   position: absolute;
   top: 212px;
 }
-<<<<<<< HEAD
-/* line 912, ../sass/home.scss */
-=======
-/* line 796, ../sass/home.scss */
->>>>>>> origin/master
+/* line 949, ../sass/home.scss */
 .app_content_items_text_url {
   color: #7F7873;
   font-size: 16px;
   line-height: 18px;
   margin-top: 145px;
 }
-<<<<<<< HEAD
-/* line 917, ../sass/home.scss */
-=======
-/* line 801, ../sass/home.scss */
->>>>>>> origin/master
+/* line 954, ../sass/home.scss */
 .app_content_items_text_url a {
   color: #332C26;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 923, ../sass/home.scss */
-=======
-/* line 807, ../sass/home.scss */
->>>>>>> origin/master
+/* line 960, ../sass/home.scss */
 .app_content_items_img {
   background: url(../images/phones.png) right bottom no-repeat;
   width: 563px;
 }
 
-<<<<<<< HEAD
-/* line 931, ../sass/home.scss */
-=======
-/* line 815, ../sass/home.scss */
->>>>>>> origin/master
+/* line 968, ../sass/home.scss */
 .about_content {
   position: relative;
   width: 1280px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/* line 936, ../sass/home.scss */
-=======
-/* line 819, ../sass/home.scss */
->>>>>>> origin/master
+/* line 973, ../sass/home.scss */
 .about_content_title {
   position: relative;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: 500;
   font-size: 40px;
   z-index: 1;
@@ -1253,11 +1154,7 @@
   width: 640px;
   padding: 50px 0 0 0;
 }
-<<<<<<< HEAD
-/* line 948, ../sass/home.scss */
-=======
-/* line 831, ../sass/home.scss */
->>>>>>> origin/master
+/* line 985, ../sass/home.scss */
 .about_content_footer-grey {
   position: absolute;
   height: 273px;
@@ -1267,11 +1164,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
-<<<<<<< HEAD
-/* line 958, ../sass/home.scss */
-=======
-/* line 841, ../sass/home.scss */
->>>>>>> origin/master
+/* line 995, ../sass/home.scss */
 .about_content_column-grey {
   position: absolute;
   top: 0;
@@ -1282,11 +1175,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-/* line 968, ../sass/home.scss */
-=======
-/* line 851, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1005, ../sass/home.scss */
 .about_content_number-logo {
   background: url(../images/30.png) no-repeat;
   width: 246px;
@@ -1296,11 +1185,7 @@
   left: 81px;
   z-index: 0;
 }
-<<<<<<< HEAD
-/* line 977, ../sass/home.scss */
-=======
-/* line 860, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1014, ../sass/home.scss */
 .about_content_items {
   position: relative;
   z-index: 1;
@@ -1309,80 +1194,54 @@
   padding: 70px 104px 0 253px;
   align-items: flex-start;
 }
-<<<<<<< HEAD
-/* line 985, ../sass/home.scss */
-=======
-/* line 868, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1022, ../sass/home.scss */
 .about_content_items_text {
   width: 400px;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-<<<<<<< HEAD
-/* line 991, ../sass/home.scss */
-=======
-/* line 874, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1028, ../sass/home.scss */
 .about_content_items_text_header {
   font-size: 26px;
   line-height: 30px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   color: #7F7873;
   text-align: left;
   font-weight: 500;
 }
-<<<<<<< HEAD
-/* line 999, ../sass/home.scss */
-=======
-/* line 882, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1036, ../sass/home.scss */
 .about_content_items_text_description {
   font-size: 16px;
   line-height: 24px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   color: #7F7873;
   text-align: left;
   padding: 35px 0 40px 0;
 }
-<<<<<<< HEAD
-/* line 1006, ../sass/home.scss */
-=======
-/* line 889, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1043, ../sass/home.scss */
 .about_content_items_text_description span:first-child {
   padding-bottom: 10px;
   display: block;
 }
-<<<<<<< HEAD
-/* line 1012, ../sass/home.scss */
-=======
-/* line 895, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1049, ../sass/home.scss */
 .about_content_items_text_moreinfo {
   display: flex;
   align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 1016, ../sass/home.scss */
-=======
-/* line 899, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1055, ../sass/home.scss */
 .about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-<<<<<<< HEAD
-/* line 1022, ../sass/home.scss */
-=======
-/* line 905, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1061, ../sass/home.scss */
 .about_content_items_text_moreinfo_text {
   margin: 0 10px;
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   color: #231F20;
   font-size: 16px;
   font-weight: bold;
@@ -1390,11 +1249,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 1035, ../sass/home.scss */
-=======
-/* line 918, ../sass/home.scss */
->>>>>>> origin/master
+/* line 1074, ../sass/home.scss */
 .about_content_items_img {
   background: url(../images/30eating.png) center no-repeat;
   background-size: cover;

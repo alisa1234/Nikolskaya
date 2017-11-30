@@ -738,6 +738,7 @@
             line-height: 13px;
             padding: 10px 133px 20px 20px;
             align-items: center;
+            font-family: $font_ubuntu;
 
             &_item {
 
@@ -752,6 +753,8 @@
     &_moreinfo-text {
       display: flex;
       align-items: center;
+      font-family: $font_ubuntu;
+      text-transform: uppercase;
 
       &_left-dash, &_right-dash {
         height: 2px;
@@ -864,6 +867,8 @@
     &_moreinfo-text {
       display: flex;
       align-items: center;
+      font-family: $font_ubuntu;
+      text-transform: uppercase;
 
       &_left-dash, &_right-dash {
         height: 2px;
@@ -1044,6 +1049,8 @@
       &_moreinfo {
         display: flex;
         align-items: center;
+        font-family: $font_ubuntu;
+        text-transform: uppercase;
 
         &_left-dash, &_right-dash {
           height: 2px;
