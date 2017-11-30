@@ -15,7 +15,7 @@
     height: 40px;
     background-color: #FFFFFF;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-    //padding: 0 50px 0 50px;
+
     &_adress {
       display: flex;
       flex-direction: row;
@@ -122,7 +122,7 @@
     &_menu {
       display: flex;
       flex-direction: row;
-      font-family: $font_ubuntu;
+      font-family: $font_condensed;
       font-size: 16px;
       color: #231F20;
       font-weight: 600;
@@ -377,7 +377,7 @@
       }
     }
     .slider-footer_delivery_moreinfo-text {
-      width: 210px;
+      width: 216px;
       top: 55%;
       left: 50%;
       transform: translate(-50%, -55%)
@@ -491,12 +491,159 @@
       }
     }
   }
+  .footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    &_main {
+      display: flex;
+      flex-direction: row;
+      padding: 74px 0 32px;
+      width: 100%;
+      justify-content: space-between;
+
+
+      &_menu {
+        display: flex;
+        flex-direction: column;
+        width: 297px;
+
+        &_header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          &_item {
+            font-size: 16px;
+            color: #231F20;
+            line-height: 16px;
+            font-family: $font_ubuntu;
+          }
+        }
+
+        &_items {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 20px 12px 0 0;
+          &_item {
+            font-size: 13px;
+            color: #7F7873;
+            line-height: 13px;
+            font-family: $font_ubuntu;
+          }
+
+        }
+
+      }
+
+      &_contacts {
+        display: flex;
+        flex-direction: column;
+
+        &_header {
+          font-size: 16px;
+          color: #231F20;
+          line-height: 16px;
+          font-family: $font_ubuntu;
+          padding-bottom: 15px;
+
+        }
+
+        &_blocks {
+          display: flex;
+          flex-direction: row;
+
+          &_items {
+
+            &_item {
+              font-size: 13px;
+              color: #1A1718;
+              line-height: 26px;
+              font-family: $font_ubuntu;
+            }
+
+            &:first-child {
+              padding-right: 40px;
+            }
+          }
+        }
+
+
+      }
+    }
+
+    &_info {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding: 0 0 32px;
+
+      &_copyright {
+        font-size: 13px;
+        color: #7F7873;
+        line-height: 13px;
+        font-family: $font_ubuntu;
+        font-weight: 500;
+        padding-right: 81px;
+        width: 249px;
+
+      }
+
+      &_payments {
+        display: flex;
+        flex-direction: row;
+        margin-right: 175px;
+
+        &_visa {
+          @include sp__Visa;
+          margin-right: 19px;
+        }
+        &_american-express {
+          @include sp__AMEX;
+          margin-right: 21px;
+        }
+
+        &_master-card {
+          @include sp__MasterCard;
+          margin-right: 24px;
+
+        }
+
+        &_paypal {
+          @include sp__PayPal;
+        }
+
+      }
+
+      &_made-by {
+        display: flex;
+        flex-direction: row;
+
+        &_text {
+          font-size: 13px;
+          color: #1A1718;
+          line-height: 24px;
+          font-family: $font_ubuntu;
+          padding-right: 10px;
+        }
+
+        &_icon {
+          @include sp__decus;
+        }
+
+      }
+    }
+  }
 }
 
 .main_content {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
 
   .content_corners {
     padding: 40px;
@@ -709,7 +856,8 @@
   background: url(../images/phones_bg.png) right no-repeat;
   height: 710px;
   background-color: #F7F6F2;
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
 
   &_items {
     display: flex;
@@ -782,7 +930,8 @@
 
 .about_content {
   position: relative;
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
   //flex-direction: column;
   &_title {
     position: relative;

@@ -11,7 +11,7 @@
 }
 
 /* line 1, ../sass/_png-sprite.scss */
-.main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint {
+.main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
   content: '';
   background: url("img/png-sprite.png") no-repeat;
   background-size: 288px 209px;
@@ -142,7 +142,7 @@
 .main .menu-tabs_menu {
   display: flex;
   flex-direction: row;
-  font-family: Ubuntu;
+  font-family: UbuntuCondensed;
   font-size: 16px;
   color: #231F20;
   font-weight: 600;
@@ -376,7 +376,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: Ubuntu Condensed;
+  font-family: UbuntuCondensed;
 }
 /* line 337, ../sass/home.scss */
 .main .content_menu_other_item {
@@ -424,7 +424,7 @@
 }
 /* line 379, ../sass/home.scss */
 .main .instagram_content .slider-footer_delivery_moreinfo-text {
-  width: 210px;
+  width: 216px;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -55%);
@@ -557,14 +557,162 @@
   border: none;
   color: #FFFFFF;
 }
+/* line 494, ../sass/home.scss */
+.main .footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 500, ../sass/home.scss */
+.main .footer_main {
+  display: flex;
+  flex-direction: row;
+  padding: 74px 0 32px;
+  width: 100%;
+  justify-content: space-between;
+}
+/* line 508, ../sass/home.scss */
+.main .footer_main_menu {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+}
+/* line 513, ../sass/home.scss */
+.main .footer_main_menu_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 518, ../sass/home.scss */
+.main .footer_main_menu_header_item {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu;
+}
+/* line 526, ../sass/home.scss */
+.main .footer_main_menu_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 12px 0 0;
+}
+/* line 531, ../sass/home.scss */
+.main .footer_main_menu_items_item {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu;
+}
+/* line 542, ../sass/home.scss */
+.main .footer_main_contacts {
+  display: flex;
+  flex-direction: column;
+}
+/* line 546, ../sass/home.scss */
+.main .footer_main_contacts_header {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu;
+  padding-bottom: 15px;
+}
+/* line 555, ../sass/home.scss */
+.main .footer_main_contacts_blocks {
+  display: flex;
+  flex-direction: row;
+}
+/* line 561, ../sass/home.scss */
+.main .footer_main_contacts_blocks_items_item {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 26px;
+  font-family: Ubuntu;
+}
+/* line 568, ../sass/home.scss */
+.main .footer_main_contacts_blocks_items:first-child {
+  padding-right: 40px;
+}
+/* line 578, ../sass/home.scss */
+.main .footer_info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 0 32px;
+}
+/* line 584, ../sass/home.scss */
+.main .footer_info_copyright {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu;
+  font-weight: 500;
+  padding-right: 81px;
+  width: 249px;
+}
+/* line 595, ../sass/home.scss */
+.main .footer_info_payments {
+  display: flex;
+  flex-direction: row;
+  margin-right: 175px;
+}
+/* line 600, ../sass/home.scss */
+.main .footer_info_payments_visa {
+  background-position: -218px -111px;
+  width: 41px;
+  height: 14px;
+  margin-right: 19px;
+}
+/* line 604, ../sass/home.scss */
+.main .footer_info_payments_american-express {
+  background-position: -89px -111px;
+  width: 58px;
+  height: 20px;
+  margin-right: 21px;
+}
+/* line 609, ../sass/home.scss */
+.main .footer_info_payments_master-card {
+  background-position: -39px -111px;
+  width: 45px;
+  height: 28px;
+  margin-right: 24px;
+}
+/* line 615, ../sass/home.scss */
+.main .footer_info_payments_paypal {
+  background-position: -152px -111px;
+  width: 61px;
+  height: 18px;
+}
+/* line 621, ../sass/home.scss */
+.main .footer_info_made-by {
+  display: flex;
+  flex-direction: row;
+}
+/* line 625, ../sass/home.scss */
+.main .footer_info_made-by_text {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 24px;
+  font-family: Ubuntu;
+  padding-right: 10px;
+}
+/* line 633, ../sass/home.scss */
+.main .footer_info_made-by_icon {
+  background-position: -0px -165px;
+  width: 45px;
+  height: 19px;
+}
 
-/* line 496, ../sass/home.scss */
+/* line 642, ../sass/home.scss */
 .main_content {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
 }
-/* line 501, ../sass/home.scss */
+/* line 648, ../sass/home.scss */
 .main_content .content_corners {
   padding: 40px;
   margin: 0 auto;
@@ -573,15 +721,15 @@
   flex-direction: column;
   align-items: center;
 }
-/* line 509, ../sass/home.scss */
+/* line 656, ../sass/home.scss */
 .main_content .content_corners_title {
   color: #231F20;
-  font-family: Ubuntu Condensed;
+  font-family: UbuntuCondensed;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
-/* line 516, ../sass/home.scss */
+/* line 663, ../sass/home.scss */
 .main_content .content_corners_items {
   display: flex;
   flex-direction: row;
@@ -589,7 +737,7 @@
   flex-wrap: wrap;
   min-width: 1200px;
 }
-/* line 522, ../sass/home.scss */
+/* line 669, ../sass/home.scss */
 .main_content .content_corners_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -598,7 +746,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin: 30px 0;
 }
-/* line 533, ../sass/home.scss */
+/* line 680, ../sass/home.scss */
 .main_content .content_corners_items_item_content {
   display: flex;
   flex-direction: row;
@@ -606,13 +754,13 @@
   font-family: Ubuntu;
   padding: 15px 20px 10px;
 }
-/* line 540, ../sass/home.scss */
+/* line 687, ../sass/home.scss */
 .main_content .content_corners_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 545, ../sass/home.scss */
+/* line 692, ../sass/home.scss */
 .main_content .content_corners_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -622,7 +770,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 554, ../sass/home.scss */
+/* line 701, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -633,25 +781,25 @@
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-/* line 567, ../sass/home.scss */
+/* line 714, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 574, ../sass/home.scss */
+/* line 721, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text {
   display: flex;
   align-items: center;
 }
-/* line 578, ../sass/home.scss */
+/* line 725, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 584, ../sass/home.scss */
+/* line 731, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -661,12 +809,12 @@
   text-align: center;
 }
 
-/* line 597, ../sass/home.scss */
+/* line 744, ../sass/home.scss */
 .main_content_events {
   background-color: #ffffff;
   min-width: 1280px;
 }
-/* line 601, ../sass/home.scss */
+/* line 748, ../sass/home.scss */
 .main_content_events .content_events {
   padding: 40px;
   margin: 0 auto;
@@ -675,15 +823,15 @@
   flex-direction: column;
   align-items: center;
 }
-/* line 609, ../sass/home.scss */
+/* line 756, ../sass/home.scss */
 .main_content_events .content_events_title {
   color: #231F20;
-  font-family: Ubuntu Condensed;
+  font-family: UbuntuCondensed;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
-/* line 616, ../sass/home.scss */
+/* line 763, ../sass/home.scss */
 .main_content_events .content_events_items {
   display: flex;
   flex-direction: row;
@@ -691,39 +839,39 @@
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 622, ../sass/home.scss */
+/* line 769, ../sass/home.scss */
 .main_content_events .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 30px 0;
 }
-/* line 631, ../sass/home.scss */
+/* line 778, ../sass/home.scss */
 .main_content_events .content_events_items_item_content {
   font-family: Ubuntu;
   padding: 15px 20px 10px;
 }
-/* line 638, ../sass/home.scss */
+/* line 785, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 643, ../sass/home.scss */
+/* line 790, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 649, ../sass/home.scss */
+/* line 796, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 655, ../sass/home.scss */
+/* line 802, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -735,7 +883,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 666, ../sass/home.scss */
+/* line 813, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -746,25 +894,25 @@
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-/* line 679, ../sass/home.scss */
+/* line 826, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 686, ../sass/home.scss */
+/* line 833, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text {
   display: flex;
   align-items: center;
 }
-/* line 690, ../sass/home.scss */
+/* line 837, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 696, ../sass/home.scss */
+/* line 843, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -774,14 +922,15 @@
   text-align: center;
 }
 
-/* line 708, ../sass/home.scss */
+/* line 855, ../sass/home.scss */
 .app_content {
   background: url(../images/phones_bg.png) right no-repeat;
   height: 710px;
   background-color: #F7F6F2;
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
 }
-/* line 714, ../sass/home.scss */
+/* line 862, ../sass/home.scss */
 .app_content_items {
   display: flex;
   flex-direction: row;
@@ -789,12 +938,12 @@
   padding: 0 40px;
   height: 100%;
 }
-/* line 720, ../sass/home.scss */
+/* line 868, ../sass/home.scss */
 .app_content_items_text {
   font-family: Ubuntu;
   padding: 212px 0;
 }
-/* line 723, ../sass/home.scss */
+/* line 871, ../sass/home.scss */
 .app_content_items_text_main {
   color: #231F20;
   font-size: 40px;
@@ -802,7 +951,7 @@
   line-height: 44px;
   width: 442px;
 }
-/* line 730, ../sass/home.scss */
+/* line 878, ../sass/home.scss */
 .app_content_items_text_other {
   color: #7F7873;
   font-size: 26px;
@@ -811,12 +960,12 @@
   width: 400px;
   padding: 20px 0 30px;
 }
-/* line 738, ../sass/home.scss */
+/* line 886, ../sass/home.scss */
 .app_content_items_text_download {
   display: flex;
   flex-direction: row;
 }
-/* line 742, ../sass/home.scss */
+/* line 890, ../sass/home.scss */
 .app_content_items_text_download_google {
   background: url(../images/Playstore.png) center no-repeat;
   background-size: 100%;
@@ -824,14 +973,14 @@
   width: 149px;
   margin-right: 20px;
 }
-/* line 749, ../sass/home.scss */
+/* line 897, ../sass/home.scss */
 .app_content_items_text_download_apple {
   background: url(../images/Appstore.png) center no-repeat;
   background-size: 100%;
   height: 44px;
   width: 149px;
 }
-/* line 756, ../sass/home.scss */
+/* line 904, ../sass/home.scss */
 .app_content_items_text_logo {
   background: url(../images/logo_N.png) no-repeat;
   height: 212px;
@@ -840,30 +989,31 @@
   position: absolute;
   top: 0;
 }
-/* line 764, ../sass/home.scss */
+/* line 912, ../sass/home.scss */
 .app_content_items_text_url {
   color: #7F7873;
   font-size: 16px;
   line-height: 18px;
   margin-top: 145px;
 }
-/* line 769, ../sass/home.scss */
+/* line 917, ../sass/home.scss */
 .app_content_items_text_url a {
   color: #332C26;
   text-decoration: none;
 }
-/* line 775, ../sass/home.scss */
+/* line 923, ../sass/home.scss */
 .app_content_items_img {
   background: url(../images/phones.png) right bottom no-repeat;
   width: 563px;
 }
 
-/* line 783, ../sass/home.scss */
+/* line 931, ../sass/home.scss */
 .about_content {
   position: relative;
-  min-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
 }
-/* line 787, ../sass/home.scss */
+/* line 936, ../sass/home.scss */
 .about_content_title {
   position: relative;
   font-family: Ubuntu;
@@ -875,7 +1025,7 @@
   width: 640px;
   padding: 50px 0 0 0;
 }
-/* line 799, ../sass/home.scss */
+/* line 948, ../sass/home.scss */
 .about_content_footer-grey {
   position: absolute;
   height: 273px;
@@ -885,7 +1035,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
-/* line 809, ../sass/home.scss */
+/* line 958, ../sass/home.scss */
 .about_content_column-grey {
   position: absolute;
   top: 0;
@@ -896,7 +1046,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 819, ../sass/home.scss */
+/* line 968, ../sass/home.scss */
 .about_content_number-logo {
   background: url(../images/30.png) no-repeat;
   width: 246px;
@@ -906,7 +1056,7 @@
   left: 81px;
   z-index: 0;
 }
-/* line 828, ../sass/home.scss */
+/* line 977, ../sass/home.scss */
 .about_content_items {
   position: relative;
   z-index: 1;
@@ -915,14 +1065,14 @@
   padding: 70px 104px 0 253px;
   align-items: flex-start;
 }
-/* line 836, ../sass/home.scss */
+/* line 985, ../sass/home.scss */
 .about_content_items_text {
   width: 400px;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-/* line 842, ../sass/home.scss */
+/* line 991, ../sass/home.scss */
 .about_content_items_text_header {
   font-size: 26px;
   line-height: 30px;
@@ -931,7 +1081,7 @@
   text-align: left;
   font-weight: 500;
 }
-/* line 850, ../sass/home.scss */
+/* line 999, ../sass/home.scss */
 .about_content_items_text_description {
   font-size: 16px;
   line-height: 24px;
@@ -940,24 +1090,24 @@
   text-align: left;
   padding: 35px 0 40px 0;
 }
-/* line 857, ../sass/home.scss */
+/* line 1006, ../sass/home.scss */
 .about_content_items_text_description span:first-child {
   padding-bottom: 10px;
   display: block;
 }
-/* line 863, ../sass/home.scss */
+/* line 1012, ../sass/home.scss */
 .about_content_items_text_moreinfo {
   display: flex;
   align-items: center;
 }
-/* line 867, ../sass/home.scss */
+/* line 1016, ../sass/home.scss */
 .about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 873, ../sass/home.scss */
+/* line 1022, ../sass/home.scss */
 .about_content_items_text_moreinfo_text {
   margin: 0 10px;
   font-family: Ubuntu;
@@ -968,7 +1118,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-/* line 886, ../sass/home.scss */
+/* line 1035, ../sass/home.scss */
 .about_content_items_img {
   background: url(../images/30eating.png) center no-repeat;
   background-size: cover;
