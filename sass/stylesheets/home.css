@@ -1,111 +1,978 @@
-/*
-Error: Undefined mixin 'sp__vk'.
-        on line 168 of E:/Work/Nikolskaya/sass/sass/home.scss, in `sp__vk'
-        from line 168 of E:/Work/Nikolskaya/sass/sass/home.scss
+/* line 3, ../sass/_svg-sprite.scss */
+.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter {
+  content: '';
+  background: url("img/svg-sprite.svg") no-repeat;
+  background-size: 71px 46px;
+  display: inline-block;
+}
+/* line 8, ../sass/_svg-sprite.scss */
+.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter {
+  background-image: url("img/svg-sprite.png");
+}
 
-163:         &:last-child {
-164:           margin-right: 0;
-165:         }
-166:       }
-167:       .vk {
-168:         @include sp__vk;
-169:       }
-170:       .facebook {
-171:         @include sp__facebook;
-172:       }
-173:       .twitter {
+/* line 1, ../sass/_png-sprite.scss */
+.main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint {
+  content: '';
+  background: url("img/png-sprite.png") no-repeat;
+  background-size: 288px 209px;
+  display: inline-block;
+}
 
-Backtrace:
-E:/Work/Nikolskaya/sass/sass/home.scss:168:in `sp__vk'
-E:/Work/Nikolskaya/sass/sass/home.scss:168
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `visit_mixin'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-org/jruby/RubyArray.java:2412:in `map'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `visit_children'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `render'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-org/jruby/RubyMethod.java:128:in `call'
-file:/C:/Program Files/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
-org/jruby/RubyArray.java:1613:in `each'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/Program Files/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `watch'
-org/jruby/RubyProc.java:271:in `call'
-C:/Program Files/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:252:in `on_change'
-C:/Program Files/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:290:in `initialize_adapter'
-org/jruby/RubyProc.java:271:in `call'
-C:/Program Files/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Program Files/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:297:in `start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'sp__vk'.\A         on line 168 of E:/Work/Nikolskaya/sass/sass/home.scss, in `sp__vk'\A         from line 168 of E:/Work/Nikolskaya/sass/sass/home.scss\A \A 163:         &:last-child {\A 164:           margin-right: 0;\A 165:         }\A 166:       }\A 167:       .vk {\A 168:         @include sp__vk;\A 169:       }\A 170:       .facebook {\A 171:         @include sp__facebook;\A 172:       }\A 173:       .twitter {"; }
+/* line 5, ../sass/home.scss */
+.main {
+  width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+/* line 10, ../sass/home.scss */
+.main .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 19, ../sass/home.scss */
+.main .header_adress {
+  display: flex;
+  flex-direction: row;
+}
+/* line 23, ../sass/home.scss */
+.main .header_adress_name {
+  padding-right: 25px;
+}
+/* line 28, ../sass/home.scss */
+.main .header_adress_name span {
+  color: #7F7873;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 35, ../sass/home.scss */
+.main .header_adress_time {
+  padding-right: 30px;
+}
+/* line 40, ../sass/home.scss */
+.main .header_adress_time span {
+  color: #7F7873;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 47, ../sass/home.scss */
+.main .header_adress_language {
+  width: 24px;
+  height: 24px;
+}
+/* line 50, ../sass/home.scss */
+.main .header_adress_language ul {
+  display: none;
+}
+/* line 54, ../sass/home.scss */
+.main .header_adress_language_triangle {
+  height: 6px;
+  width: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 62, ../sass/home.scss */
+.main .header_tabs {
+  display: flex;
+  flex-direction: row;
+}
+/* line 65, ../sass/home.scss */
+.main .header_tabs_search {
+  width: 100px;
+  padding-right: 20px;
+}
+/* line 68, ../sass/home.scss */
+.main .header_tabs_search img {
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+  border: 0.2px solid #231F20;
+}
+/* line 74, ../sass/home.scss */
+.main .header_tabs_search input {
+  height: 17px;
+  width: 80px;
+  color: #7F7873;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+}
+/* line 84, ../sass/home.scss */
+.main .header_tabs_login {
+  width: 100px;
+  padding-right: 30px;
+}
+/* line 90, ../sass/home.scss */
+.main .header_tabs_login span {
+  height: 17px;
+  width: 32px;
+  color: #231F20;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 99, ../sass/home.scss */
+.main .header_tabs_bucket {
+  width: 100px;
+}
+/* line 104, ../sass/home.scss */
+.main .header_tabs_bucket span {
+  height: 17px;
+  width: 55px;
+  color: #231F20;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 116, ../sass/home.scss */
+.main .menu-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0 35px 0;
+}
+/* line 122, ../sass/home.scss */
+.main .menu-tabs_menu {
+  display: flex;
+  flex-direction: row;
+  font-family: Ubuntu;
+  font-size: 16px;
+  color: #231F20;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 132, ../sass/home.scss */
+.main .menu-tabs_menu_item {
+  padding-right: 40px;
+}
+/* line 135, ../sass/home.scss */
+.main .menu-tabs_menu_item:last-child {
+  padding-right: 0;
+}
+/* line 143, ../sass/home.scss */
+.main .menu-tabs_addit {
+  display: flex;
+  flex-direction: row;
+}
+/* line 146, ../sass/home.scss */
+.main .menu-tabs_addit_delivery {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #7F7873;
+}
+/* line 155, ../sass/home.scss */
+.main .menu-tabs_addit_delivery_item {
+  padding-right: 20px;
+}
+/* line 158, ../sass/home.scss */
+.main .menu-tabs_addit_delivery_item:last-child {
+  padding-right: 0;
+}
+/* line 164, ../sass/home.scss */
+.main .menu-tabs_addit_socials {
+  display: flex;
+  flex-direction: row;
+}
+/* line 167, ../sass/home.scss */
+.main .menu-tabs_addit_socials_item {
+  margin-right: 18px;
+}
+/* line 170, ../sass/home.scss */
+.main .menu-tabs_addit_socials_item:last-child {
+  margin-right: 0;
+}
+/* line 174, ../sass/home.scss */
+.main .menu-tabs_addit_socials .vk {
+  background-position: -5px -30px;
+  width: 17px;
+  height: 11px;
+}
+/* line 177, ../sass/home.scss */
+.main .menu-tabs_addit_socials .facebook {
+  background-position: -50px -23px;
+  width: 8px;
+  height: 16px;
+}
+/* line 180, ../sass/home.scss */
+.main .menu-tabs_addit_socials .twitter {
+  background-position: -50px -5px;
+  width: 16px;
+  height: 13px;
+}
+/* line 183, ../sass/home.scss */
+.main .menu-tabs_addit_socials .instagram {
+  background-position: -5px -5px;
+  width: 20px;
+  height: 20px;
+}
+/* line 186, ../sass/home.scss */
+.main .menu-tabs_addit_socials .pinterest {
+  background-position: -30px -5px;
+  width: 15px;
+  height: 18px;
+}
+/* line 192, ../sass/home.scss */
+.main .slider {
+  position: relative;
+}
+/* line 195, ../sass/home.scss */
+.main .slider img {
+  width: 100%;
+  height: 500px;
+}
+/* line 200, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+/* line 206, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-prev {
+  display: inline-block;
+  float: left;
+}
+/* line 211, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-next {
+  display: inline-block;
+  float: right;
+}
+/* line 221, ../sass/home.scss */
+.main .slider-footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+/* line 225, ../sass/home.scss */
+.main .slider-footer_delivery {
+  height: 170px;
+  width: 600px;
+  background-color: #F7F6F2;
+  font-family: Ubuntu;
+  position: relative;
+}
+/* line 232, ../sass/home.scss */
+.main .slider-footer_delivery_main-text {
+  color: #EBE8DD;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 243, ../sass/home.scss */
+.main .slider-footer_delivery_secondary-text {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 287px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 254, ../sass/home.scss */
+.main .slider-footer_delivery_secondary-text_preorder {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 227px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 265, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  top: 90%;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+/* line 274, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_left-dash, .main .slider-footer_delivery_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 280, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+/* line 290, ../sass/home.scss */
+.main .slider-footer_delivery_img img {
+  height: 123px;
+  width: 166.5px;
+}
+/* line 296, ../sass/home.scss */
+.main .slider-footer_rectangle {
+  background: url(img/Rectangle2.png) no-repeat;
+  height: 2px;
+  width: 101px;
+  transform: rotate(135deg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 46%;
+}
+/* line 308, ../sass/home.scss */
+.main .content_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 0;
+}
+/* line 314, ../sass/home.scss */
+.main .content_menu_about {
+  font-family: P22 Underground CY Pro;
+}
+/* line 317, ../sass/home.scss */
+.main .content_menu_about_logo-text {
+  color: #231F20;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+}
+/* line 323, ../sass/home.scss */
+.main .content_menu_about_text {
+  color: #C9BA9B;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: right;
+}
+/* line 331, ../sass/home.scss */
+.main .content_menu_other {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Ubuntu Condensed;
+}
+/* line 337, ../sass/home.scss */
+.main .content_menu_other_item {
+  color: #231F20;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 40px;
+}
+/* line 343, ../sass/home.scss */
+.main .content_menu_other_search {
+  padding-right: 40px;
+}
+/* line 347, ../sass/home.scss */
+.main .content_menu_other_basket {
+  padding-right: 40px;
+}
+/* line 350, ../sass/home.scss */
+.main .content_menu_other_personality {
+  padding-right: 40px;
+}
+/* line 355, ../sass/home.scss */
+.main .instagram_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  font-family: Ubuntu;
+}
+/* line 362, ../sass/home.scss */
+.main .instagram_content_item {
+  width: 263px;
+  height: 263px;
+  position: relative;
+}
+/* line 367, ../sass/home.scss */
+.main .instagram_content_item_main-text {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 76px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+/* line 379, ../sass/home.scss */
+.main .instagram_content .slider-footer_delivery_moreinfo-text {
+  width: 210px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+/* line 386, ../sass/home.scss */
+.main .main_map {
+  padding: 40px 0;
+  position: relative;
+}
+/* line 390, ../sass/home.scss */
+.main .main_map_buttons {
+  position: absolute;
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  font-family: Ubuntu;
+}
+/* line 401, ../sass/home.scss */
+.main .main_map_buttons_button {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 147px;
+}
+/* line 407, ../sass/home.scss */
+.main .main_map_buttons_button_text {
+  padding: 17px 42px 17px 20px;
+  background-color: rgba(35, 31, 32, 0.8);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+}
+/* line 416, ../sass/home.scss */
+.main .main_map_buttons .active {
+  width: 187px;
+}
+/* line 419, ../sass/home.scss */
+.main .main_map_buttons .active .main_map_buttons_button_text {
+  padding: 17px 57px 17px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #1A1718;
+}
+/* line 428, ../sass/home.scss */
+.main .subscribe_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #D9D5D2;
+  padding-bottom: 33px;
+}
+/* line 435, ../sass/home.scss */
+.main .subscribe_content_socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 440, ../sass/home.scss */
+.main .subscribe_content_socials_vk {
+  background-position: -0px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 444, ../sass/home.scss */
+.main .subscribe_content_socials_fb {
+  background-position: -162px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 448, ../sass/home.scss */
+.main .subscribe_content_socials_twit {
+  background-position: -54px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 452, ../sass/home.scss */
+.main .subscribe_content_socials_inst {
+  background-position: -216px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 456, ../sass/home.scss */
+.main .subscribe_content_socials_pint {
+  background-position: -108px -57px;
+  width: 49px;
+  height: 49px;
+}
+/* line 460, ../sass/home.scss */
+.main .subscribe_content_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu;
+  align-items: center;
+}
+/* line 466, ../sass/home.scss */
+.main .subscribe_content_main_text {
+  color: #1A1718;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+/* line 472, ../sass/home.scss */
+.main .subscribe_content_main_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* line 476, ../sass/home.scss */
+.main .subscribe_content_main_form input[type=email] {
+  border: 1px solid #CCC8C4;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-right: 10px;
+}
+/* line 483, ../sass/home.scss */
+.main .subscribe_content_main_form button {
+  height: 44px;
+  width: 147px;
+  border-radius: 2px;
+  background-color: #332C26;
+  border: none;
+  color: #FFFFFF;
+}
+
+/* line 496, ../sass/home.scss */
+.main_content {
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  min-width: 1280px;
+}
+/* line 501, ../sass/home.scss */
+.main_content .content_corners {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 509, ../sass/home.scss */
+.main_content .content_corners_title {
+  color: #231F20;
+  font-family: Ubuntu Condensed;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 516, ../sass/home.scss */
+.main_content .content_corners_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 1200px;
+}
+/* line 522, ../sass/home.scss */
+.main_content .content_corners_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  border-radius: 0 0 4px 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
+/* line 533, ../sass/home.scss */
+.main_content .content_corners_items_item_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu;
+  padding: 15px 20px 10px;
+}
+/* line 540, ../sass/home.scss */
+.main_content .content_corners_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 545, ../sass/home.scss */
+.main_content .content_corners_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 554, ../sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 567, ../sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen_delimiter {
+  background-position: -27px -30px;
+  width: 9px;
+  height: 9px;
+}
+/* line 574, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text {
+  display: flex;
+  align-items: center;
+}
+/* line 578, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 584, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 597, ../sass/home.scss */
+.main_content_events {
+  background-color: #ffffff;
+  min-width: 1280px;
+}
+/* line 601, ../sass/home.scss */
+.main_content_events .content_events {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 609, ../sass/home.scss */
+.main_content_events .content_events_title {
+  color: #231F20;
+  font-family: Ubuntu Condensed;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 616, ../sass/home.scss */
+.main_content_events .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 622, ../sass/home.scss */
+.main_content_events .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 30px 0;
+}
+/* line 631, ../sass/home.scss */
+.main_content_events .content_events_items_item_content {
+  font-family: Ubuntu;
+  padding: 15px 20px 10px;
+}
+/* line 638, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 643, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 649, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 655, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 666, ../sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 679, ../sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen_delimiter {
+  background-position: -27px -30px;
+  width: 9px;
+  height: 9px;
+}
+/* line 686, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text {
+  display: flex;
+  align-items: center;
+}
+/* line 690, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 696, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 708, ../sass/home.scss */
+.app_content {
+  background: url(../images/phones_bg.png) right no-repeat;
+  height: 710px;
+  background-color: #F7F6F2;
+  min-width: 1280px;
+}
+/* line 714, ../sass/home.scss */
+.app_content_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 100%;
+}
+/* line 720, ../sass/home.scss */
+.app_content_items_text {
+  font-family: Ubuntu;
+  padding: 212px 0;
+}
+/* line 723, ../sass/home.scss */
+.app_content_items_text_main {
+  color: #231F20;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  width: 442px;
+}
+/* line 730, ../sass/home.scss */
+.app_content_items_text_other {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 400px;
+  padding: 20px 0 30px;
+}
+/* line 738, ../sass/home.scss */
+.app_content_items_text_download {
+  display: flex;
+  flex-direction: row;
+}
+/* line 742, ../sass/home.scss */
+.app_content_items_text_download_google {
+  background: url(../images/Playstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+  margin-right: 20px;
+}
+/* line 749, ../sass/home.scss */
+.app_content_items_text_download_apple {
+  background: url(../images/Appstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+}
+/* line 756, ../sass/home.scss */
+.app_content_items_text_logo {
+  background: url(../images/logo_N.png) no-repeat;
+  height: 212px;
+  width: 325px;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+}
+/* line 764, ../sass/home.scss */
+.app_content_items_text_url {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 145px;
+}
+/* line 769, ../sass/home.scss */
+.app_content_items_text_url a {
+  color: #332C26;
+  text-decoration: none;
+}
+/* line 775, ../sass/home.scss */
+.app_content_items_img {
+  background: url(../images/phones.png) right bottom no-repeat;
+  width: 563px;
+}
+
+/* line 783, ../sass/home.scss */
+.about_content {
+  position: relative;
+  min-width: 1280px;
+}
+/* line 787, ../sass/home.scss */
+.about_content_title {
+  position: relative;
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 40px;
+  z-index: 1;
+  line-height: 44px;
+  margin: 0 auto;
+  width: 640px;
+  padding: 50px 0 0 0;
+}
+/* line 799, ../sass/home.scss */
+.about_content_footer-grey {
+  position: absolute;
+  height: 273px;
+  width: 61px;
+  bottom: 0;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+/* line 809, ../sass/home.scss */
+.about_content_column-grey {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  width: 266px;
+  height: 100%;
+  left: 697px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 819, ../sass/home.scss */
+.about_content_number-logo {
+  background: url(../images/30.png) no-repeat;
+  width: 246px;
+  height: 206px;
+  position: absolute;
+  top: 35px;
+  left: 81px;
+  z-index: 0;
+}
+/* line 828, ../sass/home.scss */
+.about_content_items {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 70px 104px 0 253px;
+  align-items: flex-start;
+}
+/* line 836, ../sass/home.scss */
+.about_content_items_text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+/* line 842, ../sass/home.scss */
+.about_content_items_text_header {
+  font-size: 26px;
+  line-height: 30px;
+  font-family: Ubuntu;
+  color: #7F7873;
+  text-align: left;
+  font-weight: 500;
+}
+/* line 850, ../sass/home.scss */
+.about_content_items_text_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Ubuntu;
+  color: #7F7873;
+  text-align: left;
+  padding: 35px 0 40px 0;
+}
+/* line 857, ../sass/home.scss */
+.about_content_items_text_description span:first-child {
+  padding-bottom: 10px;
+  display: block;
+}
+/* line 863, ../sass/home.scss */
+.about_content_items_text_moreinfo {
+  display: flex;
+  align-items: center;
+}
+/* line 867, ../sass/home.scss */
+.about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 873, ../sass/home.scss */
+.about_content_items_text_moreinfo_text {
+  margin: 0 10px;
+  font-family: Ubuntu;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 886, ../sass/home.scss */
+.about_content_items_img {
+  background: url(../images/30eating.png) center no-repeat;
+  background-size: cover;
+  width: 396px;
+  height: 545px;
+  margin-left: 127px;
+}

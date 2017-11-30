@@ -2,105 +2,447 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Вокруг света</title>
     <link rel="stylesheet" href="../sass/stylesheets/app.css">
 </head>
 <body>
-<header class="header">
-    <div class="header_adress">
-        <div class="header_adress_name">
-            <img src=""/>
-            <span>ул. Никольская 10</span>
-        </div>
-        <div class="header_adress_time">
-            <img src="">
-            <span>8:00 - 23:00</span>
-        </div>
-        <div class="header_adress_language">
-            <ul>
-                <li>Rus</li>
-                <li>Eng</li>
-            </ul>
-            <img src="" class="header_adress_language_triangle">
-        </div>
-    </div>
-    <div class="header_tabs">
-        <div class="header_tabs_search">
-            <img src="">
-            <input type="search" placeholder="Поиск"/>
-        </div>
-        <div class="header_tabs_login">
-            <img src="">
-            <span>Вход</span>
-        </div>
-        <div class="header_tabs_bucket">
-            <img src="">
-            <span>Корзина</span>
-        </div>
-    </div>
-</header>
-<div class="menu-tabs">
-    <div class="menu-tabs_menu">
-        <div class="menu-tabs_menu_item">
-            <span>Рестораны</span>
-        </div>
-        <div class="menu-tabs_menu_item">
-            <span>События</span>
-        </div>
-        <div class="menu-tabs_menu_item">
-            <span>О проекте</span>
-        </div>
-        <div class="menu-tabs_menu_item">
-            <span>Контакты</span>
-        </div>
-    </div>
-    <div class="menu-tabs_logo">
-        <img src="">
-    </div>
-    <div class="menu-tabs_addit">
-        <div class="menu-tabs_addit_delivery">
-            <div class="menu-tabs_addit_delivery_item">
-                <span>Кешбек</span>
+<div class="main">
+    <header class="header">
+        <div class="header_adress">
+            <div class="header_adress_name">
+                <img src=""/>
+                <span>ул. Никольская 10</span>
             </div>
-            <div class="menu-tabs_addit_delivery_item">
-                <span>Доставка</span>
+            <div class="header_adress_time">
+                <img src="">
+                <span>8:00 - 23:00</span>
             </div>
-            <div class="menu-tabs_addit_delivery_item">
-                <span>Кейтеринг</span>
+            <div class="header_adress_language">
+                <ul>
+                    <li>Rus</li>
+                    <li>Eng</li>
+                </ul>
+                <img src="" class="header_adress_language_triangle">
             </div>
         </div>
-        <div class="menu-tabs_addit_socials">
-            <div  class="menu-tabs_addit_socials_item facebook"></div>
-            <div  class="menu-tabs_addit_socials_item instagram"></div>
-            <div  class="menu-tabs_addit_socials_item pinterest"></div>
-            <div  class="menu-tabs_addit_socials_item twitter"></div>
-            <div  class="menu-tabs_addit_socials_item vk"></div>
+        <div class="header_tabs">
+            <div class="header_tabs_search">
+                <img src="">
+                <input type="search" placeholder="Поиск"/>
+            </div>
+            <div class="header_tabs_login">
+                <img src="">
+                <span>Вход</span>
+            </div>
+            <div class="header_tabs_bucket">
+                <img src="">
+                <span>Корзина</span>
+            </div>
         </div>
+    </header>
+    <div class="menu-tabs">
+        <div class="menu-tabs_menu">
+            <div class="menu-tabs_menu_item">
+                <span>Рестораны</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>События</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>О проекте</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>Контакты</span>
+            </div>
+        </div>
+        <div class="menu-tabs_logo">
+            <img src="">
+        </div>
+        <div class="menu-tabs_addit">
+            <div class="menu-tabs_addit_delivery">
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кешбек</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Доставка</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кейтеринг</span>
+                </div>
+            </div>
+            <div class="menu-tabs_addit_socials">
+                <div class="menu-tabs_addit_socials_item facebook"></div>
+                <div class="menu-tabs_addit_socials_item instagram"></div>
+                <div class="menu-tabs_addit_socials_item pinterest"></div>
+                <div class="menu-tabs_addit_socials_item twitter"></div>
+                <div class="menu-tabs_addit_socials_item vk"></div>
+            </div>
 
+        </div>
+    </div>
+    <div class="slider">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="../sass/images/auto.jpg"></div>
+            <div class="item"><img src="../sass/images/auto.jpg"></div>
+            <div class="item"><img src="../sass/images/auto.jpg"></div>
+            <div class="item"><img src="../sass/images/auto.jpg"></div>
+        </div>
+    </div>
+    <div class="slider-footer">
+        <div class="slider-footer_delivery">
+            <div class="slider-footer_delivery_main-text">Доставка</div>
+            <div class="slider-footer_delivery_secondary-text">Заказывайте доставку из всех ресторанов маркета</div>
+            <div class="slider-footer_delivery_moreinfo-text">
+                <div class="slider-footer_delivery_moreinfo-text_left-dash"></div>
+                <div class="slider-footer_delivery_moreinfo-text_text">Подробнее</div>
+                <div class="slider-footer_delivery_moreinfo-text_right-dash"></div>
+            </div>
+            <div class="slider-footer_delivery_img">
+                <!--<img src="../sass/sass/img/Bitmap.png">-->
+            </div>
+        </div>
+        <div class="slider-footer_delivery">
+            <div class="slider-footer_delivery_main-text">Предзаказ</div>
+            <div class="slider-footer_delivery_secondary-text_preorder">Мы подготовим Ваш заказ пока Вы в пути</div>
+            <div class="slider-footer_delivery_moreinfo-text">
+                <div class="slider-footer_delivery_moreinfo-text_left-dash"></div>
+                <div class="slider-footer_delivery_moreinfo-text_text">Подробнее</div>
+                <div class="slider-footer_delivery_moreinfo-text_right-dash"></div>
+            </div>
+            <div class="slider-footer_delivery_img">
+                <!--<img src="../sass/sass/img/Bitmap.png">-->
+            </div>
+        </div>
+        <div class="slider-footer_rectangle"></div>
+    </div>
+    <div class="content_menu">
+        <div class="content_menu_about">
+            <span class="content_menu_about_logo-text">Вокруг света</span>
+            <div class="content_menu_about_text"><span>Гастромаркет</span></div>
+        </div>
+        <div class="content_menu_other">
+            <div class="content_menu_other_item">Корнеры</div>
+            <div class="content_menu_other_item">События</div>
+            <div class="content_menu_other_item">О проекте</div>
+            <div class="content_menu_other_search"></div>
+            <div class="content_menu_other_personality"></div>
+            <div class="content_menu_other_basket"></div>
+        </div>
     </div>
 </div>
-<div class="slider">
-    <div class="owl-carousel owl-theme">
-        <div class="item"><img src="../sass/images/auto.jpg"></div>
-        <div class="item"><img src="../sass/images/auto.jpg"></div>
-        <div class="item"><img src="../sass/images/auto.jpg"></div>
-        <div class="item"><img src="../sass/images/auto.jpg"></div>
+<div class="main_content">
+    <div class="content_corners">
+        <div class="content_corners_title">Корнеры</div>
+        <div class="content_corners_items">
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+        </div>
+        <div class="content_corners_moreinfo-text">
+            <div class="content_corners_moreinfo-text_left-dash"></div>
+            <div class="content_corners_moreinfo-text_text">Посмотреть все 46 корнеров</div>
+            <div class="content_corners_moreinfo-text_right-dash"></div>
+        </div>
+    </div>
+</div>
+<div class="main_content_events">
+    <div class="content_events">
+        <div class="content_events_title">События</div>
+        <div class="content_events_items">
+            <div class="content_events_items_item">
+                <div class="content_events_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_events_items_item_content">
+                    <div class="content_events_items_item_content_name">Неделя итальянской еды</div>
+                    <div class="content_events_items_item_content_date">28 июня - 03 июля</div>
+                    <div class="content_events_items_item_content_text">Мероприятие длится один день
+                        и направлено на увеличение продаж среди
+                        владельцев карт.
+                    </div>
+                    <div class="content_events_items_item_content_time">Афиша</div>
+                </div>
+                <!--<div class="content_events_items_item_content-kitchen">-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Европейская</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Гриль</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Сендвичи</div>-->
+                <!--</div>-->
+            </div>
+            <div class="content_events_items_item">
+                <div class="content_events_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_events_items_item_content">
+                    <div class="content_events_items_item_content_name">Неделя итальянской еды</div>
+                    <div class="content_events_items_item_content_date">28 июня - 03 июля</div>
+                    <div class="content_events_items_item_content_text">Мероприятие длится один день
+                        и направлено на увеличение продаж среди
+                        владельцев карт.
+                    </div>
+                    <div class="content_events_items_item_content_time">Афиша</div>
+                </div>
+                <!--<div class="content_events_items_item_content-kitchen">-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Европейская</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Гриль</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Сендвичи</div>-->
+                <!--</div>-->
+            </div>
+            <div class="content_events_items_item">
+                <div class="content_events_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                </div>
+                <div class="content_events_items_item_content">
+                    <div class="content_events_items_item_content_name">Неделя итальянской еды</div>
+                    <div class="content_events_items_item_content_date">28 июня - 03 июля</div>
+                    <div class="content_events_items_item_content_text">Мероприятие длится один день
+                        и направлено на увеличение продаж среди
+                        владельцев карт.
+                    </div>
+                    <div class="content_events_items_item_content_time">Афиша</div>
+                </div>
+                <!--<div class="content_events_items_item_content-kitchen">-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Европейская</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Гриль</div>-->
+                <!--<div class="content_events_items_item_content-kitchen_delimiter"></div>-->
+                <!--<div class="content_events_items_item_content-kitchen_item">Сендвичи</div>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+        <div class="content_events_moreinfo-text">
+            <div class="content_events_moreinfo-text_left-dash"></div>
+            <div class="content_events_moreinfo-text_text">Посмотреть события</div>
+            <div class="content_events_moreinfo-text_right-dash"></div>
+        </div>
+    </div>
+</div>
+<div class="app_content">
+    <div class="app_content_items">
+        <div class="app_content_items_text">
+            <div class="app_content_items_text_main">
+                Заказывайте еду с доставкой и делайте предзаказ
+            </div>
+            <div class="app_content_items_text_other">
+                Cамым удобным способом -
+                через мобильное приложение!
+            </div>
+            <div class="app_content_items_text_download">
+                <div class="app_content_items_text_download_google"></div>
+                <div class="app_content_items_text_download_apple"></div>
+            </div>
+            <div class="app_content_items_text_logo"></div>
+            <div class="app_content_items_text_url">Отправить ссылку <a href="">сообщением</a> или на <a
+                    href="">email</a></div>
+        </div>
+        <div class="app_content_items_img"></div>
 
     </div>
 
+</div>
+<div class="about_content">
+    <div class="about_content_title">О Гастромаркете Вокруг Света</div>
+    <div class="about_content_footer-grey"></div>
+    <div class="about_content_column-grey"></div>
+    <div class="about_content_number-logo"></div>
+    <div class="about_content_items">
+        <div class="about_content_items_text">
+            <div class="about_content_items_text_header">30 ресторанов и кафе Аркадия Новикова, Бориса Зарькова и
+                Владимира Мухина.
+            </div>
+            <div class="about_content_items_text_description"><span>Гастромаркет Вокруг Света - это микс национальных культур,
+                мнопродуктовых концепций, идей, вкусов,
+                актуальных трендов с использованием сезонных и локальных продуктов от лучших шефов Москвы и мира.</span>
+                <span>Этот проект беспрецедентная альтернатива традиционным фудкортам, место где гурманы найдут новые
+                интересные сочетания вкусов, а туристы утолят голод в любопытство, открывая для себя новую Москву.</span>
+            </div>
+            <div class="about_content_items_text_moreinfo">
+                <div class="about_content_items_text_moreinfo_left-dash"></div>
+                <div class="about_content_items_text_moreinfo_text">Подробнее</div>
+                <div class="about_content_items_text_moreinfo_right-dash"></div>
+            </div>
+        </div>
+        <div class="about_content_items_img"></div>
+    </div>
+</div>
+<div class="main">
+    <div class="instagram_content">
+        <div class="instagram_content_item">
+            <div class="instagram_content_item_main-text">#ВокругСвета</div>
+            <div class="slider-footer_delivery_moreinfo-text">
+                <div class="slider-footer_delivery_moreinfo-text_left-dash"></div>
+                <div class="slider-footer_delivery_moreinfo-text_text">Перейти в instagram</div>
+                <div class="slider-footer_delivery_moreinfo-text_right-dash"></div>
+            </div>
+        </div>
+        <div class="instagram_content_item"><img src="../sass/images/Bitmap7.png"></div>
+        <div class="instagram_content_item"><img src="../sass/images/Bitmap8.png"></div>
+        <div class="instagram_content_item"><img src="../sass/images/Bitmap10.png"></div>
+    </div>
+</div>
+<div class="main">
+    <div class="main_map">
+        <div class="main_map_widget">
+            <a class="dg-widget-link"
+               href="http://2gis.ru/moscow/firm/4504127908873873/center/37.62465476989747,55.758611315793935/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть
+                на карте Москвы</a>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.ru/moscow/firm/4504127908873873/photos/4504127908873873/center/37.62465476989747,55.758611315793935/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии
+                компании</a></div>
+            <div class="dg-widget-link"><a
+                    href="http://2gis.ru/moscow/center/37.624656,55.758194/zoom/16/routeTab/rsType/bus/to/37.624656,55.758194╎Никольская Плаза, торгово-офисный центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти
+                проезд до Никольская Плаза, торгово-офисный центр</a></div>
+            <script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+            <script charset="utf-8">new DGWidgetLoader({
+                "width": '100%',
+                "height": 400,
+//                'border' : false,
+                "borderColor": "rgba(0, 0, 0, 0)",
+                "pos": {"lat": 55.758611315793935, "lon": 37.62465476989747, "zoom": 16},
+                "opt": {"city": "moscow"},
+                "org": [{"id": "4504127908873873"}]
+            });</script>
+            <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите
+                его в настройках вашего браузера.
+            </noscript>
+        </div>
+        <div class="main_map_buttons">
+            <div class="main_map_buttons_button active"><div class="main_map_buttons_button_text">Зона доставки</div></div>
+            <div class="main_map_buttons_button"><div class="main_map_buttons_button_text">Парковки</div></div>
+            <div class="main_map_buttons_button"><div class="main_map_buttons_button_text">От метро</div></div>
+            <div class="main_map_buttons_button"><div class="main_map_buttons_button_text">Схема зала</div></div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="subscribe_content">
+        <div class="subscribe_content_socials">
+            <div class="subscribe_content_socials_vk"></div>
+            <div class="subscribe_content_socials_fb"></div>
+            <div class="subscribe_content_socials_twit"></div>
+            <div class="subscribe_content_socials_inst"></div>
+            <div class="subscribe_content_socials_pint"></div>
+        </div>
+        <div class="subscribe_content_main">
+            <div class="subscribe_content_main_text">Подпишитесь на рассылку и узнавайте обо всем первым:</div>
+            <div class="subscribe_content_main_form">
+                <input type="email" placeholder="Ваш email">
+                <button>Подписаться</button>
+
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
 
-            margin:10,
+            margin: 10,
             autoWidth: false,
-            items:1,
-            nav:true,
-            dots:false
+            items: 1,
+            nav: true,
+            dots: false
 
 
         });

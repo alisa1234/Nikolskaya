@@ -2,11 +2,11 @@
  
 %sprite {
     content: '';
-    background: url("../stylesheets/img/svg-sprite.svg") no-repeat;
+    background: url("img/svg-sprite.svg") no-repeat;
     background-size: 71px 46px;
     display: inline-block;
     .no-svg & {
-        background-image: url("../stylesheets/img/svg-sprite.png");
+        background-image: url("img/svg-sprite.png");
     }
 }
 
@@ -39,4 +39,10 @@
     background-position: -50px -23px;
     width: 8px;
     height: 16px;
+}
+@mixin sp__rectangle {
+    @extend %sprite;
+    background-position: -27px -30px;
+    width: 9px;
+    height: 9px;
 }

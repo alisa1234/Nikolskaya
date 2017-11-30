@@ -1,14 +1,140 @@
 %sprite_png {
     content: '';
-    background: url('sass/stylesheets/img/png-sprite.png') no-repeat;
-    background-size: 20px 78px;
+    background: url('img/png-sprite.png') no-repeat;
+    background-size: 288px 209px;
     display: inline-block;
 
 }
 
-@mixin sp__icons {
+@mixin sp__AMEX {
+    @extend %sprite_png;
+    background-position: -89px -111px;
+    width: 58px;
+    height: 20px;
+}
+@mixin sp__Logo {
     @extend %sprite_png;
     background-position: -0px -0px;
+    width: 123px;
+    height: 52px;
+}
+@mixin sp__Logo1 {
+    @extend %sprite_png;
+    background-position: -128px -0px;
+    width: 160px;
+    height: 39px;
+}
+@mixin sp__MasterCard {
+    @extend %sprite_png;
+    background-position: -39px -111px;
+    width: 45px;
+    height: 28px;
+}
+@mixin sp__PayPal {
+    @extend %sprite_png;
+    background-position: -152px -111px;
+    width: 61px;
+    height: 18px;
+}
+@mixin sp__Search {
+    @extend %sprite_png;
+    background-position: -0px -189px;
     width: 20px;
-    height: 78px;
+    height: 20px;
+}
+@mixin sp__Triangle2 {
+    @extend %sprite_png;
+    background-position: -128px -44px;
+    width: 8px;
+    height: 6px;
+}
+@mixin sp__User {
+    @extend %sprite_png;
+    background-position: -74px -189px;
+    width: 16px;
+    height: 20px;
+}
+@mixin sp__Visa {
+    @extend %sprite_png;
+    background-position: -218px -111px;
+    width: 41px;
+    height: 14px;
+}
+@mixin sp__bar {
+    @extend %sprite_png;
+    background-position: -0px -111px;
+    width: 34px;
+    height: 49px;
+}
+@mixin sp__basket {
+    @extend %sprite_png;
+    background-position: -50px -189px;
+    width: 19px;
+    height: 20px;
+}
+@mixin sp__basket_small {
+    @extend %sprite_png;
+    background-position: -270px -80px;
+    width: 16px;
+    height: 20px;
+}
+@mixin sp__decus {
+    @extend %sprite_png;
+    background-position: -0px -165px;
+    width: 45px;
+    height: 19px;
+}
+@mixin sp__facebook_sircle {
+    @extend %sprite_png;
+    background-position: -162px -57px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__instagram_sircle {
+    @extend %sprite_png;
+    background-position: -216px -57px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__location {
+    @extend %sprite_png;
+    background-position: -95px -189px;
+    width: 14px;
+    height: 20px;
+}
+@mixin sp__pinterest_sircle {
+    @extend %sprite_png;
+    background-position: -108px -57px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__search_small {
+    @extend %sprite_png;
+    background-position: -270px -57px;
+    width: 18px;
+    height: 18px;
+}
+@mixin sp__time {
+    @extend %sprite_png;
+    background-position: -25px -189px;
+    width: 20px;
+    height: 20px;
+}
+@mixin sp__twitter_sircle {
+    @extend %sprite_png;
+    background-position: -54px -57px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__user_small {
+    @extend %sprite_png;
+    background-position: -50px -165px;
+    width: 14px;
+    height: 18px;
+}
+@mixin sp__vk_sircle {
+    @extend %sprite_png;
+    background-position: -0px -57px;
+    width: 49px;
+    height: 49px;
 }

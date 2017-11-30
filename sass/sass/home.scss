@@ -1,14 +1,21 @@
 @import 'variables.scss';
+@import "svg-sprite";
+@import "png-sprite";
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-  background-color: #FFFFFF;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
-  padding: 0 50px 0 50px;
+.main {
+  width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    //padding: 0 50px 0 50px;
     &_adress {
       display: flex;
       flex-direction: row;
@@ -20,7 +27,7 @@
         }
         span {
           color: #7F7873;
-          font-family: $font_proxima;
+          font-family: $font_ubuntu;
           font-size: 14px;
           line-height: 17px;
         }
@@ -32,7 +39,7 @@
         }
         span {
           color: #7F7873;
-          font-family: $font_proxima;
+          font-family: $font_ubuntu;
           font-size: 14px;
           line-height: 17px;
         }
@@ -44,11 +51,11 @@
           display: none;
         }
 
-          &_triangle {
-              height: 6px;
-              width: 8px;
-              box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-          }
+        &_triangle {
+          height: 6px;
+          width: 8px;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
       }
 
     }
@@ -68,7 +75,7 @@
           height: 17px;
           width: 80px;
           color: #7F7873;
-          font-family: $font_proxima;
+          font-family: $font_ubuntu;
           font-size: 14px;
           line-height: 17px;
           border: none;
@@ -77,137 +84,811 @@
       &_login {
         width: 100px;
         padding-right: 30px;
-        img{
+        img {
 
         }
-        span{
-            height: 17px;
-            width: 32px;
-            color: #231F20;
-            font-family: $font_proxima;
-            font-size: 14px;
-            line-height: 17px;
+        span {
+          height: 17px;
+          width: 32px;
+          color: #231F20;
+          font-family: $font_ubuntu;
+          font-size: 14px;
+          line-height: 17px;
         }
       }
       &_bucket {
         width: 100px;
-        img{
+        img {
 
         }
-        span{
+        span {
           height: 17px;
           width: 55px;
           color: #231F20;
-          font-family: $font_proxima;
+          font-family: $font_ubuntu;
           font-size: 14px;
           line-height: 17px;
         }
       }
 
     }
-}
-.menu-tabs {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 35px 40px 35px 40px;
-  &_menu {
+  }
+  .menu-tabs {
     display: flex;
     flex-direction: row;
-    font-family: $font_proxima;
-    font-size: 16px;
-    color: #231F20;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    &_item {
-      padding-right: 40px;
-
-      &:last-child {
-        padding-right: 0;
-      }
-    }
-  }
-  &_logo {
-
-  }
-  &_addit {
-    display: flex;
-    flex-direction: row;
-    &_delivery {
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0 35px 0;
+    &_menu {
       display: flex;
       flex-direction: row;
-      padding-right: 30px;
-      font-family: $font_proxima;
-      font-size: 14px;
-      line-height: 17px;
-      text-align: right;
-      color: #7F7873;
+      font-family: $font_ubuntu;
+      font-size: 16px;
+      color: #231F20;
+      font-weight: 600;
+      line-height: 20px;
+      text-align: center;
+      text-transform: uppercase;
       &_item {
-        padding-right: 20px;
+        padding-right: 40px;
 
         &:last-child {
-        padding-right: 0;
+          padding-right: 0;
+        }
       }
+    }
+    &_logo {
+
+    }
+    &_addit {
+      display: flex;
+      flex-direction: row;
+      &_delivery {
+        display: flex;
+        flex-direction: row;
+        padding-right: 30px;
+        font-family: $font_ubuntu;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #7F7873;
+        &_item {
+          padding-right: 20px;
+
+          &:last-child {
+            padding-right: 0;
+          }
+
+        }
+      }
+      &_socials {
+        display: flex;
+        flex-direction: row;
+        &_item {
+          margin-right: 18px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+        .vk {
+          @include sp__vk;
+        }
+        .facebook {
+          @include sp__facebook;
+        }
+        .twitter {
+          @include sp__twitter;
+        }
+        .instagram {
+          @include sp__instagram;
+        }
+        .pinterest {
+          @include sp__pinterest;
+        }
+      }
+    }
+  }
+  .slider {
+    //padding: 0 40px 0 40px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 500px;
+    }
+    .owl-carousel {
+      .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+
+        .owl-prev {
+          display: inline-block;
+          float: left;
+        }
+
+        .owl-next {
+          display: inline-block;
+          float: right;
+
+        }
+      }
+      //width: 100%;
+      //height: 300px;
+    }
+
+    &-footer {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      &_delivery {
+        height: 170px;
+        width: 600px;
+        background-color: #F7F6F2;
+        //box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+        font-family: $font_ubuntu;
+        position: relative;
+        &_main-text {
+          color: #EBE8DD;
+          font-size: 90px;
+          font-weight: bold;
+          line-height: 90px;
+          text-align: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &_secondary-text {
+          position: absolute;
+          top: 57%;
+          left: 50%;
+          transform: translate(-50%, -57%);
+          width: 287px;
+          color: #231F20;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: center;
+        }
+        &_secondary-text_preorder {
+          position: absolute;
+          top: 57%;
+          left: 50%;
+          transform: translate(-50%, -57%);
+          width: 227px;
+          color: #231F20;
+          font-size: 18px;
+          line-height: 24px;
+          text-align: center;
+        }
+        &_moreinfo-text {
+          display: flex;
+          width: 200px;
+          align-items: center;
+          top: 90%;
+          position: absolute;
+          left: 55%;
+          transform: translate(-50%, -50%);
+
+          &_left-dash, &_right-dash {
+            height: 2px;
+            width: 21px;
+            background-color: #CBBC9D;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          }
+          &_text {
+            margin: 0 10px;
+            color: #231F20;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 16px;
+            text-align: center;
+          }
+        }
+        &_img {
+          img {
+            height: 123px;
+            width: 166.5px;
+          }
+        }
+      }
+      &_rectangle {
+        background: url(img/Rectangle2.png) no-repeat;
+        height: 2px;
+        width: 101px;
+        transform: rotate(135deg);
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 50%;
+        left: 46%;
+      }
+    }
+  }
+  .content_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0;
+    &_about {
+      font-family: $font_underground;
+
+      &_logo-text {
+        color: #231F20;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 27px;
+      }
+      &_text {
+        color: #C9BA9B;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: right;
+      }
+    }
+    &_other {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-family: $font_condensed;
+      &_item {
+        color: #231F20;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 40px;
+      }
+      &_search {
+
+        padding-right: 40px;
+      }
+      &_basket {
+        padding-right: 40px;
+      }
+      &_personality {
+        padding-right: 40px;
+      }
+    }
+  }
+  .instagram_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+    font-family: $font_ubuntu;
+
+    &_item {
+      width: 263px;
+      height: 263px;
+      position: relative;
+
+      &_main-text {
+        color: #7F7873;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30px;
+        padding-top: 76px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
 
       }
     }
+    .slider-footer_delivery_moreinfo-text {
+      width: 210px;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -55%)
+    }
+  }
+  .main_map {
+    padding: 40px 0;
+    position: relative;
+
+    &_buttons {
+      position: absolute;
+      width: 187px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      top: 50%;
+      left: 40px;
+      transform: translateY(-50%);
+      font-family: $font_ubuntu;
+
+      &_button {
+        margin-bottom: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        width: 147px;
+
+        &_text {
+          padding: 17px 42px 17px 20px;
+          background-color: rgba(35, 31, 32, 0.8);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          color: #FFFFFF;
+
+        }
+
+      }
+      .active {
+        width: 187px;
+
+        .main_map_buttons_button_text {
+          padding: 17px 57px 17px 20px;
+          background-color: #FFFFFF;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          color: #1A1718;
+        }
+      }
+    }
+  }
+  .subscribe_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D5D2;
+    padding-bottom: 33px;
+
     &_socials {
       display: flex;
       flex-direction: row;
-      &_item {
-        margin-right: 18px;
+      justify-content: space-between;
 
-        &:last-child {
-          margin-right: 0;
+      &_vk {
+        @include sp__vk_sircle;
+        margin-right: 10px;
+      }
+      &_fb {
+        @include sp__facebook_sircle;
+        margin-right: 10px;
+      }
+      &_twit {
+        @include sp__twitter_sircle;
+        margin-right: 10px;
+      }
+      &_inst {
+        @include sp__instagram_sircle;
+        margin-right: 10px;
+      }
+      &_pint {
+        @include sp__pinterest_sircle
+      }
+    }
+    &_main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: $font_ubuntu;
+      align-items: center;
+      &_text {
+          color: #1A1718;
+          font-size: 16px;
+          line-height: 24px;
+          margin-right: 10px;
+      }
+      &_form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        input[type=email] {
+            border: 1px solid #CCC8C4;
+            border-radius: 2px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            margin-right: 10px;
         }
-      }
-      .vk {
-        @include sp__vk;
-      }
-      .facebook {
-        @include sp__facebook;
-      }
-      .twitter {
-        @include sp__twitter;
-      }
-      .instagram {
-        @include sp__instagram;
-      }
-      .pinterest {
-        @include sp__pinterest;
+        button {
+            height: 44px;
+            width: 147px;
+            border-radius: 2px;
+            background-color: #332C26;
+            border: none;
+            color: #FFFFFF;
+        }
       }
     }
   }
 }
-.slider {
-  padding: 0 40px 0 40px;
-  position: relative;
-  img {
-    width: 100%;
-    height: 500px;
-  }
-  .owl-carousel {
-    .owl-nav {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      transform: translateY(-50%);
 
-      .owl-prev {
-        display: inline-block;
-        float: left;
-      }
+.main_content {
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  min-width: 1280px;
 
-      .owl-next {
-        display: inline-block;
-        float: right;
+  .content_corners {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    &_title {
+      color: #231F20;
+      font-family: $font_condensed;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+    }
+    &_items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      min-width: 1200px;
+      &_item {
+        width: 380px;
+        border: 1px solid #E6E3E1;
+        border-radius: 0 0 4px 4px;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        margin: 30px 0;
+        &_img {
+
+        }
+
+        &_content {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: $font_ubuntu;
+          padding: 15px 20px 10px;
+
+          &_name {
+            color: #231F20;
+            font-size: 18px;
+            line-height: 21px;
+          }
+          &_time {
+            color: #867F7B;
+            font-size: 13px;
+            line-height: 13px;
+            padding: 4px 7px;;
+            border-radius: 2px;
+            background-color: #F7F6F2;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          }
+          &-kitchen {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #7F7873;
+            font-size: 13px;
+            line-height: 13px;
+            padding: 10px 133px 20px 20px;
+            align-items: center;
+
+            &_item {
+
+            }
+            &_delimiter {
+              @include sp__rectangle;
+            }
+          }
+        }
       }
     }
-    //width: 100%;
-    //height: 300px;
+    &_moreinfo-text {
+      display: flex;
+      align-items: center;
+
+      &_left-dash, &_right-dash {
+        height: 2px;
+        width: 21px;
+        background-color: #CBBC9D;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      }
+      &_text {
+        margin: 0 10px;
+        color: #231F20;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+.main_content_events {
+  background-color: #ffffff;
+  min-width: 1280px;
+
+  .content_events {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+      color: #231F20;
+      font-family: $font_condensed;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+    }
+    &_items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      &_item {
+        width: 380px;
+        border: 1px solid #E6E3E1;
+        background-color: #FFFFFF;
+        margin: 30px 0;
+        &_img {
+
+        }
+
+        &_content {
+          //display: flex;
+          //flex-direction: row;
+          //justify-content: space-between;
+          font-family: $font_ubuntu;
+          padding: 15px 20px 10px;
+
+          &_name {
+            color: #231F20;
+            font-size: 18px;
+            line-height: 21px;
+          }
+          &_date {
+            color: #A67B2C;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+          }
+          &_text {
+            color: #7F7873;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 10px 0;
+          }
+          &_time {
+            color: #867F7B;
+            font-size: 13px;
+            line-height: 13px;
+            padding: 4px 7px;;
+            border-radius: 2px;
+            background-color: #F7F6F2;
+            display: inline-block;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+          }
+          &-kitchen {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #7F7873;
+            font-size: 13px;
+            line-height: 13px;
+            padding: 10px 133px 20px 20px;
+            align-items: center;
+
+            &_item {
+
+            }
+            &_delimiter {
+              @include sp__rectangle;
+            }
+          }
+        }
+      }
+    }
+    &_moreinfo-text {
+      display: flex;
+      align-items: center;
+
+      &_left-dash, &_right-dash {
+        height: 2px;
+        width: 21px;
+        background-color: #CBBC9D;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      }
+      &_text {
+        margin: 0 10px;
+        color: #231F20;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.app_content {
+  background: url(../images/phones_bg.png) right no-repeat;
+  height: 710px;
+  background-color: #F7F6F2;
+  min-width: 1280px;
+
+  &_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100%;
+    &_text {
+      font-family: $font_ubuntu;
+      padding: 212px 0;
+      &_main {
+        color: #231F20;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 44px;
+        width: 442px;
+      }
+      &_other {
+        color: #7F7873;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30px;
+        width: 400px;
+        padding: 20px 0 30px;
+      }
+      &_download {
+        display: flex;
+        flex-direction: row;
+
+        &_google {
+          background: url(../images/Playstore.png) center no-repeat;
+          background-size: 100%;
+          height: 44px;
+          width: 149px;
+          margin-right: 20px;
+        }
+        &_apple {
+          background: url(../images/Appstore.png) center no-repeat;
+          background-size: 100%;
+          height: 44px;
+          width: 149px;
+        }
+      }
+      &_logo {
+        background: url(../images/logo_N.png) no-repeat;
+        height: 212px;
+        width: 325px;
+        opacity: 0.2;
+        position: absolute;
+        top: 0;
+      }
+      &_url {
+        color: #7F7873;
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 145px;
+        a {
+          color: #332C26;
+          text-decoration: none;
+        }
+      }
+    }
+    &_img {
+      background: url(../images/phones.png) right bottom no-repeat;
+      width: 563px;
+    }
+
+  }
+}
+
+.about_content {
+  position: relative;
+  min-width: 1280px;
+  //flex-direction: column;
+  &_title {
+    position: relative;
+    font-family: $font_ubuntu;
+    font-weight: 500;
+    font-size: 40px;
+    z-index: 1;
+    line-height: 44px;
+    margin: 0 auto;
+    width: 640px;
+    padding: 50px 0 0 0;
+
+  }
+  &_footer-grey {
+    position: absolute;
+    height: 273px;
+    width: 61px;
+    bottom: 0;
+    background-color: #F7F6F2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+
+  &_column-grey {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 266px;
+    height: 100%;
+    left: 697px;
+    background-color: #F7F6F2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  &_number-logo {
+    background: url(../images/30.png) no-repeat;
+    width: 246px;
+    height: 206px;
+    position: absolute;
+    top: 35px;
+    left: 81px;
+    z-index: 0;
+  }
+  &_items {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 70px 104px 0 253px;
+    align-items: flex-start;
+
+    &_text {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      //padding-bottom: 106px;
+      padding-top: 10px;
+      &_header {
+        font-size: 26px;
+        line-height: 30px;
+        font-family: $font_ubuntu;
+        color: #7F7873;
+        text-align: left;
+        font-weight: 500;
+      }
+      &_description {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $font_ubuntu;
+        color: #7F7873;
+        text-align: left;
+        padding: 35px 0 40px 0;
+        span:first-child {
+          padding-bottom: 10px;
+          display: block;
+        }
+      }
+
+      &_moreinfo {
+        display: flex;
+        align-items: center;
+
+        &_left-dash, &_right-dash {
+          height: 2px;
+          width: 21px;
+          background-color: #CBBC9D;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        &_text {
+          margin: 0 10px;
+          font-family: $font_ubuntu;
+          color: #231F20;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 16px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+
+    }
+    &_img {
+      background: url(../images/30eating.png) center no-repeat;
+      background-size: cover;
+      width: 396px;
+      height: 545px;
+      margin-left: 127px;
+    }
   }
 }

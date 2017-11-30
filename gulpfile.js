@@ -50,7 +50,7 @@ var path = {
         svgSpriteCSS: 'sass/sass/_svg-sprite.scss',
         svgSprite: 'sass/stylesheets/img/svg-sprite.svg',
         svgSpriteNoSvg: 'sass/stylesheets/img/svg-sprite.png',
-        pngSprite: 'sass/sass/img/',
+        pngSprite: 'sass/stylesheets/img/',
         pngSpriteCSS: 'sass/sass/'
     },
     src: { //Пути откуда брать исходники
@@ -125,8 +125,8 @@ gulp.task('webserver', function () {
 gulp.task('svg-sprite', function () {
     gulp.src(path.src.svgSprite)
         .pipe(svgspritesheet({
-            cssPathNoSvg: 'sass/stylesheets/img/svg-sprite.png',
-            cssPathSvg: 'sass/stylesheets/img/svg-sprite.svg',
+            cssPathNoSvg: 'img/svg-sprite.png',
+            cssPathSvg: 'img/svg-sprite.svg',
             padding: 5,
             pixelBase: 16,
             positioning: 'packed',
@@ -147,7 +147,7 @@ gulp.task('png-sprite', function () {
     // Generate spritesheet
     var spriteData = gulp.src(path.src.pngSprite).pipe(spritesmith({
         imgName: 'png-sprite.png',
-        imgPath: 'sass/stylesheets/img/png-sprite.png',
+        imgPath: 'img/png-sprite.png',
         // retinaSrcFilter: path.src.pngRetinaSprite,
         // retinaImgName: 'png-sprite-2x.png',
         // retinaImgPath: 'sass/sass/img/png-sprite-2x.png',
