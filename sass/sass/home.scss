@@ -19,11 +19,16 @@
     &_adress {
       display: flex;
       flex-direction: row;
+      align-items: center;
 
       &_name {
         padding-right: 25px;
-        img {
-
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &_location {
+          @include sp__location;
+          margin-right: 10px;
         }
         span {
           color: #7F7873;
@@ -34,9 +39,13 @@
       }
       &_time {
         padding-right: 30px;
-        img {
-
-        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       &_logo {
+         @include sp__time;
+         margin-right: 10px;
+       }
         span {
           color: #7F7873;
           font-family: $font_ubuntu;
@@ -45,16 +54,24 @@
         }
       }
       &_language {
-        width: 24px;
-        height: 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         ul {
-          display: none;
+          background: url(../images/language.png) no-repeat;
+          width: 22px;
+          height: 14px;
+
+          li {
+            display: none;
+          }
         }
 
         &_triangle {
+          @include sp__Triangle2;
           height: 6px;
           width: 8px;
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          margin-left: 7px;
         }
       }
 
@@ -63,14 +80,14 @@
       display: flex;
       flex-direction: row;
       &_search {
-        width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         padding-right: 20px;
-        img {
-          box-sizing: border-box;
-          height: 16px;
-          width: 16px;
-          border: 0.2px solid #231F20;
-        }
+      &_logo {
+        @include sp__search_small;
+        margin-right: 10px
+      }
         input {
           height: 17px;
           width: 80px;
@@ -79,14 +96,18 @@
           font-size: 14px;
           line-height: 17px;
           border: none;
+          outline: none;
         }
       }
       &_login {
-        width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         padding-right: 30px;
-        img {
-
-        }
+       &_logo {
+         @include sp__user_small;
+         margin-right: 10px
+       }
         span {
           height: 17px;
           width: 32px;
@@ -97,9 +118,12 @@
         }
       }
       &_bucket {
-        width: 100px;
-        img {
-
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &_logo {
+          @include sp__basket_small;
+          margin-right: 10px;
         }
         span {
           height: 17px;
@@ -226,7 +250,7 @@
         height: 170px;
         width: 600px;
         background-color: #F7F6F2;
-        //box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+        padding-bottom: 10px;
         font-family: $font_ubuntu;
         position: relative;
         &_main-text {
@@ -287,9 +311,13 @@
           }
         }
         &_img {
-          img {
-            height: 123px;
-            width: 166.5px;
+          position: absolute;
+          bottom: 0;
+          right: 65px;
+          &_right {
+            position: absolute;
+            top: 0;
+            right: 133px;
           }
         }
       }
@@ -312,21 +340,22 @@
     align-items: center;
     padding: 37px 0;
     &_about {
-      font-family: $font_underground;
-
-      &_logo-text {
-        color: #231F20;
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 27px;
-      }
-      &_text {
-        color: #C9BA9B;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        text-align: right;
-      }
+      @include sp__Logo1;
+      //font-family: $font_underground;
+      //
+      //&_logo-text {
+      //  color: #231F20;
+      //  font-size: 22px;
+      //  font-weight: 500;
+      //  line-height: 27px;
+      //}
+      //&_text {
+      //  color: #C9BA9B;
+      //  font-size: 16px;
+      //  font-weight: 500;
+      //  line-height: 19px;
+      //  text-align: right;
+      //}
     }
     &_other {
       display: flex;
@@ -341,14 +370,16 @@
         margin-right: 40px;
       }
       &_search {
-
-        padding-right: 40px;
+        @include sp__Search;
+        margin-right: 40px;
       }
       &_basket {
-        padding-right: 40px;
+        @include sp__basket;
+
       }
       &_personality {
-        padding-right: 40px;
+        @include sp__User;
+        margin-right: 40px;
       }
     }
   }
@@ -868,6 +899,7 @@
     &_text {
       font-family: $font_ubuntu;
       padding: 212px 0;
+      position: relative;
       &_main {
         color: #231F20;
         font-size: 40px;
@@ -907,7 +939,7 @@
         width: 325px;
         opacity: 0.2;
         position: absolute;
-        top: 0;
+        top: 212px;
       }
       &_url {
         color: #7F7873;
