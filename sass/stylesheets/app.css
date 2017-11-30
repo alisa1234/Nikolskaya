@@ -135,7 +135,7 @@ table {
 }
 
 /* line 1, ../sass/_png-sprite.scss */
-.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
+.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .menu-tabs_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
   content: '';
   background: url("img/png-sprite.png") no-repeat;
   background-size: 288px 209px;
@@ -333,6 +333,12 @@ table {
 /* line 159, ../sass/home.scss */
 .main .menu-tabs_menu_item:last-child {
   padding-right: 0;
+}
+/* line 164, ../sass/home.scss */
+.main .menu-tabs_logo {
+  background-position: -0px -0px;
+  width: 123px;
+  height: 52px;
 }
 /* line 167, ../sass/home.scss */
 .main .menu-tabs_addit {
@@ -887,11 +893,10 @@ table {
 /* line 673, ../sass/home.scss */
 .main_content {
   background-color: #F7F6F2;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   width: 1280px;
   margin: 0 auto;
 }
-/* line 679, ../sass/home.scss */
+/* line 678, ../sass/home.scss */
 .main_content .content_corners {
   padding: 40px;
   margin: 0 auto;
@@ -900,7 +905,7 @@ table {
   flex-direction: column;
   align-items: center;
 }
-/* line 687, ../sass/home.scss */
+/* line 686, ../sass/home.scss */
 .main_content .content_corners_title {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -908,7 +913,7 @@ table {
   line-height: 30px;
   text-align: center;
 }
-/* line 694, ../sass/home.scss */
+/* line 693, ../sass/home.scss */
 .main_content .content_corners_items {
   display: flex;
   flex-direction: row;
@@ -916,7 +921,7 @@ table {
   flex-wrap: wrap;
   min-width: 1200px;
 }
-/* line 700, ../sass/home.scss */
+/* line 699, ../sass/home.scss */
 .main_content .content_corners_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -925,7 +930,18 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin: 30px 0;
 }
-/* line 711, ../sass/home.scss */
+/* line 706, ../sass/home.scss */
+.main_content .content_corners_items_item_img {
+  position: relative;
+}
+/* line 708, ../sass/home.scss */
+.main_content .content_corners_items_item_img .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 716, ../sass/home.scss */
 .main_content .content_corners_items_item_content {
   display: flex;
   flex-direction: row;
@@ -933,13 +949,13 @@ table {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 718, ../sass/home.scss */
+/* line 723, ../sass/home.scss */
 .main_content .content_corners_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 723, ../sass/home.scss */
+/* line 728, ../sass/home.scss */
 .main_content .content_corners_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -949,7 +965,7 @@ table {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 732, ../sass/home.scss */
+/* line 737, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -961,27 +977,27 @@ table {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 746, ../sass/home.scss */
+/* line 751, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 753, ../sass/home.scss */
+/* line 758, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 759, ../sass/home.scss */
+/* line 764, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 765, ../sass/home.scss */
+/* line 770, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -991,12 +1007,12 @@ table {
   text-align: center;
 }
 
-/* line 778, ../sass/home.scss */
+/* line 783, ../sass/home.scss */
 .main_content_events {
   background-color: #ffffff;
   min-width: 1280px;
 }
-/* line 782, ../sass/home.scss */
+/* line 787, ../sass/home.scss */
 .main_content_events .content_events {
   padding: 40px;
   margin: 0 auto;
@@ -1005,7 +1021,7 @@ table {
   flex-direction: column;
   align-items: center;
 }
-/* line 790, ../sass/home.scss */
+/* line 795, ../sass/home.scss */
 .main_content_events .content_events_title {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -1013,7 +1029,7 @@ table {
   line-height: 30px;
   text-align: center;
 }
-/* line 797, ../sass/home.scss */
+/* line 802, ../sass/home.scss */
 .main_content_events .content_events_items {
   display: flex;
   flex-direction: row;
@@ -1021,39 +1037,39 @@ table {
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 803, ../sass/home.scss */
+/* line 808, ../sass/home.scss */
 .main_content_events .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 30px 0;
 }
-/* line 812, ../sass/home.scss */
+/* line 817, ../sass/home.scss */
 .main_content_events .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 819, ../sass/home.scss */
+/* line 824, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 824, ../sass/home.scss */
+/* line 829, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 830, ../sass/home.scss */
+/* line 835, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 836, ../sass/home.scss */
+/* line 841, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1065,7 +1081,7 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 847, ../sass/home.scss */
+/* line 852, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -1076,27 +1092,27 @@ table {
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-/* line 860, ../sass/home.scss */
+/* line 865, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 867, ../sass/home.scss */
+/* line 872, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 873, ../sass/home.scss */
+/* line 878, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 879, ../sass/home.scss */
+/* line 884, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -1106,7 +1122,7 @@ table {
   text-align: center;
 }
 
-/* line 891, ../sass/home.scss */
+/* line 896, ../sass/home.scss */
 .app_content {
   background: url(../images/phones_bg.png) right no-repeat;
   height: 710px;
@@ -1114,7 +1130,7 @@ table {
   width: 1280px;
   margin: 0 auto;
 }
-/* line 898, ../sass/home.scss */
+/* line 903, ../sass/home.scss */
 .app_content_items {
   display: flex;
   flex-direction: row;
@@ -1122,13 +1138,13 @@ table {
   padding: 0 40px;
   height: 100%;
 }
-/* line 904, ../sass/home.scss */
+/* line 909, ../sass/home.scss */
 .app_content_items_text {
   font-family: Ubuntu, sans-serif;
   padding: 212px 0;
   position: relative;
 }
-/* line 908, ../sass/home.scss */
+/* line 913, ../sass/home.scss */
 .app_content_items_text_main {
   color: #231F20;
   font-size: 40px;
@@ -1136,7 +1152,7 @@ table {
   line-height: 44px;
   width: 442px;
 }
-/* line 915, ../sass/home.scss */
+/* line 920, ../sass/home.scss */
 .app_content_items_text_other {
   color: #7F7873;
   font-size: 26px;
@@ -1145,12 +1161,12 @@ table {
   width: 400px;
   padding: 20px 0 30px;
 }
-/* line 923, ../sass/home.scss */
+/* line 928, ../sass/home.scss */
 .app_content_items_text_download {
   display: flex;
   flex-direction: row;
 }
-/* line 927, ../sass/home.scss */
+/* line 932, ../sass/home.scss */
 .app_content_items_text_download_google {
   background: url(../images/Playstore.png) center no-repeat;
   background-size: 100%;
@@ -1158,14 +1174,14 @@ table {
   width: 149px;
   margin-right: 20px;
 }
-/* line 934, ../sass/home.scss */
+/* line 939, ../sass/home.scss */
 .app_content_items_text_download_apple {
   background: url(../images/Appstore.png) center no-repeat;
   background-size: 100%;
   height: 44px;
   width: 149px;
 }
-/* line 941, ../sass/home.scss */
+/* line 946, ../sass/home.scss */
 .app_content_items_text_logo {
   background: url(../images/logo_N.png) no-repeat;
   height: 212px;
@@ -1174,31 +1190,31 @@ table {
   position: absolute;
   top: 212px;
 }
-/* line 949, ../sass/home.scss */
+/* line 954, ../sass/home.scss */
 .app_content_items_text_url {
   color: #7F7873;
   font-size: 16px;
   line-height: 18px;
   margin-top: 145px;
 }
-/* line 954, ../sass/home.scss */
+/* line 959, ../sass/home.scss */
 .app_content_items_text_url a {
   color: #332C26;
   text-decoration: none;
 }
-/* line 960, ../sass/home.scss */
+/* line 965, ../sass/home.scss */
 .app_content_items_img {
   background: url(../images/phones.png) right bottom no-repeat;
   width: 563px;
 }
 
-/* line 968, ../sass/home.scss */
+/* line 973, ../sass/home.scss */
 .about_content {
   position: relative;
   width: 1280px;
   margin: 0 auto;
 }
-/* line 973, ../sass/home.scss */
+/* line 978, ../sass/home.scss */
 .about_content_title {
   position: relative;
   font-family: Ubuntu, sans-serif;
@@ -1210,7 +1226,7 @@ table {
   width: 640px;
   padding: 50px 0 0 0;
 }
-/* line 985, ../sass/home.scss */
+/* line 990, ../sass/home.scss */
 .about_content_footer-grey {
   position: absolute;
   height: 273px;
@@ -1220,7 +1236,7 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
-/* line 995, ../sass/home.scss */
+/* line 1000, ../sass/home.scss */
 .about_content_column-grey {
   position: absolute;
   top: 0;
@@ -1231,7 +1247,7 @@ table {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 1005, ../sass/home.scss */
+/* line 1010, ../sass/home.scss */
 .about_content_number-logo {
   background: url(../images/30.png) no-repeat;
   width: 246px;
@@ -1241,7 +1257,7 @@ table {
   left: 81px;
   z-index: 0;
 }
-/* line 1014, ../sass/home.scss */
+/* line 1019, ../sass/home.scss */
 .about_content_items {
   position: relative;
   z-index: 1;
@@ -1250,14 +1266,14 @@ table {
   padding: 70px 104px 0 253px;
   align-items: flex-start;
 }
-/* line 1022, ../sass/home.scss */
+/* line 1027, ../sass/home.scss */
 .about_content_items_text {
   width: 400px;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-/* line 1028, ../sass/home.scss */
+/* line 1033, ../sass/home.scss */
 .about_content_items_text_header {
   font-size: 26px;
   line-height: 30px;
@@ -1266,7 +1282,7 @@ table {
   text-align: left;
   font-weight: 500;
 }
-/* line 1036, ../sass/home.scss */
+/* line 1041, ../sass/home.scss */
 .about_content_items_text_description {
   font-size: 16px;
   line-height: 24px;
@@ -1275,26 +1291,26 @@ table {
   text-align: left;
   padding: 35px 0 40px 0;
 }
-/* line 1043, ../sass/home.scss */
+/* line 1048, ../sass/home.scss */
 .about_content_items_text_description span:first-child {
   padding-bottom: 10px;
   display: block;
 }
-/* line 1049, ../sass/home.scss */
+/* line 1054, ../sass/home.scss */
 .about_content_items_text_moreinfo {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 1055, ../sass/home.scss */
+/* line 1060, ../sass/home.scss */
 .about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 1061, ../sass/home.scss */
+/* line 1066, ../sass/home.scss */
 .about_content_items_text_moreinfo_text {
   margin: 0 10px;
   font-family: Ubuntu, sans-serif;
@@ -1305,7 +1321,7 @@ table {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 1074, ../sass/home.scss */
+/* line 1079, ../sass/home.scss */
 .about_content_items_img {
   background: url(../images/30eating.png) center no-repeat;
   background-size: cover;
