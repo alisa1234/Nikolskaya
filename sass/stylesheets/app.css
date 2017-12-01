@@ -824,10 +824,11 @@ table {
 .main .footer_info {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
   padding: 0 0 32px;
 }
-/* line 615, ../sass/home.scss */
+/* line 616, ../sass/home.scss */
 .main .footer_info_copyright {
   font-size: 13px;
   color: #7F7873;
@@ -837,45 +838,46 @@ table {
   padding-right: 81px;
   width: 249px;
 }
-/* line 626, ../sass/home.scss */
+/* line 627, ../sass/home.scss */
 .main .footer_info_payments {
   display: flex;
   flex-direction: row;
-  margin-right: 175px;
+  margin-right: 156px;
+  align-items: center;
 }
-/* line 631, ../sass/home.scss */
+/* line 633, ../sass/home.scss */
 .main .footer_info_payments_visa {
   background-position: -218px -111px;
   width: 41px;
   height: 14px;
   margin-right: 19px;
 }
-/* line 635, ../sass/home.scss */
+/* line 637, ../sass/home.scss */
 .main .footer_info_payments_american-express {
   background-position: -89px -111px;
   width: 58px;
   height: 20px;
   margin-right: 21px;
 }
-/* line 640, ../sass/home.scss */
+/* line 642, ../sass/home.scss */
 .main .footer_info_payments_master-card {
   background-position: -39px -111px;
   width: 45px;
   height: 28px;
   margin-right: 24px;
 }
-/* line 646, ../sass/home.scss */
+/* line 648, ../sass/home.scss */
 .main .footer_info_payments_paypal {
   background-position: -152px -111px;
   width: 61px;
   height: 18px;
 }
-/* line 652, ../sass/home.scss */
+/* line 654, ../sass/home.scss */
 .main .footer_info_made-by {
   display: flex;
   flex-direction: row;
 }
-/* line 656, ../sass/home.scss */
+/* line 658, ../sass/home.scss */
 .main .footer_info_made-by_text {
   font-size: 13px;
   color: #1A1718;
@@ -883,20 +885,20 @@ table {
   font-family: Ubuntu, sans-serif;
   padding-right: 10px;
 }
-/* line 664, ../sass/home.scss */
+/* line 666, ../sass/home.scss */
 .main .footer_info_made-by_icon {
   background-position: -0px -165px;
   width: 45px;
   height: 19px;
 }
 
-/* line 673, ../sass/home.scss */
+/* line 675, ../sass/home.scss */
 .main_content {
   background-color: #F7F6F2;
   width: 1280px;
   margin: 0 auto;
 }
-/* line 678, ../sass/home.scss */
+/* line 680, ../sass/home.scss */
 .main_content .content_corners {
   padding: 40px;
   margin: 0 auto;
@@ -905,7 +907,7 @@ table {
   flex-direction: column;
   align-items: center;
 }
-/* line 686, ../sass/home.scss */
+/* line 688, ../sass/home.scss */
 .main_content .content_corners_title {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -913,7 +915,7 @@ table {
   line-height: 30px;
   text-align: center;
 }
-/* line 693, ../sass/home.scss */
+/* line 695, ../sass/home.scss */
 .main_content .content_corners_items {
   display: flex;
   flex-direction: row;
@@ -921,7 +923,7 @@ table {
   flex-wrap: wrap;
   min-width: 1200px;
 }
-/* line 699, ../sass/home.scss */
+/* line 701, ../sass/home.scss */
 .main_content .content_corners_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -930,18 +932,18 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin: 30px 0;
 }
-/* line 706, ../sass/home.scss */
+/* line 708, ../sass/home.scss */
 .main_content .content_corners_items_item_img {
   position: relative;
 }
-/* line 708, ../sass/home.scss */
+/* line 710, ../sass/home.scss */
 .main_content .content_corners_items_item_img .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 716, ../sass/home.scss */
+/* line 718, ../sass/home.scss */
 .main_content .content_corners_items_item_content {
   display: flex;
   flex-direction: row;
@@ -949,13 +951,13 @@ table {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 723, ../sass/home.scss */
+/* line 725, ../sass/home.scss */
 .main_content .content_corners_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 728, ../sass/home.scss */
+/* line 730, ../sass/home.scss */
 .main_content .content_corners_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -965,7 +967,7 @@ table {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 737, ../sass/home.scss */
+/* line 739, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -977,27 +979,27 @@ table {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 751, ../sass/home.scss */
+/* line 753, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 758, ../sass/home.scss */
+/* line 760, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 764, ../sass/home.scss */
+/* line 766, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 770, ../sass/home.scss */
+/* line 772, ../sass/home.scss */
 .main_content .content_corners_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -1007,12 +1009,12 @@ table {
   text-align: center;
 }
 
-/* line 783, ../sass/home.scss */
+/* line 785, ../sass/home.scss */
 .main_content_events {
   background-color: #ffffff;
   min-width: 1280px;
 }
-/* line 787, ../sass/home.scss */
+/* line 789, ../sass/home.scss */
 .main_content_events .content_events {
   padding: 40px;
   margin: 0 auto;
@@ -1021,7 +1023,7 @@ table {
   flex-direction: column;
   align-items: center;
 }
-/* line 795, ../sass/home.scss */
+/* line 797, ../sass/home.scss */
 .main_content_events .content_events_title {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -1029,7 +1031,7 @@ table {
   line-height: 30px;
   text-align: center;
 }
-/* line 802, ../sass/home.scss */
+/* line 804, ../sass/home.scss */
 .main_content_events .content_events_items {
   display: flex;
   flex-direction: row;
@@ -1037,39 +1039,39 @@ table {
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 808, ../sass/home.scss */
+/* line 810, ../sass/home.scss */
 .main_content_events .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 30px 0;
 }
-/* line 817, ../sass/home.scss */
+/* line 819, ../sass/home.scss */
 .main_content_events .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 824, ../sass/home.scss */
+/* line 826, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 829, ../sass/home.scss */
+/* line 831, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 835, ../sass/home.scss */
+/* line 837, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 841, ../sass/home.scss */
+/* line 843, ../sass/home.scss */
 .main_content_events .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1081,7 +1083,7 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 852, ../sass/home.scss */
+/* line 854, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -1092,27 +1094,27 @@ table {
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-/* line 865, ../sass/home.scss */
+/* line 867, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
   background-position: -27px -30px;
   width: 9px;
   height: 9px;
 }
-/* line 872, ../sass/home.scss */
+/* line 874, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 878, ../sass/home.scss */
+/* line 880, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 884, ../sass/home.scss */
+/* line 886, ../sass/home.scss */
 .main_content_events .content_events_moreinfo-text_text {
   margin: 0 10px;
   color: #231F20;
@@ -1122,7 +1124,7 @@ table {
   text-align: center;
 }
 
-/* line 896, ../sass/home.scss */
+/* line 898, ../sass/home.scss */
 .app_content {
   background: url(../images/phones_bg.png) right no-repeat;
   height: 710px;
@@ -1130,7 +1132,7 @@ table {
   width: 1280px;
   margin: 0 auto;
 }
-/* line 903, ../sass/home.scss */
+/* line 905, ../sass/home.scss */
 .app_content_items {
   display: flex;
   flex-direction: row;
@@ -1138,13 +1140,13 @@ table {
   padding: 0 40px;
   height: 100%;
 }
-/* line 909, ../sass/home.scss */
+/* line 911, ../sass/home.scss */
 .app_content_items_text {
   font-family: Ubuntu, sans-serif;
   padding: 212px 0;
   position: relative;
 }
-/* line 913, ../sass/home.scss */
+/* line 915, ../sass/home.scss */
 .app_content_items_text_main {
   color: #231F20;
   font-size: 40px;
@@ -1152,7 +1154,7 @@ table {
   line-height: 44px;
   width: 442px;
 }
-/* line 920, ../sass/home.scss */
+/* line 922, ../sass/home.scss */
 .app_content_items_text_other {
   color: #7F7873;
   font-size: 26px;
@@ -1161,12 +1163,12 @@ table {
   width: 400px;
   padding: 20px 0 30px;
 }
-/* line 928, ../sass/home.scss */
+/* line 930, ../sass/home.scss */
 .app_content_items_text_download {
   display: flex;
   flex-direction: row;
 }
-/* line 932, ../sass/home.scss */
+/* line 934, ../sass/home.scss */
 .app_content_items_text_download_google {
   background: url(../images/Playstore.png) center no-repeat;
   background-size: 100%;
@@ -1174,14 +1176,14 @@ table {
   width: 149px;
   margin-right: 20px;
 }
-/* line 939, ../sass/home.scss */
+/* line 941, ../sass/home.scss */
 .app_content_items_text_download_apple {
   background: url(../images/Appstore.png) center no-repeat;
   background-size: 100%;
   height: 44px;
   width: 149px;
 }
-/* line 946, ../sass/home.scss */
+/* line 948, ../sass/home.scss */
 .app_content_items_text_logo {
   background: url(../images/logo_N.png) no-repeat;
   height: 212px;
@@ -1190,31 +1192,31 @@ table {
   position: absolute;
   top: 212px;
 }
-/* line 954, ../sass/home.scss */
+/* line 956, ../sass/home.scss */
 .app_content_items_text_url {
   color: #7F7873;
   font-size: 16px;
   line-height: 18px;
   margin-top: 145px;
 }
-/* line 959, ../sass/home.scss */
+/* line 961, ../sass/home.scss */
 .app_content_items_text_url a {
   color: #332C26;
   text-decoration: none;
 }
-/* line 965, ../sass/home.scss */
+/* line 967, ../sass/home.scss */
 .app_content_items_img {
   background: url(../images/phones.png) right bottom no-repeat;
   width: 563px;
 }
 
-/* line 973, ../sass/home.scss */
+/* line 975, ../sass/home.scss */
 .about_content {
   position: relative;
   width: 1280px;
   margin: 0 auto;
 }
-/* line 978, ../sass/home.scss */
+/* line 980, ../sass/home.scss */
 .about_content_title {
   position: relative;
   font-family: Ubuntu, sans-serif;
@@ -1226,7 +1228,7 @@ table {
   width: 640px;
   padding: 50px 0 0 0;
 }
-/* line 990, ../sass/home.scss */
+/* line 992, ../sass/home.scss */
 .about_content_footer-grey {
   position: absolute;
   height: 273px;
@@ -1236,7 +1238,7 @@ table {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
-/* line 1000, ../sass/home.scss */
+/* line 1002, ../sass/home.scss */
 .about_content_column-grey {
   position: absolute;
   top: 0;
@@ -1247,7 +1249,7 @@ table {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 1010, ../sass/home.scss */
+/* line 1012, ../sass/home.scss */
 .about_content_number-logo {
   background: url(../images/30.png) no-repeat;
   width: 246px;
@@ -1257,7 +1259,7 @@ table {
   left: 81px;
   z-index: 0;
 }
-/* line 1019, ../sass/home.scss */
+/* line 1021, ../sass/home.scss */
 .about_content_items {
   position: relative;
   z-index: 1;
@@ -1266,14 +1268,14 @@ table {
   padding: 70px 104px 0 253px;
   align-items: flex-start;
 }
-/* line 1027, ../sass/home.scss */
+/* line 1029, ../sass/home.scss */
 .about_content_items_text {
   width: 400px;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-/* line 1033, ../sass/home.scss */
+/* line 1035, ../sass/home.scss */
 .about_content_items_text_header {
   font-size: 26px;
   line-height: 30px;
@@ -1282,7 +1284,7 @@ table {
   text-align: left;
   font-weight: 500;
 }
-/* line 1041, ../sass/home.scss */
+/* line 1043, ../sass/home.scss */
 .about_content_items_text_description {
   font-size: 16px;
   line-height: 24px;
@@ -1291,26 +1293,26 @@ table {
   text-align: left;
   padding: 35px 0 40px 0;
 }
-/* line 1048, ../sass/home.scss */
+/* line 1050, ../sass/home.scss */
 .about_content_items_text_description span:first-child {
   padding-bottom: 10px;
   display: block;
 }
-/* line 1054, ../sass/home.scss */
+/* line 1056, ../sass/home.scss */
 .about_content_items_text_moreinfo {
   display: flex;
   align-items: center;
   font-family: Ubuntu, sans-serif;
   text-transform: uppercase;
 }
-/* line 1060, ../sass/home.scss */
+/* line 1062, ../sass/home.scss */
 .about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
   height: 2px;
   width: 21px;
   background-color: #CBBC9D;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 1066, ../sass/home.scss */
+/* line 1068, ../sass/home.scss */
 .about_content_items_text_moreinfo_text {
   margin: 0 10px;
   font-family: Ubuntu, sans-serif;
@@ -1321,7 +1323,7 @@ table {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 1079, ../sass/home.scss */
+/* line 1081, ../sass/home.scss */
 .about_content_items_img {
   background: url(../images/30eating.png) center no-repeat;
   background-size: cover;

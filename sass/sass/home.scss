@@ -609,6 +609,7 @@
     &_info {
       display: flex;
       flex-direction: row;
+      align-items: center;
       width: 100%;
       padding: 0 0 32px;
 
@@ -626,7 +627,8 @@
       &_payments {
         display: flex;
         flex-direction: row;
-        margin-right: 175px;
+        margin-right: 156px;
+        align-items: center;
 
         &_visa {
           @include sp__Visa;
