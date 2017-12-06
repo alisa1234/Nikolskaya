@@ -3,46 +3,58 @@
 %sprite {
     content: '';
     background: url("img/svg-sprite.svg") no-repeat;
-    background-size: 71px 46px;
+    background-size: 81px 66px;
     display: inline-block;
     .no-svg & {
         background-image: url("img/svg-sprite.png");
     }
 }
 
-@mixin sp__instagram {
+@mixin sp__array {
     @extend %sprite;
     background-position: -5px -5px;
+    width: 13px;
+    height: 22px;
+}
+@mixin sp__instagram {
+    @extend %sprite;
+    background-position: -23px -5px;
     width: 20px;
     height: 20px;
 }
 @mixin sp__pinterest {
     @extend %sprite;
-    background-position: -30px -5px;
+    background-position: -48px -5px;
     width: 15px;
     height: 18px;
 }
 @mixin sp__vk {
     @extend %sprite;
-    background-position: -5px -30px;
+    background-position: -5px -32px;
     width: 17px;
     height: 11px;
 }
 @mixin sp__twitter {
     @extend %sprite;
-    background-position: -50px -5px;
+    background-position: -5px -48px;
     width: 16px;
     height: 13px;
 }
 @mixin sp__facebook {
     @extend %sprite;
-    background-position: -50px -23px;
+    background-position: -68px -5px;
     width: 8px;
     height: 16px;
 }
 @mixin sp__rectangle {
     @extend %sprite;
-    background-position: -27px -30px;
+    background-position: -27px -32px;
     width: 9px;
     height: 9px;
+}
+@mixin sp__rectangle_small {
+    @extend %sprite;
+    background-position: -68px -26px;
+    width: 5px;
+    height: 5px;
 }

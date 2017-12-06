@@ -1,0 +1,112 @@
+@import 'variables.scss';
+
+.wrapper {
+  background-color: #F8F5F5;
+  padding-bottom: 55px;
+
+  .banner {
+
+  }
+  .events_column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &_text {
+      background-color: #FFFFFF;
+      padding: 53px 50px 44px;
+      font-family: $font_ubuntu;
+
+      span {
+          color: #7F7873;
+          font-size: 16px;
+          line-height: 24px;
+      }
+      &_title {
+          color: #231F20;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 21px;
+          padding: 30px 0 20px;
+      }
+
+    }
+    .content_events {
+      padding: 30px 0 0 33px;
+      &_title {
+        text-transform: uppercase;
+        font-family: $font_ubuntu;
+        font-size: 24px;
+      }
+
+        &_items {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          width: 100%;
+          &_item {
+            width: 380px;
+            border: 1px solid #E6E3E1;
+            background-color: #FFFFFF;
+            margin: 20px 0 0;
+            &_img {
+
+            }
+
+            &_content {
+              //display: flex;
+              //flex-direction: row;
+              //justify-content: space-between;
+              font-family: $font_ubuntu;
+              padding: 15px 20px 10px;
+
+              &_name {
+                color: #231F20;
+                font-size: 18px;
+                line-height: 21px;
+              }
+              &_date {
+                color: #A67B2C;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16px;
+              }
+              &_text {
+                color: #7F7873;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 10px 0;
+              }
+              &_time {
+                color: #867F7B;
+                font-size: 13px;
+                line-height: 13px;
+                padding: 4px 7px;;
+                border-radius: 2px;
+                background-color: #F7F6F2;
+                display: inline-block;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+                margin-bottom: 10px;
+              }
+              &-kitchen {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: #7F7873;
+                font-size: 13px;
+                line-height: 13px;
+                padding: 10px 133px 20px 20px;
+                align-items: center;
+
+                &_item {
+
+                }
+              }
+            }
+          }
+        }
+
+    }
+  }
+}

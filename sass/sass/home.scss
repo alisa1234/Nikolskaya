@@ -188,6 +188,7 @@
       &_socials {
         display: flex;
         flex-direction: row;
+        align-items: center;
         &_item {
           margin-right: 18px;
 
@@ -216,25 +217,34 @@
   .slider {
     //padding: 0 40px 0 40px;
     position: relative;
-    img {
-      width: 100%;
-      height: 500px;
-    }
+    //img {
+    //  width: 100%;
+    //  height: 500px;
+    //}
     .owl-carousel {
       .owl-nav {
         position: absolute;
         top: 50%;
         width: 100%;
         transform: translateY(-50%);
+        background: none;
 
         .owl-prev {
           display: inline-block;
           float: left;
+          background: none;
+          width: 13px;
+          height: 22px;
         }
 
         .owl-next {
           display: inline-block;
           float: right;
+          background: none;
+          width: 13px;
+          height: 22px;
+          transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
 
         }
       }
@@ -415,7 +425,7 @@
     }
   }
   .main_map {
-    padding: 40px 0;
+    padding-top: 40px;
     position: relative;
 
     &_buttons {
@@ -461,7 +471,7 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid #D9D5D2;
-    padding-bottom: 33px;
+    padding: 33px 0;
 
     &_socials {
       display: flex;
@@ -510,6 +520,7 @@
             background-color: #FFFFFF;
             padding: 10px;
             margin-right: 10px;
+            font-size: 16px;
         }
         button {
             height: 44px;
@@ -705,6 +716,7 @@
         background-color: #FFFFFF;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
         margin: 30px 0;
+        position: relative;
         &_img {
           position: relative;
           .logo {
@@ -755,7 +767,49 @@
             }
           }
         }
+        &-hover {
+          font-family: $font_ubuntu;
+          &_main {
+            background-color: rgba(0,0,0,0.8);
+            padding: 55px 30px 55px;
+            position: absolute;
+            top: 0;
+
+            &_text {
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 319px;
+            }
+            &_checkin {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              color: #FFFFFF;
+              margin-top: 20px;
+              align-items: center;
+              font-family: $font_ubuntu;
+              &_item {
+                background-color: #1A1718;
+                padding: 5px 10px;
+                margin-right: 5px;
+                span {
+                    color: #FFFFFF;
+                    font-size: 13px;
+                    line-height: 19px;
+                    text-align: center;
+                }
+
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
       }
+
     }
     &_moreinfo-text {
       display: flex;

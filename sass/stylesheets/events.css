@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 3, ../sass/events.scss */
+.wrapper {
+  background-color: #F8F5F5;
+  padding-bottom: 55px;
+}
+/* line 10, ../sass/events.scss */
+.wrapper .events_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 15, ../sass/events.scss */
+.wrapper .events_column_text {
+  background-color: #FFFFFF;
+  padding: 53px 50px 44px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 20, ../sass/events.scss */
+.wrapper .events_column_text span {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 25, ../sass/events.scss */
+.wrapper .events_column_text_title {
+  color: #231F20;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  padding: 30px 0 20px;
+}
+/* line 34, ../sass/events.scss */
+.wrapper .events_column .content_events {
+  padding: 30px 0 0 33px;
+}
+/* line 36, ../sass/events.scss */
+.wrapper .events_column .content_events_title {
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-size: 24px;
+}
+/* line 42, ../sass/events.scss */
+.wrapper .events_column .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 48, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 20px 0 0;
+}
+/* line 57, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 64, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 69, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 75, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 81, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 92, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}

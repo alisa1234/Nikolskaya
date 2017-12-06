@@ -1,0 +1,1330 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 3, ../../sass/sass/_svg-sprite.scss */
+.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter {
+  content: '';
+  background: url("img/svg-sprite.svg") no-repeat;
+  background-size: 81px 66px;
+  display: inline-block;
+}
+/* line 8, ../../sass/sass/_svg-sprite.scss */
+.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter {
+  background-image: url("img/svg-sprite.png");
+}
+
+/* line 1, ../../sass/sass/_png-sprite.scss */
+.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .menu-tabs_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon {
+  content: '';
+  background: url("img/png-sprite.png") no-repeat;
+  background-size: 288px 209px;
+  display: inline-block;
+}
+
+/* line 5, ../../sass/sass/home.scss */
+.main {
+  width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+/* line 10, ../../sass/sass/home.scss */
+.main .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 19, ../../sass/sass/home.scss */
+.main .header_adress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 24, ../../sass/sass/home.scss */
+.main .header_adress_name {
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 29, ../../sass/sass/home.scss */
+.main .header_adress_name_location {
+  background-position: -95px -189px;
+  width: 14px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 33, ../../sass/sass/home.scss */
+.main .header_adress_name span {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 40, ../../sass/sass/home.scss */
+.main .header_adress_time {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 45, ../../sass/sass/home.scss */
+.main .header_adress_time_logo {
+  background-position: -25px -189px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 49, ../../sass/sass/home.scss */
+.main .header_adress_time span {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 56, ../../sass/sass/home.scss */
+.main .header_adress_language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 60, ../../sass/sass/home.scss */
+.main .header_adress_language ul {
+  background: url(../images/language.png) no-repeat;
+  width: 22px;
+  height: 14px;
+}
+/* line 65, ../../sass/sass/home.scss */
+.main .header_adress_language ul li {
+  display: none;
+}
+/* line 70, ../../sass/sass/home.scss */
+.main .header_adress_language_triangle {
+  background-position: -128px -44px;
+  width: 8px;
+  height: 6px;
+  height: 6px;
+  width: 8px;
+  margin-left: 7px;
+}
+/* line 79, ../../sass/sass/home.scss */
+.main .header_tabs {
+  display: flex;
+  flex-direction: row;
+}
+/* line 82, ../../sass/sass/home.scss */
+.main .header_tabs_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+}
+/* line 87, ../../sass/sass/home.scss */
+.main .header_tabs_search_logo {
+  background-position: -270px -57px;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+/* line 91, ../../sass/sass/home.scss */
+.main .header_tabs_search input {
+  height: 17px;
+  width: 80px;
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  outline: none;
+}
+/* line 102, ../../sass/sass/home.scss */
+.main .header_tabs_login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+/* line 107, ../../sass/sass/home.scss */
+.main .header_tabs_login_logo {
+  background-position: -50px -165px;
+  width: 14px;
+  height: 18px;
+  margin-right: 10px;
+}
+/* line 111, ../../sass/sass/home.scss */
+.main .header_tabs_login span {
+  height: 17px;
+  width: 32px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 120, ../../sass/sass/home.scss */
+.main .header_tabs_bucket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 124, ../../sass/sass/home.scss */
+.main .header_tabs_bucket_logo {
+  background-position: -74px -189px;
+  width: 16px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 128, ../../sass/sass/home.scss */
+.main .header_tabs_bucket span {
+  height: 17px;
+  width: 55px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 140, ../../sass/sass/home.scss */
+.main .menu-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0 35px 0;
+}
+/* line 146, ../../sass/sass/home.scss */
+.main .menu-tabs_menu {
+  display: flex;
+  flex-direction: row;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 156, ../../sass/sass/home.scss */
+.main .menu-tabs_menu_item {
+  padding-right: 40px;
+}
+/* line 159, ../../sass/sass/home.scss */
+.main .menu-tabs_menu_item:last-child {
+  padding-right: 0;
+}
+/* line 164, ../../sass/sass/home.scss */
+.main .menu-tabs_logo {
+  background-position: -0px -0px;
+  width: 123px;
+  height: 52px;
+}
+/* line 167, ../../sass/sass/home.scss */
+.main .menu-tabs_addit {
+  display: flex;
+  flex-direction: row;
+}
+/* line 170, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_delivery {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #7F7873;
+}
+/* line 179, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_delivery_item {
+  padding-right: 20px;
+}
+/* line 182, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_delivery_item:last-child {
+  padding-right: 0;
+}
+/* line 188, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 192, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials_item {
+  margin-right: 18px;
+}
+/* line 195, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials_item:last-child {
+  margin-right: 0;
+}
+/* line 199, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials .vk {
+  background-position: -5px -32px;
+  width: 17px;
+  height: 11px;
+}
+/* line 202, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials .facebook {
+  background-position: -68px -5px;
+  width: 8px;
+  height: 16px;
+}
+/* line 205, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials .twitter {
+  background-position: -5px -48px;
+  width: 16px;
+  height: 13px;
+}
+/* line 208, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials .instagram {
+  background-position: -23px -5px;
+  width: 20px;
+  height: 20px;
+}
+/* line 211, ../../sass/sass/home.scss */
+.main .menu-tabs_addit_socials .pinterest {
+  background-position: -48px -5px;
+  width: 15px;
+  height: 18px;
+}
+/* line 217, ../../sass/sass/home.scss */
+.main .slider {
+  position: relative;
+}
+/* line 225, ../../sass/sass/home.scss */
+.main .slider .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  background: none;
+}
+/* line 232, ../../sass/sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-prev {
+  display: inline-block;
+  float: left;
+  background: none;
+  width: 13px;
+  height: 22px;
+}
+/* line 240, ../../sass/sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-next {
+  display: inline-block;
+  float: right;
+  background: none;
+  width: 13px;
+  height: 22px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+/* line 255, ../../sass/sass/home.scss */
+.main .slider-footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+/* line 259, ../../sass/sass/home.scss */
+.main .slider-footer_delivery {
+  height: 170px;
+  width: 600px;
+  background-color: #F7F6F2;
+  padding-bottom: 10px;
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+}
+/* line 266, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_main-text {
+  color: #EBE8DD;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 277, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_secondary-text {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 287px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 288, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_secondary-text_preorder {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 227px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 299, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  top: 90%;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+/* line 308, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_left-dash, .main .slider-footer_delivery_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 314, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+/* line 323, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_img {
+  position: absolute;
+  bottom: 0;
+  right: 65px;
+}
+/* line 327, ../../sass/sass/home.scss */
+.main .slider-footer_delivery_img_right {
+  position: absolute;
+  top: 0;
+  right: 133px;
+}
+/* line 334, ../../sass/sass/home.scss */
+.main .slider-footer_rectangle {
+  background: url(img/Rectangle2.png) no-repeat;
+  height: 2px;
+  width: 101px;
+  transform: rotate(135deg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 46%;
+}
+/* line 346, ../../sass/sass/home.scss */
+.main .content_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 0;
+}
+/* line 352, ../../sass/sass/home.scss */
+.main .content_menu_about {
+  background-position: -128px -0px;
+  width: 160px;
+  height: 39px;
+}
+/* line 370, ../../sass/sass/home.scss */
+.main .content_menu_other {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: UbuntuCondensed, sans-serif;
+}
+/* line 376, ../../sass/sass/home.scss */
+.main .content_menu_other_item {
+  color: #231F20;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 40px;
+}
+/* line 382, ../../sass/sass/home.scss */
+.main .content_menu_other_search {
+  background-position: -0px -189px;
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+}
+/* line 386, ../../sass/sass/home.scss */
+.main .content_menu_other_basket {
+  background-position: -50px -189px;
+  width: 19px;
+  height: 20px;
+}
+/* line 390, ../../sass/sass/home.scss */
+.main .content_menu_other_personality {
+  background-position: -270px -80px;
+  width: 16px;
+  height: 20px;
+  margin-right: 40px;
+}
+/* line 396, ../../sass/sass/home.scss */
+.main .instagram_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 403, ../../sass/sass/home.scss */
+.main .instagram_content_item {
+  width: 263px;
+  height: 263px;
+  position: relative;
+}
+/* line 408, ../../sass/sass/home.scss */
+.main .instagram_content_item_main-text {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 76px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+/* line 420, ../../sass/sass/home.scss */
+.main .instagram_content .slider-footer_delivery_moreinfo-text {
+  width: 216px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+/* line 427, ../../sass/sass/home.scss */
+.main .main_map {
+  padding-top: 40px;
+  position: relative;
+}
+/* line 431, ../../sass/sass/home.scss */
+.main .main_map_buttons {
+  position: absolute;
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  font-family: Ubuntu, sans-serif;
+}
+/* line 442, ../../sass/sass/home.scss */
+.main .main_map_buttons_button {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 147px;
+}
+/* line 448, ../../sass/sass/home.scss */
+.main .main_map_buttons_button_text {
+  padding: 17px 42px 17px 20px;
+  background-color: rgba(35, 31, 32, 0.8);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+}
+/* line 457, ../../sass/sass/home.scss */
+.main .main_map_buttons .active {
+  width: 187px;
+}
+/* line 460, ../../sass/sass/home.scss */
+.main .main_map_buttons .active .main_map_buttons_button_text {
+  padding: 17px 57px 17px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #1A1718;
+}
+/* line 469, ../../sass/sass/home.scss */
+.main .subscribe_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #D9D5D2;
+  padding: 33px 0;
+}
+/* line 476, ../../sass/sass/home.scss */
+.main .subscribe_content_socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 481, ../../sass/sass/home.scss */
+.main .subscribe_content_socials_vk {
+  background-position: -0px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 485, ../../sass/sass/home.scss */
+.main .subscribe_content_socials_fb {
+  background-position: -216px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 489, ../../sass/sass/home.scss */
+.main .subscribe_content_socials_twit {
+  background-position: -54px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 493, ../../sass/sass/home.scss */
+.main .subscribe_content_socials_inst {
+  background-position: -162px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 497, ../../sass/sass/home.scss */
+.main .subscribe_content_socials_pint {
+  background-position: -108px -57px;
+  width: 49px;
+  height: 49px;
+}
+/* line 501, ../../sass/sass/home.scss */
+.main .subscribe_content_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  align-items: center;
+}
+/* line 507, ../../sass/sass/home.scss */
+.main .subscribe_content_main_text {
+  color: #1A1718;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+/* line 513, ../../sass/sass/home.scss */
+.main .subscribe_content_main_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* line 517, ../../sass/sass/home.scss */
+.main .subscribe_content_main_form input[type=email] {
+  border: 1px solid #CCC8C4;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+/* line 525, ../../sass/sass/home.scss */
+.main .subscribe_content_main_form button {
+  height: 44px;
+  width: 147px;
+  border-radius: 2px;
+  background-color: #332C26;
+  border: none;
+  color: #FFFFFF;
+}
+/* line 536, ../../sass/sass/home.scss */
+.main .footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 542, ../../sass/sass/home.scss */
+.main .footer_main {
+  display: flex;
+  flex-direction: row;
+  padding: 74px 0 32px;
+  width: 100%;
+  justify-content: space-between;
+}
+/* line 550, ../../sass/sass/home.scss */
+.main .footer_main_menu {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+}
+/* line 555, ../../sass/sass/home.scss */
+.main .footer_main_menu_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 560, ../../sass/sass/home.scss */
+.main .footer_main_menu_header_item {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 568, ../../sass/sass/home.scss */
+.main .footer_main_menu_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 12px 0 0;
+}
+/* line 573, ../../sass/sass/home.scss */
+.main .footer_main_menu_items_item {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 584, ../../sass/sass/home.scss */
+.main .footer_main_contacts {
+  display: flex;
+  flex-direction: column;
+}
+/* line 588, ../../sass/sass/home.scss */
+.main .footer_main_contacts_header {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu, sans-serif;
+  padding-bottom: 15px;
+}
+/* line 597, ../../sass/sass/home.scss */
+.main .footer_main_contacts_blocks {
+  display: flex;
+  flex-direction: row;
+}
+/* line 603, ../../sass/sass/home.scss */
+.main .footer_main_contacts_blocks_items_item {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 26px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 610, ../../sass/sass/home.scss */
+.main .footer_main_contacts_blocks_items:first-child {
+  padding-right: 40px;
+}
+/* line 620, ../../sass/sass/home.scss */
+.main .footer_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 32px;
+}
+/* line 627, ../../sass/sass/home.scss */
+.main .footer_info_copyright {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  padding-right: 81px;
+  width: 249px;
+}
+/* line 638, ../../sass/sass/home.scss */
+.main .footer_info_payments {
+  display: flex;
+  flex-direction: row;
+  margin-right: 156px;
+  align-items: center;
+}
+/* line 644, ../../sass/sass/home.scss */
+.main .footer_info_payments_visa {
+  background-position: -218px -111px;
+  width: 41px;
+  height: 14px;
+  margin-right: 19px;
+}
+/* line 648, ../../sass/sass/home.scss */
+.main .footer_info_payments_american-express {
+  background-position: -89px -111px;
+  width: 58px;
+  height: 20px;
+  margin-right: 21px;
+}
+/* line 653, ../../sass/sass/home.scss */
+.main .footer_info_payments_master-card {
+  background-position: -39px -111px;
+  width: 45px;
+  height: 28px;
+  margin-right: 24px;
+}
+/* line 659, ../../sass/sass/home.scss */
+.main .footer_info_payments_paypal {
+  background-position: -152px -111px;
+  width: 61px;
+  height: 18px;
+}
+/* line 665, ../../sass/sass/home.scss */
+.main .footer_info_made-by {
+  display: flex;
+  flex-direction: row;
+}
+/* line 669, ../../sass/sass/home.scss */
+.main .footer_info_made-by_text {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 24px;
+  font-family: Ubuntu, sans-serif;
+  padding-right: 10px;
+}
+/* line 677, ../../sass/sass/home.scss */
+.main .footer_info_made-by_icon {
+  background-position: -0px -165px;
+  width: 45px;
+  height: 19px;
+}
+
+/* line 686, ../../sass/sass/home.scss */
+.main_content {
+  background-color: #F7F6F2;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 691, ../../sass/sass/home.scss */
+.main_content .content_corners {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 699, ../../sass/sass/home.scss */
+.main_content .content_corners_title {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 706, ../../sass/sass/home.scss */
+.main_content .content_corners_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 1200px;
+}
+/* line 712, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  border-radius: 0 0 4px 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+  position: relative;
+}
+/* line 720, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_img {
+  position: relative;
+}
+/* line 722, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_img .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 730, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 737, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 742, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 751, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 765, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen_delimiter {
+  background-position: -27px -32px;
+  width: 9px;
+  height: 9px;
+}
+/* line 770, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 772, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 55px 30px 55px;
+  position: absolute;
+  top: 0;
+}
+/* line 778, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main_text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 319px;
+}
+/* line 785, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 793, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item {
+  background-color: #1A1718;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+/* line 797, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item span {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 804, ../../sass/sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item:last-child {
+  margin-right: 0;
+}
+/* line 814, ../../sass/sass/home.scss */
+.main_content .content_corners_moreinfo-text {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 820, ../../sass/sass/home.scss */
+.main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 826, ../../sass/sass/home.scss */
+.main_content .content_corners_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 839, ../../sass/sass/home.scss */
+.main_content_events {
+  background-color: #ffffff;
+  min-width: 1280px;
+}
+/* line 843, ../../sass/sass/home.scss */
+.main_content_events .content_events {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 851, ../../sass/sass/home.scss */
+.main_content_events .content_events_title {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 858, ../../sass/sass/home.scss */
+.main_content_events .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 864, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 30px 0;
+}
+/* line 873, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 880, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 885, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 891, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 897, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 908, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 921, ../../sass/sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen_delimiter {
+  background-position: -27px -32px;
+  width: 9px;
+  height: 9px;
+}
+/* line 928, ../../sass/sass/home.scss */
+.main_content_events .content_events_moreinfo-text {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 934, ../../sass/sass/home.scss */
+.main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 940, ../../sass/sass/home.scss */
+.main_content_events .content_events_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 952, ../../sass/sass/home.scss */
+.app_content {
+  background: url(../images/phones_bg.png) right no-repeat;
+  height: 710px;
+  background-color: #F7F6F2;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 959, ../../sass/sass/home.scss */
+.app_content_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 100%;
+}
+/* line 965, ../../sass/sass/home.scss */
+.app_content_items_text {
+  font-family: Ubuntu, sans-serif;
+  padding: 212px 0;
+  position: relative;
+}
+/* line 969, ../../sass/sass/home.scss */
+.app_content_items_text_main {
+  color: #231F20;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  width: 442px;
+}
+/* line 976, ../../sass/sass/home.scss */
+.app_content_items_text_other {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 400px;
+  padding: 20px 0 30px;
+}
+/* line 984, ../../sass/sass/home.scss */
+.app_content_items_text_download {
+  display: flex;
+  flex-direction: row;
+}
+/* line 988, ../../sass/sass/home.scss */
+.app_content_items_text_download_google {
+  background: url(../images/Playstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+  margin-right: 20px;
+}
+/* line 995, ../../sass/sass/home.scss */
+.app_content_items_text_download_apple {
+  background: url(../images/Appstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+}
+/* line 1002, ../../sass/sass/home.scss */
+.app_content_items_text_logo {
+  background: url(../images/logo_N.png) no-repeat;
+  height: 212px;
+  width: 325px;
+  opacity: 0.2;
+  position: absolute;
+  top: 212px;
+}
+/* line 1010, ../../sass/sass/home.scss */
+.app_content_items_text_url {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 145px;
+}
+/* line 1015, ../../sass/sass/home.scss */
+.app_content_items_text_url a {
+  color: #332C26;
+  text-decoration: none;
+}
+/* line 1021, ../../sass/sass/home.scss */
+.app_content_items_img {
+  background: url(../images/phones.png) right bottom no-repeat;
+  width: 563px;
+}
+
+/* line 1029, ../../sass/sass/home.scss */
+.about_content {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 1034, ../../sass/sass/home.scss */
+.about_content_title {
+  position: relative;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  z-index: 1;
+  line-height: 44px;
+  margin: 0 auto;
+  width: 640px;
+  padding: 50px 0 0 0;
+}
+/* line 1046, ../../sass/sass/home.scss */
+.about_content_footer-grey {
+  position: absolute;
+  height: 273px;
+  width: 61px;
+  bottom: 0;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+/* line 1056, ../../sass/sass/home.scss */
+.about_content_column-grey {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  width: 266px;
+  height: 100%;
+  left: 697px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 1066, ../../sass/sass/home.scss */
+.about_content_number-logo {
+  background: url(../images/30.png) no-repeat;
+  width: 246px;
+  height: 206px;
+  position: absolute;
+  top: 35px;
+  left: 81px;
+  z-index: 0;
+}
+/* line 1075, ../../sass/sass/home.scss */
+.about_content_items {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 70px 104px 0 253px;
+  align-items: flex-start;
+}
+/* line 1083, ../../sass/sass/home.scss */
+.about_content_items_text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+/* line 1089, ../../sass/sass/home.scss */
+.about_content_items_text_header {
+  font-size: 26px;
+  line-height: 30px;
+  font-family: Ubuntu, sans-serif;
+  color: #7F7873;
+  text-align: left;
+  font-weight: 500;
+}
+/* line 1097, ../../sass/sass/home.scss */
+.about_content_items_text_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Ubuntu, sans-serif;
+  color: #7F7873;
+  text-align: left;
+  padding: 35px 0 40px 0;
+}
+/* line 1104, ../../sass/sass/home.scss */
+.about_content_items_text_description span:first-child {
+  padding-bottom: 10px;
+  display: block;
+}
+/* line 1110, ../../sass/sass/home.scss */
+.about_content_items_text_moreinfo {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 1116, ../../sass/sass/home.scss */
+.about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 1122, ../../sass/sass/home.scss */
+.about_content_items_text_moreinfo_text {
+  margin: 0 10px;
+  font-family: Ubuntu, sans-serif;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 1135, ../../sass/sass/home.scss */
+.about_content_items_img {
+  background: url(../images/30eating.png) center no-repeat;
+  background-size: cover;
+  width: 396px;
+  height: 545px;
+  margin-left: 127px;
+}

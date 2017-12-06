@@ -1,0 +1,388 @@
+@import 'variables.scss';
+@import "svg-sprite";
+@import "png-sprite";
+
+.main {
+  .menu-tabs {
+    &_all {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      &_tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: $font_condensed;
+
+        &_item {
+          margin-right: 44px;
+          text-transform: uppercase;
+          padding:25px 0;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &_dropdown {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+
+
+        }
+        .active {
+          color: #A67B2C;
+          border-bottom: 3px solid #DAC69C;
+        }
+      }
+      &_search {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 30px;
+        align-items: center;
+        input {
+          color: #7F7873;
+          font-family: $font_ubuntu;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          width: 320px;
+          border-radius: 2px;
+          padding: 14px 5px;
+          border: none;
+          border-bottom: 1px solid #CCC8C4;
+        }
+        &_img {
+          @include sp__Search;
+          position: absolute;
+          right: 0;
+        }
+        &_result {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          background-color: #FFFFFF;
+          z-index: 2;
+          padding-bottom: 13px;
+          width: 330px;
+          top:44px;
+
+          &_restaurants {
+            &_title {
+                color: #B8903E;
+                font-family: $font_condensed;
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 13px;
+                padding: 20px 15px 0;
+            }
+            &_items {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              min-width: 1200px;
+              &_item {
+                background-color: #FFFFFF;
+                position: relative;
+                padding: 0 15px;
+                border-bottom: 1px solid #E6E3E1;
+                &_img {
+                  position: relative;
+                  .logo {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                  }
+                }
+
+                &_content {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  font-family: $font_ubuntu;
+                  padding: 17px 0 0;
+
+                  &_name {
+                    color: #231F20;
+                    font-size: 13px;
+                    line-height: 13px;
+                    margin-bottom: 2px;
+                  }
+                  &_time {
+                    color: #867F7B;
+                    font-size: 10px;
+                    line-height: 10px;
+                    padding: 2px 4px;;
+                    border-radius: 2px;
+                    background-color: #F7F6F2;
+                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+                  }
+                  &-kitchen {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    color: #7F7873;
+                    font-size: 13px;
+                    line-height: 13px;
+                    padding: 0 0 10px 0;
+                    align-items: center;
+                    font-family: $font_ubuntu;
+
+                    &_item {
+                      padding:0 10px;
+
+                      &:first-child {
+                        padding-left: 0;
+                      }
+                    }
+                    &_delimiter {
+                      @include sp__rectangle_small;
+                    }
+                  }
+                }
+                &-hover {
+                  font-family: $font_ubuntu;
+                  &_main {
+                    background-color: rgba(0,0,0,0.8);
+                    padding: 55px 30px 55px;
+                    position: absolute;
+                    top: 0;
+
+                    &_text {
+                      font-size: 18px;
+                      font-weight: 500;
+                      line-height: 20px;
+                      color: #FFFFFF;
+                      width: 319px;
+                    }
+                    &_checkin {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      color: #FFFFFF;
+                      margin-top: 20px;
+                      align-items: center;
+                      font-family: $font_ubuntu;
+                      &_item {
+                        background-color: #1A1718;
+                        padding: 5px 10px;
+                        margin-right: 5px;
+                        span {
+                          color: #FFFFFF;
+                          font-size: 13px;
+                          line-height: 19px;
+                          text-align: center;
+                        }
+
+                        &:last-child {
+                          margin-right: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+          &_dishes {
+            &_title {
+              color: #B8903E;
+              font-family: $font_condensed;
+              font-size: 10px;
+              font-weight: 500;
+              line-height: 13px;
+              padding: 20px 15px 0;
+            }
+            &_items {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              //min-width: 1200px;
+              &_item {
+                background-color: #FFFFFF;
+                position: relative;
+                padding: 0 15px;
+                border-bottom: 1px solid #E6E3E1;
+                &_img {
+                  position: relative;
+                  .logo {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                  }
+                }
+
+                &_content {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  font-family: $font_ubuntu;
+                  padding: 17px 0 0;
+
+                  &_name {
+                    color: #231F20;
+                    font-size: 13px;
+                    line-height: 13px;
+                    margin-bottom: 2px;
+                  }
+                  &_time {
+                    color: #867F7B;
+                    font-size: 13px;
+                    line-height: 13px;
+                    padding: 4px 7px;;
+                    border-radius: 2px;
+                    background-color: #F7F6F2;
+                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+                  }
+                  &-kitchen {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    color: #7F7873;
+                    font-size: 13px;
+                    line-height: 13px;
+                    padding: 0 0 10px 0;
+                    align-items: center;
+                    font-family: $font_ubuntu;
+
+                    &_item {
+                      padding-left: 10px;
+                      &:first-child {
+                        border-right: 1px solid #7F7873;
+                        padding-right: 10px;
+                        padding-left: 0;
+                      }
+                      &:last-child {
+                        color: #231F20;
+                        font-family: $font_condensed;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        padding-left: 140px;
+                      }
+                    }
+                    &_delimiter {
+                      @include sp__rectangle;
+                    }
+                  }
+                }
+                &-hover {
+                  font-family: $font_ubuntu;
+                  &_main {
+                    background-color: rgba(0,0,0,0.8);
+                    padding: 55px 30px 55px;
+                    position: absolute;
+                    top: 0;
+
+                    &_text {
+                      font-size: 18px;
+                      font-weight: 500;
+                      line-height: 20px;
+                      color: #FFFFFF;
+                      width: 319px;
+                    }
+                    &_checkin {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      color: #FFFFFF;
+                      margin-top: 20px;
+                      align-items: center;
+                      font-family: $font_ubuntu;
+                      &_item {
+                        background-color: #1A1718;
+                        padding: 5px 10px;
+                        margin-right: 5px;
+                        span {
+                          color: #FFFFFF;
+                          font-size: 13px;
+                          line-height: 19px;
+                          text-align: center;
+                        }
+
+                        &:last-child {
+                          margin-right: 0;
+
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+.slider_wraper{
+  background-color: #E7E3E1;
+  padding: 30px 50px;
+  .slider {
+    position: relative;
+    .owl-carousel {
+      .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+
+        .owl-prev {
+          display: inline-block;
+          float: left;
+          background: none;
+          width: 13px;
+          height: 22px;
+        }
+
+        .owl-next {
+          display: inline-block;
+          float: right;
+          background: none;
+          transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          width: 13px;
+          height: 22px;
+          margin-right: 10px;
+        }
+      }
+      //width: 100%;
+      //height: 300px;
+    }
+    .item {
+      width: 280px;
+      height: 140px;
+      position: relative;
+      &_text {
+          font-family: $font_ubuntu;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 21px;
+          text-align: center;
+          position: absolute;
+          color: #FFFFFF;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+.main_content .content_corners_items_item {
+  margin-bottom: 0;
+}

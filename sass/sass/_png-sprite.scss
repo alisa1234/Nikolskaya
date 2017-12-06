@@ -50,7 +50,7 @@
 }
 @mixin sp__User {
     @extend %sprite_png;
-    background-position: -74px -189px;
+    background-position: -270px -80px;
     width: 16px;
     height: 20px;
 }
@@ -74,7 +74,7 @@
 }
 @mixin sp__basket_small {
     @extend %sprite_png;
-    background-position: -270px -80px;
+    background-position: -74px -189px;
     width: 16px;
     height: 20px;
 }
@@ -86,13 +86,13 @@
 }
 @mixin sp__facebook_sircle {
     @extend %sprite_png;
-    background-position: -162px -57px;
+    background-position: -216px -57px;
     width: 49px;
     height: 49px;
 }
 @mixin sp__instagram_sircle {
     @extend %sprite_png;
-    background-position: -216px -57px;
+    background-position: -162px -57px;
     width: 49px;
     height: 49px;
 }

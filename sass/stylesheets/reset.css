@@ -53,3 +53,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 43, ../sass/reset.scss */
+input {
+  outline: none;
+}
