@@ -42,10 +42,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-       &_logo {
-         @include sp__time;
-         margin-right: 10px;
-       }
+        &_logo {
+          @include sp__time;
+          margin-right: 10px;
+        }
         span {
           color: #7F7873;
           font-family: $font_ubuntu;
@@ -84,10 +84,10 @@
         flex-direction: row;
         align-items: center;
         padding-right: 20px;
-      &_logo {
-        @include sp__search_small;
-        margin-right: 10px
-      }
+        &_logo {
+          @include sp__search_small;
+          margin-right: 10px
+        }
         input {
           height: 17px;
           width: 80px;
@@ -104,10 +104,10 @@
         flex-direction: row;
         align-items: center;
         padding-right: 30px;
-       &_logo {
-         @include sp__user_small;
-         margin-right: 10px
-       }
+        &_logo {
+          @include sp__user_small;
+          margin-right: 10px
+        }
         span {
           height: 17px;
           width: 32px;
@@ -444,12 +444,19 @@
         border-radius: 2px;
         cursor: pointer;
         width: 147px;
+        color: #FFFFFF;
+
+
 
         &_text {
-          padding: 17px 42px 17px 20px;
+          padding: 12px 0 14px 20px;
           background-color: rgba(35, 31, 32, 0.8);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
           color: #FFFFFF;
+          font-family: $font_ubuntu;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: normal;
 
         }
 
@@ -458,7 +465,7 @@
         width: 187px;
 
         .main_map_buttons_button_text {
-          padding: 17px 57px 17px 20px;
+          padding: 17px 0 17px 20px;
           background-color: #FFFFFF;
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
           color: #1A1718;
@@ -505,30 +512,38 @@
       font-family: $font_ubuntu;
       align-items: center;
       &_text {
-          color: #1A1718;
-          font-size: 16px;
-          line-height: 24px;
-          margin-right: 10px;
+        color: #1A1718;
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 10px;
       }
       &_form {
         display: flex;
         flex-direction: row;
         justify-content: center;
         input[type=email] {
+<<<<<<< HEAD
             border: 1px solid #CCC8C4;
             border-radius: 2px;
             background-color: #FFFFFF;
             padding: 10px;
             margin-right: 10px;
             font-size: 16px;
+=======
+          border: 1px solid #CCC8C4;
+          border-radius: 2px;
+          background-color: #FFFFFF;
+          padding: 10px;
+          margin-right: 10px;
+>>>>>>> ed7b12eb0f9a2c2119bc1eebbd516e573fc33817
         }
         button {
-            height: 44px;
-            width: 147px;
-            border-radius: 2px;
-            background-color: #332C26;
-            border: none;
-            color: #FFFFFF;
+          height: 44px;
+          width: 147px;
+          border-radius: 2px;
+          background-color: #332C26;
+          border: none;
+          color: #FFFFFF;
         }
       }
     }
@@ -545,7 +560,6 @@
       padding: 74px 0 32px;
       width: 100%;
       justify-content: space-between;
-
 
       &_menu {
         display: flex;
@@ -612,7 +626,6 @@
             }
           }
         }
-
 
       }
     }
