@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вакансии</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../sass/stylesheets/app.css">
+</head>
+<body>
+<div class="main">
+    <header class="header">
+        <div class="header_adress">
+            <div class="header_adress_name">
+                <div class="header_adress_name_location"></div>
+                <span>ул. Никольская 10</span>
+            </div>
+            <div class="header_adress_time">
+                <div class="header_adress_time_logo"></div>
+                <span>8:00 - 23:00</span>
+            </div>
+            <div class="header_adress_language">
+                <ul>
+                    <li>Rus</li>
+                    <li>Eng</li>
+                </ul>
+                <div class="header_adress_language_triangle"></div>
+            </div>
+        </div>
+        <div class="header_tabs">
+            <div class="header_tabs_search">
+                <div class="header_tabs_search_logo"></div>
+                <input type="search" placeholder="Поиск"/>
+            </div>
+            <div class="header_tabs_login">
+                <div class="header_tabs_login_logo"></div>
+                <span>Вход</span>
+            </div>
+            <div class="header_tabs_bucket">
+                <div class="header_tabs_bucket_logo"></div>
+                <span>Корзина</span>
+            </div>
+        </div>
+    </header>
+    <div class="menu-tabs">
+        <div class="menu-tabs_menu">
+            <div class="menu-tabs_menu_item">
+                <span>Рестораны</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>События</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>О проекте</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>Контакты</span>
+            </div>
+        </div>
+        <div class="menu-tabs_logo"></div>
+        <div class="menu-tabs_addit">
+            <div class="menu-tabs_addit_delivery">
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кешбек</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Доставка</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кейтеринг</span>
+                </div>
+            </div>
+            <div class="menu-tabs_addit_socials">
+                <div class="menu-tabs_addit_socials_item facebook"></div>
+                <div class="menu-tabs_addit_socials_item instagram"></div>
+                <div class="menu-tabs_addit_socials_item pinterest"></div>
+                <div class="menu-tabs_addit_socials_item twitter"></div>
+                <div class="menu-tabs_addit_socials_item vk"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="about_container">
+    <div class="about_container_nav">
+        <div class="about_container_nav_item">
+            <div class="about_container_nav_item_text">Концепция</div>
+            <div class="about_container_nav_item_icon">&rsaquo;</div>
+        </div>
+        <div class="about_container_nav_item">
+            <div class="about_container_nav_item_text">Новости</div>
+            <div class="about_container_nav_item_icon">&rsaquo;</div>
+        </div>
+        <div class="about_container_nav_item active">
+            <div class="about_container_nav_item_text">Вакансии</div>
+            <div class="about_container_nav_item_icon">&rsaquo;</div>
+        </div>
+    </div>
+    <div class="about_container_content">
+        <div class="about_container_content_vacancy-form">
+            <div class="about_container_content_vacancy-form_header">Отправить резюме на вакансию</div>
+            <div class="about_container_content_vacancy-form_text">
+                Приглашаем вас присоединиться к
+                нашей команде профессионалов. Не упускайте возможность достойно зарабатывать,
+                повышая и развивая собственные знания и навыки в направлении недвижимости.
+            </div>
+            <form class="about_container_content_vacancy-form_form">
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="position" class="about_container_content_vacancy-form_form_group_label">Должность</label>
+                    <select id='position' class="about_container_content_vacancy-form_form_group_select">
+                        <option>Повар</option>
+                        <option>Пекарь</option>
+                        <option>Официант</option>
+                    </select>
+                    <div class="about_container_content_vacancy-form_form_group_arrow">&rsaquo;</div>
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="name" class="about_container_content_vacancy-form_form_group_label">Имя</label>
+                    <input type="text" id="name" placeholder="Введите имя" class="about_container_content_vacancy-form_form_group_input">
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="secondname" class="about_container_content_vacancy-form_form_group_label">Фамилия</label>
+                    <input type="text" id="secondname" placeholder="Введите фамилию" class="about_container_content_vacancy-form_form_group_input">
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="email" class="about_container_content_vacancy-form_form_group_label">Email</label>
+                    <input type="text" id="email" placeholder="Введите email" class="about_container_content_vacancy-form_form_group_input">
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="resume" class="about_container_content_vacancy-form_form_group_label">Резюме</label>
+                    <label for="resume" class="about_container_content_vacancy-form_form_group_resume-label">Прикрепить файл с резюме  (doc, txt, pdf)</label>
+                    <input type="file" id="resume" class="about_container_content_vacancy-form_form_group_inputfile">
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <label for="comments" class="about_container_content_vacancy-form_form_group_label">Комментарии</label>
+                    <textarea id="comments" placeholder="Комментарии" class="about_container_content_vacancy-form_form_group_textarea"></textarea>
+                </div>
+                <div class="about_container_content_vacancy-form_form_group">
+                    <!--<label for="email" class="about_container_content_vacancy-form_form_group_label">Email</label>-->
+                    <button type="submit" id="submit" class="about_container_content_vacancy-form_form_group_submit">Сохранить изменения</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="subscribe_content">
+        <div class="subscribe_content_socials">
+            <div class="subscribe_content_socials_vk"></div>
+            <div class="subscribe_content_socials_fb"></div>
+            <div class="subscribe_content_socials_twit"></div>
+            <div class="subscribe_content_socials_inst"></div>
+            <div class="subscribe_content_socials_pint"></div>
+        </div>
+        <div class="subscribe_content_main">
+            <div class="subscribe_content_main_text">Подпишитесь на рассылку и узнавайте обо всем первым:</div>
+            <div class="subscribe_content_main_form">
+                <input type="email" placeholder="Ваш email">
+                <button>Подписаться</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <footer class="footer">
+        <div class="footer_main">
+            <div class="footer_main_menu">
+                <div class="footer_main_menu_header">
+                    <div class="footer_main_menu_header_item">Корнеры</div>
+                    <div class="footer_main_menu_header_item">События</div>
+                    <div class="footer_main_menu_header_item">О проекте</div>
+                </div>
+                <div class="footer_main_menu_items">
+                    <div class="footer_main_menu_items_item">Доставка</div>
+                    <div class="footer_main_menu_items_item">Кейтеринг</div>
+                    <div class="footer_main_menu_items_item">Обратная связь</div>
+                </div>
+            </div>
+            <div class="footer_main_contacts">
+                <div class="footer_main_contacts_header">Служба доставки:</div>
+                <div class="footer_main_contacts_blocks">
+                    <div class="footer_main_contacts_blocks_items">
+                        <div class="footer_main_contacts_blocks_items_item">E-mail: delivery@nikolskaya.org</div>
+                        <div class="footer_main_contacts_blocks_items_item">Ежедневно, с 8.00 до 23.00</div>
+                        <div class="footer_main_contacts_blocks_items_item">Тел.: +7 (495) 951-19-47</div>
+                    </div>
+                    <div class="footer_main_contacts_blocks_items">
+                        <div class="footer_main_contacts_blocks_items_item">Адрес: г. Москва, ул. Никольская 10</div>
+                        <div class="footer_main_contacts_blocks_items_item">E-mail: info@nikolskaya.org</div>
+                        <div class="footer_main_contacts_blocks_items_item">Тел.: +7 (123) 456-78-90</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="footer_info">
+            <div class="footer_info_copyright">&copy; 2017 Nikolskaya. Все права сохранены.</div>
+            <div class="footer_info_payments">
+                <div class="footer_info_payments_visa"></div>
+                <div class="footer_info_payments_american-express"></div>
+                <div class="footer_info_payments_master-card"></div>
+                <div class="footer_info_payments_paypal"></div>
+            </div>
+            <div class="footer_info_made-by">
+                <div class="footer_info_made-by_text">Сделано в</div>
+                <div class="footer_info_made-by_icon"></div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>

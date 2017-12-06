@@ -1,0 +1,333 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 5, ../sass/about.scss */
+.about_container {
+  width: 1180px;
+  margin: 0 auto 40px;
+  padding: 50px 50px 0;
+  background-color: #F8F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* line 14, ../sass/about.scss */
+.about_container_nav {
+  width: 280px;
+  height: 235px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 25px;
+  box-shadow: inset 0 1px 0 0 #CCC8C4, inset 0 -1px 0 0 #CCC8C4, 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 24, ../sass/about.scss */
+.about_container_nav_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+  padding: 30px;
+  cursor: pointer;
+}
+/* line 32, ../sass/about.scss */
+.about_container_nav_item_text {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 41, ../sass/about.scss */
+.about_container_nav_item_icon {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 52, ../sass/about.scss */
+.about_container_nav .active .about_container_nav_item_text {
+  color: #A67B2C;
+}
+/* line 55, ../sass/about.scss */
+.about_container_nav .active .about_container_nav_item_icon {
+  color: #A67B2C;
+}
+/* line 61, ../sass/about.scss */
+.about_container_content {
+  display: flex;
+  flex-direction: column;
+}
+/* line 65, ../sass/about.scss */
+.about_container_content_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #FFFFFF;
+  width: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #E6E3E1;
+  align-items: flex-end;
+}
+/* line 78, ../sass/about.scss */
+.about_container_content_item_image {
+  width: 286px;
+  height: 160px;
+}
+/* line 82, ../sass/about.scss */
+.about_container_content_item_image img {
+  width: 286px;
+  height: 160px;
+}
+/* line 88, ../sass/about.scss */
+.about_container_content_item_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+/* line 95, ../sass/about.scss */
+.about_container_content_item_text_header {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 9px;
+}
+/* line 103, ../sass/about.scss */
+.about_container_content_item_text_overview {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 9px;
+}
+/* line 111, ../sass/about.scss */
+.about_container_content_item_text_date {
+  color: #A67B2C;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 121, ../sass/about.scss */
+.about_container_content_vacancy-form {
+  padding: 30px 60px 41px 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 57px;
+}
+/* line 130, ../sass/about.scss */
+.about_container_content_vacancy-form_header {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  padding-bottom: 16px;
+}
+/* line 139, ../sass/about.scss */
+.about_container_content_vacancy-form_text {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 146, ../sass/about.scss */
+.about_container_content_vacancy-form_form {
+  margin: 0 auto;
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+  padding-top: 20px;
+}
+/* line 156, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* line 164, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_label {
+  width: auto;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: right;
+}
+/* line 174, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group select {
+  width: 394px;
+  height: 44px;
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
+  padding-left: 20px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+/* line 191, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_arrow {
+  position: absolute;
+  font-size: 24px;
+  z-index: 1;
+  top: 12px;
+  right: 17px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+/* line 202, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_input {
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  width: 371px;
+  height: 44px;
+  padding-left: 20px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 225, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_resume-label {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  background-color: #7F7873;
+  padding: 15px 10px 13px 50px;
+  margin-right: 60px;
+  border-radius: 2px;
+}
+/* line 238, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+/* line 247, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_textarea {
+  height: 104px;
+  width: 371px;
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-top: 16px;
+  resize: none;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 263, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_submit {
+  height: 44px;
+  padding: 0 15px;
+  border-radius: 2px;
+  background-color: #332C26;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
