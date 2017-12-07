@@ -129,14 +129,14 @@ input {
   src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
 }
 /* line 3, ../sass/_svg-sprite.scss */
-.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .delivery_banner_info_block_circle_time, .delivery_banner_info_block_circle_currenсy, .delivery_banner_info_block_circle_card, .about_container_content_vacancy-form_form_group_inputfile_icon, .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint {
+.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .delivery_banner_info_block_circle_time, .delivery_banner_info_block_circle_currenсy, .delivery_banner_info_block_circle_card, .about_container_content_vacancy-form_form_group_inputfile_icon, .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint, .wrapper_banner .banner_main_close_icon {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 191px 163px;
+  background-size: 199px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
-.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .no-svg .delivery_banner_info_block_circle_time, .no-svg .delivery_banner_info_block_circle_currenсy, .no-svg .delivery_banner_info_block_circle_card, .no-svg .about_container_content_vacancy-form_form_group_inputfile_icon, .no-svg .contacts_info_main_connections_subscribe_content_socials_vk, .no-svg .contacts_info_main_connections_subscribe_content_socials_fb, .no-svg .contacts_info_main_connections_subscribe_content_socials_twit, .no-svg .contacts_info_main_connections_subscribe_content_socials_inst, .no-svg .contacts_info_main_connections_subscribe_content_socials_pint {
+.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .no-svg .delivery_banner_info_block_circle_time, .no-svg .delivery_banner_info_block_circle_currenсy, .no-svg .delivery_banner_info_block_circle_card, .no-svg .about_container_content_vacancy-form_form_group_inputfile_icon, .no-svg .contacts_info_main_connections_subscribe_content_socials_vk, .no-svg .contacts_info_main_connections_subscribe_content_socials_fb, .no-svg .contacts_info_main_connections_subscribe_content_socials_twit, .no-svg .contacts_info_main_connections_subscribe_content_socials_inst, .no-svg .contacts_info_main_connections_subscribe_content_socials_pint, .no-svg .wrapper_banner .banner_main_close_icon, .wrapper_banner .no-svg .banner_main_close_icon {
   background-image: url("img/svg-sprite.png");
 }
 
@@ -392,13 +392,13 @@ input {
 }
 /* line 202, ../sass/home.scss */
 .main .menu-tabs_addit_socials .facebook {
-  background-position: -178px -5px;
+  background-position: -178px -23px;
   width: 8px;
   height: 16px;
 }
 /* line 205, ../sass/home.scss */
 .main .menu-tabs_addit_socials .twitter {
-  background-position: -90px -84px;
+  background-position: -178px -5px;
   width: 16px;
   height: 13px;
 }
@@ -1012,7 +1012,7 @@ input {
 }
 /* line 779, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
-  background-position: -146px -93px;
+  background-position: -178px -44px;
   width: 9px;
   height: 9px;
 }
@@ -1174,7 +1174,7 @@ input {
 }
 /* line 937, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
-  background-position: -146px -93px;
+  background-position: -178px -44px;
   width: 9px;
   height: 9px;
 }
@@ -1570,7 +1570,7 @@ input {
 }
 /* line 146, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
-  background-position: -178px -26px;
+  background-position: -178px -58px;
   width: 5px;
   height: 5px;
 }
@@ -1712,7 +1712,7 @@ input {
 }
 /* line 275, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
-  background-position: -146px -93px;
+  background-position: -178px -44px;
   width: 9px;
   height: 9px;
 }
@@ -2423,13 +2423,13 @@ input {
 }
 /* line 37, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_vk {
-  background-position: -5px -109px;
+  background-position: -124px -5px;
   width: 49px;
   height: 49px;
 }
 /* line 41, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_fb {
-  background-position: -124px -5px;
+  background-position: -5px -109px;
   width: 49px;
   height: 49px;
 }
@@ -2545,6 +2545,91 @@ input {
 /* line 164, ../sass/contacts.scss */
 .contacts-main .subscribe_content .subscribe_content_socials {
   padding-top: 0;
+}
+
+/* line 5, ../sass/banner.scss */
+.wrapper_banner {
+  padding: 100px 0;
+}
+/* line 8, ../sass/banner.scss */
+.wrapper_banner .banner_main {
+  padding: 60px 100px 72px;
+  position: relative;
+  z-index: 200;
+  width: 600px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+/* line 15, ../sass/banner.scss */
+.wrapper_banner .banner_main_content {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 17, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_title {
+  color: #231F20;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+/* line 23, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 5px;
+}
+/* line 30, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_tag {
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #B3AFAB;
+  margin: 20px 0;
+}
+/* line 39, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_img img {
+  width: 100%;
+}
+/* line 44, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+/* line 51, ../sass/banner.scss */
+.wrapper_banner .banner_main_close {
+  width: 50px;
+  height: 50px;
+  background-color: #B8903E;
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  border-radius: 50%;
+}
+/* line 61, ../sass/banner.scss */
+.wrapper_banner .banner_main_close_icon {
+  background-position: -90px -84px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 71, ../sass/banner.scss */
+.wrapper_banner:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
 /*

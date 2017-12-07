@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 3, ../sass/_svg-sprite.scss */
+.wrapper_banner .banner_main_close_icon {
+  content: '';
+  background: url("img/svg-sprite.svg") no-repeat;
+  background-size: 199px 163px;
+  display: inline-block;
+}
+/* line 8, ../sass/_svg-sprite.scss */
+.no-svg .wrapper_banner .banner_main_close_icon, .wrapper_banner .no-svg .banner_main_close_icon {
+  background-image: url("img/svg-sprite.png");
+}
+
+/* line 5, ../sass/banner.scss */
+.wrapper_banner {
+  padding: 100px 0;
+}
+/* line 8, ../sass/banner.scss */
+.wrapper_banner .banner_main {
+  padding: 60px 100px 72px;
+  position: relative;
+  z-index: 200;
+  width: 600px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+/* line 15, ../sass/banner.scss */
+.wrapper_banner .banner_main_content {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 17, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_title {
+  color: #231F20;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+/* line 23, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 5px;
+}
+/* line 30, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_tag {
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #B3AFAB;
+  margin: 20px 0;
+}
+/* line 39, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_img img {
+  width: 100%;
+}
+/* line 44, ../sass/banner.scss */
+.wrapper_banner .banner_main_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+/* line 51, ../sass/banner.scss */
+.wrapper_banner .banner_main_close {
+  width: 50px;
+  height: 50px;
+  background-color: #B8903E;
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  border-radius: 50%;
+}
+/* line 61, ../sass/banner.scss */
+.wrapper_banner .banner_main_close_icon {
+  background-position: -90px -84px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 71, ../sass/banner.scss */
+.wrapper_banner:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}

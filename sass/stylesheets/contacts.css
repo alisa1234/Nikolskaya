@@ -70,7 +70,7 @@
 .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 191px 163px;
+  background-size: 199px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -111,13 +111,13 @@
 }
 /* line 37, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_vk {
-  background-position: -5px -109px;
+  background-position: -124px -5px;
   width: 49px;
   height: 49px;
 }
 /* line 41, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_fb {
-  background-position: -124px -5px;
+  background-position: -5px -109px;
   width: 49px;
   height: 49px;
 }

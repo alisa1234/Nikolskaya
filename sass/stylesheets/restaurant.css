@@ -70,7 +70,7 @@
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 191px 163px;
+  background-size: 199px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -245,7 +245,7 @@
 }
 /* line 146, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
-  background-position: -178px -26px;
+  background-position: -178px -58px;
   width: 5px;
   height: 5px;
 }
@@ -387,7 +387,7 @@
 }
 /* line 275, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
-  background-position: -146px -93px;
+  background-position: -178px -44px;
   width: 9px;
   height: 9px;
 }
