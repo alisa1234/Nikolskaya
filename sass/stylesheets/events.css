@@ -70,13 +70,15 @@
 .wrapper {
   background-color: #F8F5F5;
   padding-bottom: 55px;
+  width: 1280px;
+  margin: 0 auto;
 }
-/* line 7, ../sass/events.scss */
+/* line 9, ../sass/events.scss */
 .wrapper .banner {
   padding: 0 40px;
   position: relative;
 }
-/* line 11, ../sass/events.scss */
+/* line 13, ../sass/events.scss */
 .wrapper .banner_text {
   position: absolute;
   top: 50%;
@@ -88,43 +90,43 @@
   color: #ffffff;
   white-space: nowrap;
 }
-/* line 22, ../sass/events.scss */
+/* line 24, ../sass/events.scss */
 .wrapper .banner img {
   width: 1200px;
 }
-/* line 27, ../sass/events.scss */
+/* line 29, ../sass/events.scss */
 .wrapper .events_column {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
 }
-/* line 33, ../sass/events.scss */
+/* line 35, ../sass/events.scss */
 .wrapper .events_column_text {
   background-color: #FFFFFF;
   padding: 53px 50px 44px;
   font-family: Ubuntu, sans-serif;
 }
-/* line 38, ../sass/events.scss */
+/* line 40, ../sass/events.scss */
 .wrapper .events_column_text_collage {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
 }
-/* line 46, ../sass/events.scss */
+/* line 48, ../sass/events.scss */
 .wrapper .events_column_text_collage_item:last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 54, ../sass/events.scss */
+/* line 56, ../sass/events.scss */
 .wrapper .events_column_text span {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
 }
-/* line 59, ../sass/events.scss */
+/* line 61, ../sass/events.scss */
 .wrapper .events_column_text_title {
   color: #231F20;
   font-size: 18px;
@@ -132,17 +134,17 @@
   line-height: 21px;
   padding: 30px 0 20px;
 }
-/* line 68, ../sass/events.scss */
+/* line 70, ../sass/events.scss */
 .wrapper .events_column .content_events {
   padding: 30px 0 0 33px;
 }
-/* line 70, ../sass/events.scss */
+/* line 72, ../sass/events.scss */
 .wrapper .events_column .content_events_title {
   text-transform: uppercase;
   font-family: Ubuntu, sans-serif;
   font-size: 24px;
 }
-/* line 76, ../sass/events.scss */
+/* line 78, ../sass/events.scss */
 .wrapper .events_column .content_events_items {
   display: flex;
   flex-direction: row;
@@ -150,39 +152,39 @@
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 82, ../sass/events.scss */
+/* line 84, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 20px 0 0;
 }
-/* line 91, ../sass/events.scss */
+/* line 93, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 98, ../sass/events.scss */
+/* line 100, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 103, ../sass/events.scss */
+/* line 105, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 109, ../sass/events.scss */
+/* line 111, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 115, ../sass/events.scss */
+/* line 117, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -194,7 +196,7 @@
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 126, ../sass/events.scss */
+/* line 128, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;

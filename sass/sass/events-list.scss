@@ -1,72 +1,84 @@
 @import 'variables.scss';
 
 .wrapper {
-  background-color: #F8F5F5;
-  padding-bottom: 55px;
-  width: 1280px;
-  margin: 0 auto;
 
-  .banner {
-    padding: 0 40px;
-    position: relative;
+  .event {
+    padding: 0;
+    width: 100%;
 
-    &_text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: $font_condensed;
-      font-size: 70px;
-      line-height: 70px;
-      color: #ffffff;
-      white-space: nowrap;
-    }
     img {
-      width: 1200px;
+      width: 1280px;
     }
-
   }
-  .events_column {
+  .events-menu-tabs-all {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 40px;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #FFFFFF;
 
-    &_text {
-      background-color: #FFFFFF;
-      padding: 53px 50px 44px;
-      font-family: $font_ubuntu;
+    &_tabs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: $font_condensed;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 100;
 
-      &_collage {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 30px;
+      &_item {
+        margin-right: 44px;
+        text-transform: uppercase;
+        padding: 25px 0;
 
-        &_item {
-
-          &:last-child {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-          }
+        &:last-child {
+          margin-right: 0;
         }
-      }
 
-      span {
-        color: #7F7873;
-        font-size: 16px;
-        line-height: 24px;
-      }
-      &_title {
-        color: #231F20;
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 21px;
-        padding: 30px 0 20px;
-      }
+        &_dropdown {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
 
+      }
+      .active {
+        color: #A67B2C;
+        border-bottom: 3px solid #DAC69C;
+      }
     }
+
+    &_calendar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      height: 42px;
+      width: 138px;
+      font-family: $font_ubuntu;
+      border-radius: 2px;
+      background-color: #4D4239;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: normal;
+
+      &_icon {
+        margin-right: 16px;
+      }
+    }
+  }
+  .events_list {
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F8F5F5;
+    padding: 30px 50px 30px;
+
     .content_events {
       padding: 30px 0 0 33px;
       &_title {
@@ -85,15 +97,12 @@
           width: 380px;
           border: 1px solid #E6E3E1;
           background-color: #FFFFFF;
-          margin: 20px 0 0;
+          margin: 0 0 20px;
           &_img {
 
           }
 
           &_content {
-            //display: flex;
-            //flex-direction: row;
-            //justify-content: space-between;
             font-family: $font_ubuntu;
             padding: 15px 20px 10px;
 
@@ -101,12 +110,14 @@
               color: #231F20;
               font-size: 18px;
               line-height: 21px;
+              padding-bottom: 4px;
             }
             &_date {
               color: #A67B2C;
               font-size: 16px;
               font-weight: 500;
               line-height: 16px;
+              padding-bottom: 4px;
             }
             &_text {
               color: #7F7873;
@@ -114,6 +125,7 @@
               line-height: 24px;
               padding: 10px 0;
             }
+
             &_time {
               color: #867F7B;
               font-size: 13px;
@@ -124,6 +136,7 @@
               display: inline-block;
               box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
               margin-bottom: 10px;
+
             }
             &-kitchen {
               display: flex;
@@ -145,7 +158,22 @@
 
     }
   }
+  .events_show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 348px;
+    border-radius: 2px;
+    background-color: #4D4239;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: $font_ubuntu;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
 
-
-
+  }
 }

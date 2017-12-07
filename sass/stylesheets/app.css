@@ -1823,13 +1823,15 @@ input {
 .wrapper {
   background-color: #F8F5F5;
   padding-bottom: 55px;
+  width: 1280px;
+  margin: 0 auto;
 }
-/* line 7, ../sass/events.scss */
+/* line 9, ../sass/events.scss */
 .wrapper .banner {
   padding: 0 40px;
   position: relative;
 }
-/* line 11, ../sass/events.scss */
+/* line 13, ../sass/events.scss */
 .wrapper .banner_text {
   position: absolute;
   top: 50%;
@@ -1841,43 +1843,43 @@ input {
   color: #ffffff;
   white-space: nowrap;
 }
-/* line 22, ../sass/events.scss */
+/* line 24, ../sass/events.scss */
 .wrapper .banner img {
   width: 1200px;
 }
-/* line 27, ../sass/events.scss */
+/* line 29, ../sass/events.scss */
 .wrapper .events_column {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
 }
-/* line 33, ../sass/events.scss */
+/* line 35, ../sass/events.scss */
 .wrapper .events_column_text {
   background-color: #FFFFFF;
   padding: 53px 50px 44px;
   font-family: Ubuntu, sans-serif;
 }
-/* line 38, ../sass/events.scss */
+/* line 40, ../sass/events.scss */
 .wrapper .events_column_text_collage {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
 }
-/* line 46, ../sass/events.scss */
+/* line 48, ../sass/events.scss */
 .wrapper .events_column_text_collage_item:last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 54, ../sass/events.scss */
+/* line 56, ../sass/events.scss */
 .wrapper .events_column_text span {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
 }
-/* line 59, ../sass/events.scss */
+/* line 61, ../sass/events.scss */
 .wrapper .events_column_text_title {
   color: #231F20;
   font-size: 18px;
@@ -1885,17 +1887,17 @@ input {
   line-height: 21px;
   padding: 30px 0 20px;
 }
-/* line 68, ../sass/events.scss */
+/* line 70, ../sass/events.scss */
 .wrapper .events_column .content_events {
   padding: 30px 0 0 33px;
 }
-/* line 70, ../sass/events.scss */
+/* line 72, ../sass/events.scss */
 .wrapper .events_column .content_events_title {
   text-transform: uppercase;
   font-family: Ubuntu, sans-serif;
   font-size: 24px;
 }
-/* line 76, ../sass/events.scss */
+/* line 78, ../sass/events.scss */
 .wrapper .events_column .content_events_items {
   display: flex;
   flex-direction: row;
@@ -1903,39 +1905,39 @@ input {
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 82, ../sass/events.scss */
+/* line 84, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
   background-color: #FFFFFF;
   margin: 20px 0 0;
 }
-/* line 91, ../sass/events.scss */
+/* line 93, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 98, ../sass/events.scss */
+/* line 100, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 103, ../sass/events.scss */
+/* line 105, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 109, ../sass/events.scss */
+/* line 111, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 115, ../sass/events.scss */
+/* line 117, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1947,7 +1949,7 @@ input {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 126, ../sass/events.scss */
+/* line 128, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -2354,7 +2356,7 @@ input {
   border-radius: 2px;
   background-color: #332C26;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  margin: 20px auto 0;
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
   font-size: 16px;
@@ -2362,9 +2364,8 @@ input {
   line-height: 22px;
   text-align: center;
   cursor: pointer;
-  margin-top: 20px;
 }
-/* line 290, ../sass/about.scss */
+/* line 289, ../sass/about.scss */
 .about_container_content_project {
   display: flex;
   flex-direction: column;
@@ -2375,16 +2376,16 @@ input {
   border: 1px solid #E6E3E1;
   margin-bottom: 40px;
 }
-/* line 300, ../sass/about.scss */
+/* line 299, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_header {
   width: 606px;
   line-height: 42px;
 }
-/* line 305, ../sass/about.scss */
+/* line 304, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text {
   width: 770px;
 }
-/* line 307, ../sass/about.scss */
+/* line 306, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text span:first-child {
   margin-bottom: 25px;
   display: block;
@@ -2630,6 +2631,348 @@ input {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 100;
+}
+
+/* line 5, ../sass/stocks.scss */
+.wrapper .stock {
+  padding: 0;
+  width: 100%;
+}
+/* line 9, ../sass/stocks.scss */
+.wrapper .stock img {
+  width: 1280px;
+}
+/* line 13, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #FFFFFF;
+}
+/* line 21, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 100;
+}
+/* line 30, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item {
+  margin-right: 44px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+/* line 35, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item:last-child {
+  margin-right: 0;
+}
+/* line 39, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item_dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 46, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs .active {
+  color: #A67B2C;
+  border-bottom: 3px solid #DAC69C;
+}
+/* line 52, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 42px;
+  width: 138px;
+  font-family: Ubuntu, sans-serif;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+}
+/* line 68, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_calendar_icon {
+  margin-right: 16px;
+}
+/* line 73, ../sass/stocks.scss */
+.wrapper .stocks_list {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F8F5F5;
+  padding: 30px 50px 30px;
+}
+/* line 82, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events {
+  padding: 30px 0 0 33px;
+}
+/* line 84, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_title {
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-size: 24px;
+}
+/* line 90, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 96, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 0 0 20px;
+}
+/* line 105, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 109, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 4px;
+}
+/* line 115, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-bottom: 4px;
+  margin-bottom: 23px;
+}
+/* line 124, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 136, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 156, ../sass/stocks.scss */
+.wrapper .stocks_show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 348px;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 5, ../sass/events-list.scss */
+.wrapper .event {
+  padding: 0;
+  width: 100%;
+}
+/* line 9, ../sass/events-list.scss */
+.wrapper .event img {
+  width: 1280px;
+}
+/* line 13, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #FFFFFF;
+}
+/* line 21, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 100;
+}
+/* line 30, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_tabs_item {
+  margin-right: 44px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+/* line 35, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_tabs_item:last-child {
+  margin-right: 0;
+}
+/* line 39, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_tabs_item_dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 46, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_tabs .active {
+  color: #A67B2C;
+  border-bottom: 3px solid #DAC69C;
+}
+/* line 52, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 42px;
+  width: 138px;
+  font-family: Ubuntu, sans-serif;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+}
+/* line 68, ../sass/events-list.scss */
+.wrapper .events-menu-tabs-all_calendar_icon {
+  margin-right: 16px;
+}
+/* line 73, ../sass/events-list.scss */
+.wrapper .events_list {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F8F5F5;
+  padding: 30px 50px 30px;
+}
+/* line 82, ../sass/events-list.scss */
+.wrapper .events_list .content_events {
+  padding: 30px 0 0 33px;
+}
+/* line 84, ../sass/events-list.scss */
+.wrapper .events_list .content_events_title {
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-size: 24px;
+}
+/* line 90, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 96, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 0 0 20px;
+}
+/* line 105, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 109, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 4px;
+}
+/* line 115, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-bottom: 4px;
+}
+/* line 122, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 129, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 141, ../sass/events-list.scss */
+.wrapper .events_list .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 161, ../sass/events-list.scss */
+.wrapper .events_show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 348px;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /*

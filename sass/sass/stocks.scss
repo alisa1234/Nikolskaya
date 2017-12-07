@@ -1,0 +1,174 @@
+@import 'variables.scss';
+
+.wrapper {
+
+  .stock {
+    padding: 0;
+    width: 100%;
+
+    img {
+      width: 1280px;
+    }
+  }
+  .stocks-menu-tabs-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #FFFFFF;
+
+    &_tabs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: $font_condensed;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 100;
+
+      &_item {
+        margin-right: 44px;
+        text-transform: uppercase;
+        padding: 25px 0;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &_dropdown {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+
+      }
+      .active {
+        color: #A67B2C;
+        border-bottom: 3px solid #DAC69C;
+      }
+    }
+
+    &_calendar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      height: 42px;
+      width: 138px;
+      font-family: $font_ubuntu;
+      border-radius: 2px;
+      background-color: #4D4239;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: normal;
+
+      &_icon {
+        margin-right: 16px;
+      }
+    }
+  }
+  .stocks_list {
+    width: 1180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F8F5F5;
+    padding: 30px 50px 30px;
+
+    .content_events {
+      padding: 30px 0 0 33px;
+      &_title {
+        text-transform: uppercase;
+        font-family: $font_ubuntu;
+        font-size: 24px;
+      }
+
+      &_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        &_item {
+          width: 380px;
+          border: 1px solid #E6E3E1;
+          background-color: #FFFFFF;
+          margin: 0 0 20px;
+          &_img {
+
+          }
+
+          &_content {
+            font-family: $font_ubuntu;
+            padding: 15px 20px 10px;
+
+            &_name {
+              color: #231F20;
+              font-size: 18px;
+              line-height: 21px;
+              padding-bottom: 4px;
+            }
+            &_date {
+              color: #A67B2C;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 16px;
+              padding-bottom: 4px;
+              margin-bottom: 23px;
+            }
+
+            &_time {
+              color: #867F7B;
+              font-size: 13px;
+              line-height: 13px;
+              padding: 4px 7px;;
+              border-radius: 2px;
+              background-color: #F7F6F2;
+              display: inline-block;
+              box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+              margin-bottom: 10px;
+
+            }
+            &-kitchen {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              color: #7F7873;
+              font-size: 13px;
+              line-height: 13px;
+              padding: 10px 133px 20px 20px;
+              align-items: center;
+
+              &_item {
+
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  .stocks_show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 348px;
+    border-radius: 2px;
+    background-color: #4D4239;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: $font_ubuntu;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+}
