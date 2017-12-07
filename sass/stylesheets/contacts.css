@@ -209,18 +209,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 40px;
 }
-/* line 142, ../sass/contacts.scss */
+/* line 143, ../sass/contacts.scss */
 .contacts_all_block {
   display: flex;
   flex-direction: column;
 }
-/* line 146, ../sass/contacts.scss */
+/* line 147, ../sass/contacts.scss */
 .contacts_all_block .footer_main_contacts_header {
   padding-bottom: 20px;
 }
-/* line 152, ../sass/contacts.scss */
+/* line 153, ../sass/contacts.scss */
 .contacts .subscribe_content_socials {
   padding-top: 101px;
   width: 285px;
+}
+
+/* line 161, ../sass/contacts.scss */
+.contacts-main .subscribe_content {
+  padding: 0 0 30px;
+}
+/* line 164, ../sass/contacts.scss */
+.contacts-main .subscribe_content .subscribe_content_socials {
+  padding-top: 0;
 }

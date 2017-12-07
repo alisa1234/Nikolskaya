@@ -287,6 +287,31 @@
       }
     }
 
+    &_project {
+      display: flex;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      padding: 25px 30px 30px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 0 0 4px 4px;
+      border: 1px solid #E6E3E1;
+      margin-bottom: 40px;
+
+      .about_container_content_vacancy-form_header {
+        width: 606px;
+        line-height: 42px;
+      }
+
+      .about_container_content_vacancy-form_text {
+        width: 770px;
+        span:first-child {
+          margin-bottom: 25px;
+          display: block;
+        }
+      }
+
+    }
+
   }
 
 }

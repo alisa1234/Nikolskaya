@@ -2359,6 +2359,31 @@ input {
   cursor: pointer;
   margin-top: 20px;
 }
+/* line 290, ../sass/about.scss */
+.about_container_content_project {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 25px 30px 30px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #E6E3E1;
+  margin-bottom: 40px;
+}
+/* line 300, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_header {
+  width: 606px;
+  line-height: 42px;
+}
+/* line 305, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_text {
+  width: 770px;
+}
+/* line 307, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_text span:first-child {
+  margin-bottom: 25px;
+  display: block;
+}
 
 /* line 6, ../sass/contacts.scss */
 .contacts {
@@ -2491,20 +2516,30 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 40px;
 }
-/* line 142, ../sass/contacts.scss */
+/* line 143, ../sass/contacts.scss */
 .contacts_all_block {
   display: flex;
   flex-direction: column;
 }
-/* line 146, ../sass/contacts.scss */
+/* line 147, ../sass/contacts.scss */
 .contacts_all_block .footer_main_contacts_header {
   padding-bottom: 20px;
 }
-/* line 152, ../sass/contacts.scss */
+/* line 153, ../sass/contacts.scss */
 .contacts .subscribe_content_socials {
   padding-top: 101px;
   width: 285px;
+}
+
+/* line 161, ../sass/contacts.scss */
+.contacts-main .subscribe_content {
+  padding: 0 0 30px;
+}
+/* line 164, ../sass/contacts.scss */
+.contacts-main .subscribe_content .subscribe_content_socials {
+  padding-top: 0;
 }
 
 /*
