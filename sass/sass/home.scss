@@ -3,8 +3,7 @@
 @import "png-sprite";
 
 .main {
-  width: 1200px;
-  padding: 0 40px;
+  width: 1280px;
   margin: 0 auto;
 
   .header {
@@ -15,6 +14,7 @@
     height: 40px;
     background-color: #FFFFFF;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    padding: 0 40px;
 
     &_adress {
       display: flex;
@@ -142,7 +142,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 0 35px 0;
+    padding: 35px 40px;
     &_menu {
       display: flex;
       flex-direction: row;
@@ -215,7 +215,7 @@
     }
   }
   .slider {
-    //padding: 0 40px 0 40px;
+    padding: 0 40px;
     position: relative;
     //img {
     //  width: 100%;
@@ -256,6 +256,7 @@
       display: flex;
       flex-direction: row;
       position: relative;
+      padding: 0 40px;
       &_delivery {
         height: 170px;
         width: 600px;
@@ -318,6 +319,7 @@
             font-weight: bold;
             line-height: 16px;
             text-align: center;
+            text-transform: uppercase;
           }
         }
         &_img {
@@ -348,7 +350,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 37px 0;
+    padding: 37px 40px;
     &_about {
       @include sp__Logo1;
       //font-family: $font_underground;
@@ -397,7 +399,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 0 0 0;
+    padding: 40px 40px 0;
     font-family: $font_ubuntu;
 
     &_item {
@@ -418,14 +420,14 @@
       }
     }
     .slider-footer_delivery_moreinfo-text {
-      width: 216px;
+      width: 100%;
       top: 55%;
-      left: 50%;
+      left: 54%;
       transform: translate(-50%, -55%)
     }
   }
   .main_map {
-    padding-top: 40px;
+    padding: 40px 40px 0;
     position: relative;
 
     &_buttons {
@@ -479,6 +481,8 @@
     justify-content: space-between;
     border-bottom: 1px solid #D9D5D2;
     padding: 33px 0;
+    width: 1200px;
+    margin: 0 auto;
 
     &_socials {
       display: flex;
@@ -528,11 +532,6 @@
             padding: 10px;
             margin-right: 10px;
             font-size: 16px;
-          //border: 1px solid #CCC8C4;
-          //border-radius: 2px;
-          //background-color: #FFFFFF;
-          //padding: 10px;
-          //margin-right: 10px;
         }
         button {
           height: 44px;
@@ -541,13 +540,15 @@
           background-color: #332C26;
           border: none;
           color: #FFFFFF;
+          font-size: 16px;
+          line-height: 16px;
         }
       }
     }
   }
   .footer {
     display: flex;
-    width: 100%;
+    padding: 0 40px;
     flex-direction: column;
     background-color: #FFFFFF;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
@@ -699,7 +700,7 @@
   margin: 0 auto;
 
   .content_corners {
-    padding: 40px;
+    padding: 0 30px 40px;
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
@@ -712,6 +713,7 @@
       font-size: 30px;
       line-height: 30px;
       text-align: center;
+      margin-top: 40px;
     }
     &_items {
       display: flex;
@@ -725,7 +727,7 @@
         border-radius: 0 0 4px 4px;
         background-color: #FFFFFF;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-        margin: 30px 0;
+        margin: 30px 0 0;
         position: relative;
         &_img {
           position: relative;
@@ -826,6 +828,7 @@
       align-items: center;
       font-family: $font_ubuntu;
       text-transform: uppercase;
+      margin-top: 40px;
 
       &_left-dash, &_right-dash {
         height: 2px;
@@ -840,6 +843,7 @@
         font-weight: bold;
         line-height: 16px;
         text-align: center;
+
       }
     }
   }
@@ -875,7 +879,7 @@
         width: 380px;
         border: 1px solid #E6E3E1;
         background-color: #FFFFFF;
-        margin: 30px 0;
+        margin: 30px 0 0;
         &_img {
 
         }
@@ -940,6 +944,7 @@
       align-items: center;
       font-family: $font_ubuntu;
       text-transform: uppercase;
+      margin-top: 40px;
 
       &_left-dash, &_right-dash {
         height: 2px;
