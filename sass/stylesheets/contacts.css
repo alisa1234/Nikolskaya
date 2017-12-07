@@ -167,18 +167,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 40px;
 }
-/* line 120, ../sass/contacts.scss */
+/* line 121, ../sass/contacts.scss */
 .contacts_all_block {
   display: flex;
   flex-direction: column;
 }
-/* line 124, ../sass/contacts.scss */
+/* line 125, ../sass/contacts.scss */
 .contacts_all_block .footer_main_contacts_header {
   padding-bottom: 20px;
 }
-/* line 130, ../sass/contacts.scss */
+/* line 131, ../sass/contacts.scss */
 .contacts .subscribe_content_socials {
   padding-top: 101px;
   width: 285px;
+}
+
+/* line 139, ../sass/contacts.scss */
+.contacts-main .subscribe_content {
+  padding: 0 0 30px;
+}
+/* line 142, ../sass/contacts.scss */
+.contacts-main .subscribe_content .subscribe_content_socials {
+  padding-top: 0;
 }

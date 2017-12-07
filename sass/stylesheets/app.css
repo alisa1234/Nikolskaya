@@ -1,50 +1,2733 @@
-/*
-Error: Invalid CSS after "...rt "restaurant"": expected "{", was ";"
-        on line 4 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/app.scss
-
-1: @import "reset";
-2: @import "home";
-3: <<<<<<< HEAD
-4: @import "restaurant";
-5: @import "events";
-6: =======
-7: @import "delivery";
-8: @import "about";
-9: @import "contacts";
-
-Backtrace:
-/Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/app.scss:4
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1166:in `expected'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `render'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-org/jruby/RubyMethod.java:128:in `call'
-file:/Applications/compass.app/Contents/Java/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
-org/jruby/RubyArray.java:1613:in `each'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `watch'
-org/jruby/RubyProc.java:271:in `call'
-/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:252:in `on_change'
-/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:290:in `initialize_adapter'
-org/jruby/RubyProc.java:271:in `call'
-/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:252:in `report_changes'
-/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:321:in `poll_changed_directories'
-/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:297:in `start_poller'
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...rt \"restaurant\"\": expected \"{\", was \";\"\A         on line 4 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/app.scss\A \A 1: @import \"reset\";\A 2: @import \"home\";\A 3: <<<<<<< HEAD\A 4: @import \"restaurant\";\A 5: @import \"events\";\A 6: =======\A 7: @import \"delivery\";\A 8: @import \"about\";\A 9: @import \"contacts\";"; }
+/* line 6, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 15, ../sass/reset.scss */
+body {
+  min-width: 980px;
+}
+
+/* line 18, ../sass/reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 21, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 31, ../sass/reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 36, ../sass/reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 40, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 43, ../sass/reset.scss */
+input {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 3, ../sass/_svg-sprite.scss */
+.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
+  content: '';
+  background: url("img/svg-sprite.svg") no-repeat;
+  background-size: 81px 66px;
+  display: inline-block;
+}
+/* line 8, ../sass/_svg-sprite.scss */
+.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
+  background-image: url("img/svg-sprite.png");
+}
+
+/* line 1, ../sass/_png-sprite.scss */
+.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .menu-tabs_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon, .main .menu-tabs_all_search_img, .delivery_banner_info_block_circle_time {
+  content: '';
+  background: url("img/png-sprite.png") no-repeat;
+  background-size: 288px 209px;
+  display: inline-block;
+}
+
+/* line 5, ../sass/home.scss */
+.main {
+  width: 1200px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+/* line 10, ../sass/home.scss */
+.main .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 19, ../sass/home.scss */
+.main .header_adress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 24, ../sass/home.scss */
+.main .header_adress_name {
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 29, ../sass/home.scss */
+.main .header_adress_name_location {
+  background-position: -95px -189px;
+  width: 14px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 33, ../sass/home.scss */
+.main .header_adress_name span {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 40, ../sass/home.scss */
+.main .header_adress_time {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 45, ../sass/home.scss */
+.main .header_adress_time_logo {
+  background-position: -25px -189px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 49, ../sass/home.scss */
+.main .header_adress_time span {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 56, ../sass/home.scss */
+.main .header_adress_language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 60, ../sass/home.scss */
+.main .header_adress_language ul {
+  background: url(../images/language.png) no-repeat;
+  width: 22px;
+  height: 14px;
+}
+/* line 65, ../sass/home.scss */
+.main .header_adress_language ul li {
+  display: none;
+}
+/* line 70, ../sass/home.scss */
+.main .header_adress_language_triangle {
+  background-position: -128px -44px;
+  width: 8px;
+  height: 6px;
+  height: 6px;
+  width: 8px;
+  margin-left: 7px;
+}
+/* line 79, ../sass/home.scss */
+.main .header_tabs {
+  display: flex;
+  flex-direction: row;
+}
+/* line 82, ../sass/home.scss */
+.main .header_tabs_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+}
+/* line 87, ../sass/home.scss */
+.main .header_tabs_search_logo {
+  background-position: -270px -57px;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+/* line 91, ../sass/home.scss */
+.main .header_tabs_search input {
+  height: 17px;
+  width: 80px;
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  outline: none;
+}
+/* line 102, ../sass/home.scss */
+.main .header_tabs_login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+/* line 107, ../sass/home.scss */
+.main .header_tabs_login_logo {
+  background-position: -50px -165px;
+  width: 14px;
+  height: 18px;
+  margin-right: 10px;
+}
+/* line 111, ../sass/home.scss */
+.main .header_tabs_login span {
+  height: 17px;
+  width: 32px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 120, ../sass/home.scss */
+.main .header_tabs_bucket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 124, ../sass/home.scss */
+.main .header_tabs_bucket_logo {
+  background-position: -74px -189px;
+  width: 16px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* line 128, ../sass/home.scss */
+.main .header_tabs_bucket span {
+  height: 17px;
+  width: 55px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 140, ../sass/home.scss */
+.main .menu-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0 35px 0;
+}
+/* line 146, ../sass/home.scss */
+.main .menu-tabs_menu {
+  display: flex;
+  flex-direction: row;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 156, ../sass/home.scss */
+.main .menu-tabs_menu_item {
+  padding-right: 40px;
+}
+/* line 159, ../sass/home.scss */
+.main .menu-tabs_menu_item:last-child {
+  padding-right: 0;
+}
+/* line 164, ../sass/home.scss */
+.main .menu-tabs_logo {
+  background-position: -0px -0px;
+  width: 123px;
+  height: 52px;
+}
+/* line 167, ../sass/home.scss */
+.main .menu-tabs_addit {
+  display: flex;
+  flex-direction: row;
+}
+/* line 170, ../sass/home.scss */
+.main .menu-tabs_addit_delivery {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #7F7873;
+}
+/* line 179, ../sass/home.scss */
+.main .menu-tabs_addit_delivery_item {
+  padding-right: 20px;
+}
+/* line 182, ../sass/home.scss */
+.main .menu-tabs_addit_delivery_item:last-child {
+  padding-right: 0;
+}
+/* line 188, ../sass/home.scss */
+.main .menu-tabs_addit_socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 192, ../sass/home.scss */
+.main .menu-tabs_addit_socials_item {
+  margin-right: 18px;
+}
+/* line 195, ../sass/home.scss */
+.main .menu-tabs_addit_socials_item:last-child {
+  margin-right: 0;
+}
+/* line 199, ../sass/home.scss */
+.main .menu-tabs_addit_socials .vk {
+  background-position: -5px -32px;
+  width: 17px;
+  height: 11px;
+}
+/* line 202, ../sass/home.scss */
+.main .menu-tabs_addit_socials .facebook {
+  background-position: -68px -5px;
+  width: 8px;
+  height: 16px;
+}
+/* line 205, ../sass/home.scss */
+.main .menu-tabs_addit_socials .twitter {
+  background-position: -5px -48px;
+  width: 16px;
+  height: 13px;
+}
+/* line 208, ../sass/home.scss */
+.main .menu-tabs_addit_socials .instagram {
+  background-position: -23px -5px;
+  width: 20px;
+  height: 20px;
+}
+/* line 211, ../sass/home.scss */
+.main .menu-tabs_addit_socials .pinterest {
+  background-position: -48px -5px;
+  width: 15px;
+  height: 18px;
+}
+/* line 217, ../sass/home.scss */
+.main .slider {
+  position: relative;
+}
+/* line 225, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  background: none;
+}
+/* line 232, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-prev {
+  display: inline-block;
+  float: left;
+  background: none;
+  width: 13px;
+  height: 22px;
+}
+/* line 240, ../sass/home.scss */
+.main .slider .owl-carousel .owl-nav .owl-next {
+  display: inline-block;
+  float: right;
+  background: none;
+  width: 13px;
+  height: 22px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+/* line 255, ../sass/home.scss */
+.main .slider-footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+/* line 259, ../sass/home.scss */
+.main .slider-footer_delivery {
+  height: 170px;
+  width: 600px;
+  background-color: #F7F6F2;
+  padding-bottom: 10px;
+  font-family: Ubuntu, sans-serif;
+  position: relative;
+}
+/* line 266, ../sass/home.scss */
+.main .slider-footer_delivery_main-text {
+  color: #EBE8DD;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 277, ../sass/home.scss */
+.main .slider-footer_delivery_secondary-text {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 287px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 288, ../sass/home.scss */
+.main .slider-footer_delivery_secondary-text_preorder {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+  width: 227px;
+  color: #231F20;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 299, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  top: 90%;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+/* line 308, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_left-dash, .main .slider-footer_delivery_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 314, ../sass/home.scss */
+.main .slider-footer_delivery_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+/* line 323, ../sass/home.scss */
+.main .slider-footer_delivery_img {
+  position: absolute;
+  bottom: 0;
+  right: 65px;
+}
+/* line 327, ../sass/home.scss */
+.main .slider-footer_delivery_img_right {
+  position: absolute;
+  top: 0;
+  right: 133px;
+}
+/* line 334, ../sass/home.scss */
+.main .slider-footer_rectangle {
+  background: url(img/Rectangle2.png) no-repeat;
+  height: 2px;
+  width: 101px;
+  transform: rotate(135deg);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 46%;
+}
+/* line 346, ../sass/home.scss */
+.main .content_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 0;
+}
+/* line 352, ../sass/home.scss */
+.main .content_menu_about {
+  background-position: -128px -0px;
+  width: 160px;
+  height: 39px;
+}
+/* line 370, ../sass/home.scss */
+.main .content_menu_other {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: UbuntuCondensed, sans-serif;
+}
+/* line 376, ../sass/home.scss */
+.main .content_menu_other_item {
+  color: #231F20;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 40px;
+}
+/* line 382, ../sass/home.scss */
+.main .content_menu_other_search {
+  background-position: -0px -189px;
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+}
+/* line 386, ../sass/home.scss */
+.main .content_menu_other_basket {
+  background-position: -50px -189px;
+  width: 19px;
+  height: 20px;
+}
+/* line 390, ../sass/home.scss */
+.main .content_menu_other_personality {
+  background-position: -270px -80px;
+  width: 16px;
+  height: 20px;
+  margin-right: 40px;
+}
+/* line 396, ../sass/home.scss */
+.main .instagram_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0 0 0;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 403, ../sass/home.scss */
+.main .instagram_content_item {
+  width: 263px;
+  height: 263px;
+  position: relative;
+}
+/* line 408, ../sass/home.scss */
+.main .instagram_content_item_main-text {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 76px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+/* line 420, ../sass/home.scss */
+.main .instagram_content .slider-footer_delivery_moreinfo-text {
+  width: 216px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+/* line 427, ../sass/home.scss */
+.main .main_map {
+  padding-top: 40px;
+  position: relative;
+}
+/* line 431, ../sass/home.scss */
+.main .main_map_buttons {
+  position: absolute;
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  font-family: Ubuntu, sans-serif;
+}
+/* line 442, ../sass/home.scss */
+.main .main_map_buttons_button {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 147px;
+  color: #FFFFFF;
+}
+/* line 451, ../sass/home.scss */
+.main .main_map_buttons_button_text {
+  padding: 12px 0 14px 20px;
+  background-color: rgba(35, 31, 32, 0.8);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+/* line 464, ../sass/home.scss */
+.main .main_map_buttons .active {
+  width: 187px;
+}
+/* line 467, ../sass/home.scss */
+.main .main_map_buttons .active .main_map_buttons_button_text {
+  padding: 17px 0 17px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #1A1718;
+}
+/* line 476, ../sass/home.scss */
+.main .subscribe_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #D9D5D2;
+  padding: 33px 0;
+}
+/* line 483, ../sass/home.scss */
+.main .subscribe_content_socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 488, ../sass/home.scss */
+.main .subscribe_content_socials_vk {
+  background-position: -0px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 492, ../sass/home.scss */
+.main .subscribe_content_socials_fb {
+  background-position: -216px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 496, ../sass/home.scss */
+.main .subscribe_content_socials_twit {
+  background-position: -54px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 500, ../sass/home.scss */
+.main .subscribe_content_socials_inst {
+  background-position: -162px -57px;
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+/* line 504, ../sass/home.scss */
+.main .subscribe_content_socials_pint {
+  background-position: -108px -57px;
+  width: 49px;
+  height: 49px;
+}
+/* line 508, ../sass/home.scss */
+.main .subscribe_content_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  align-items: center;
+}
+/* line 514, ../sass/home.scss */
+.main .subscribe_content_main_text {
+  color: #1A1718;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+/* line 520, ../sass/home.scss */
+.main .subscribe_content_main_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* line 524, ../sass/home.scss */
+.main .subscribe_content_main_form input[type=email] {
+  border: 1px solid #CCC8C4;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+/* line 537, ../sass/home.scss */
+.main .subscribe_content_main_form button {
+  height: 44px;
+  width: 147px;
+  border-radius: 2px;
+  background-color: #332C26;
+  border: none;
+  color: #FFFFFF;
+}
+/* line 548, ../sass/home.scss */
+.main .footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+}
+/* line 554, ../sass/home.scss */
+.main .footer_main {
+  display: flex;
+  flex-direction: row;
+  padding: 74px 0 32px;
+  width: 100%;
+  justify-content: space-between;
+}
+/* line 561, ../sass/home.scss */
+.main .footer_main_menu {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+}
+/* line 566, ../sass/home.scss */
+.main .footer_main_menu_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 571, ../sass/home.scss */
+.main .footer_main_menu_header_item {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 579, ../sass/home.scss */
+.main .footer_main_menu_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 12px 0 0;
+}
+/* line 584, ../sass/home.scss */
+.main .footer_main_menu_items_item {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 595, ../sass/home.scss */
+.main .footer_main_contacts {
+  display: flex;
+  flex-direction: column;
+}
+/* line 599, ../sass/home.scss */
+.main .footer_main_contacts_header {
+  font-size: 16px;
+  color: #231F20;
+  line-height: 16px;
+  font-family: Ubuntu, sans-serif;
+  padding-bottom: 15px;
+}
+/* line 608, ../sass/home.scss */
+.main .footer_main_contacts_blocks {
+  display: flex;
+  flex-direction: row;
+}
+/* line 614, ../sass/home.scss */
+.main .footer_main_contacts_blocks_items_item {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 26px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 621, ../sass/home.scss */
+.main .footer_main_contacts_blocks_items:first-child {
+  padding-right: 40px;
+}
+/* line 630, ../sass/home.scss */
+.main .footer_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 32px;
+}
+/* line 637, ../sass/home.scss */
+.main .footer_info_copyright {
+  font-size: 13px;
+  color: #7F7873;
+  line-height: 13px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  padding-right: 81px;
+  width: 249px;
+}
+/* line 648, ../sass/home.scss */
+.main .footer_info_payments {
+  display: flex;
+  flex-direction: row;
+  margin-right: 156px;
+  align-items: center;
+}
+/* line 654, ../sass/home.scss */
+.main .footer_info_payments_visa {
+  background-position: -218px -111px;
+  width: 41px;
+  height: 14px;
+  margin-right: 19px;
+}
+/* line 658, ../sass/home.scss */
+.main .footer_info_payments_american-express {
+  background-position: -89px -111px;
+  width: 58px;
+  height: 20px;
+  margin-right: 21px;
+}
+/* line 663, ../sass/home.scss */
+.main .footer_info_payments_master-card {
+  background-position: -39px -111px;
+  width: 45px;
+  height: 28px;
+  margin-right: 24px;
+}
+/* line 669, ../sass/home.scss */
+.main .footer_info_payments_paypal {
+  background-position: -152px -111px;
+  width: 61px;
+  height: 18px;
+}
+/* line 675, ../sass/home.scss */
+.main .footer_info_made-by {
+  display: flex;
+  flex-direction: row;
+}
+/* line 679, ../sass/home.scss */
+.main .footer_info_made-by_text {
+  font-size: 13px;
+  color: #1A1718;
+  line-height: 24px;
+  font-family: Ubuntu, sans-serif;
+  padding-right: 10px;
+}
+/* line 687, ../sass/home.scss */
+.main .footer_info_made-by_icon {
+  background-position: -0px -165px;
+  width: 45px;
+  height: 19px;
+}
+
+/* line 696, ../sass/home.scss */
+.main_content {
+  background-color: #F7F6F2;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 701, ../sass/home.scss */
+.main_content .content_corners {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 709, ../sass/home.scss */
+.main_content .content_corners_title {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 716, ../sass/home.scss */
+.main_content .content_corners_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 1200px;
+}
+/* line 722, ../sass/home.scss */
+.main_content .content_corners_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  border-radius: 0 0 4px 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+  position: relative;
+}
+/* line 730, ../sass/home.scss */
+.main_content .content_corners_items_item_img {
+  position: relative;
+}
+/* line 732, ../sass/home.scss */
+.main_content .content_corners_items_item_img .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 740, ../sass/home.scss */
+.main_content .content_corners_items_item_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 747, ../sass/home.scss */
+.main_content .content_corners_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 752, ../sass/home.scss */
+.main_content .content_corners_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 761, ../sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 775, ../sass/home.scss */
+.main_content .content_corners_items_item_content-kitchen_delimiter {
+  background-position: -27px -32px;
+  width: 9px;
+  height: 9px;
+}
+/* line 780, ../sass/home.scss */
+.main_content .content_corners_items_item-hover {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 782, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 55px 30px 55px;
+  position: absolute;
+  top: 0;
+}
+/* line 788, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main_text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 319px;
+}
+/* line 795, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 803, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item {
+  background-color: #1A1718;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+/* line 807, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item span {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 814, ../sass/home.scss */
+.main_content .content_corners_items_item-hover_main_checkin_item:last-child {
+  margin-right: 0;
+}
+/* line 824, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 830, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text_left-dash, .main_content .content_corners_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 836, ../sass/home.scss */
+.main_content .content_corners_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 849, ../sass/home.scss */
+.main_content_events {
+  background-color: #ffffff;
+  min-width: 1280px;
+}
+/* line 853, ../sass/home.scss */
+.main_content_events .content_events {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 861, ../sass/home.scss */
+.main_content_events .content_events_title {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/* line 868, ../sass/home.scss */
+.main_content_events .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 874, ../sass/home.scss */
+.main_content_events .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 30px 0;
+}
+/* line 883, ../sass/home.scss */
+.main_content_events .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 890, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 895, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 901, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 907, ../sass/home.scss */
+.main_content_events .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 918, ../sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 931, ../sass/home.scss */
+.main_content_events .content_events_items_item_content-kitchen_delimiter {
+  background-position: -27px -32px;
+  width: 9px;
+  height: 9px;
+}
+/* line 938, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 944, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text_left-dash, .main_content_events .content_events_moreinfo-text_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 950, ../sass/home.scss */
+.main_content_events .content_events_moreinfo-text_text {
+  margin: 0 10px;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* line 962, ../sass/home.scss */
+.app_content {
+  background: url(../images/phones_bg.png) right no-repeat;
+  height: 710px;
+  background-color: #F7F6F2;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 969, ../sass/home.scss */
+.app_content_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 100%;
+}
+/* line 975, ../sass/home.scss */
+.app_content_items_text {
+  font-family: Ubuntu, sans-serif;
+  padding: 212px 0;
+  position: relative;
+}
+/* line 979, ../sass/home.scss */
+.app_content_items_text_main {
+  color: #231F20;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  width: 442px;
+}
+/* line 986, ../sass/home.scss */
+.app_content_items_text_other {
+  color: #7F7873;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 400px;
+  padding: 20px 0 30px;
+}
+/* line 994, ../sass/home.scss */
+.app_content_items_text_download {
+  display: flex;
+  flex-direction: row;
+}
+/* line 998, ../sass/home.scss */
+.app_content_items_text_download_google {
+  background: url(../images/Playstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+  margin-right: 20px;
+}
+/* line 1005, ../sass/home.scss */
+.app_content_items_text_download_apple {
+  background: url(../images/Appstore.png) center no-repeat;
+  background-size: 100%;
+  height: 44px;
+  width: 149px;
+}
+/* line 1012, ../sass/home.scss */
+.app_content_items_text_logo {
+  background: url(../images/logo_N.png) no-repeat;
+  height: 212px;
+  width: 325px;
+  opacity: 0.2;
+  position: absolute;
+  top: 212px;
+}
+/* line 1020, ../sass/home.scss */
+.app_content_items_text_url {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 145px;
+}
+/* line 1025, ../sass/home.scss */
+.app_content_items_text_url a {
+  color: #332C26;
+  text-decoration: none;
+}
+/* line 1031, ../sass/home.scss */
+.app_content_items_img {
+  background: url(../images/phones.png) right bottom no-repeat;
+  width: 563px;
+}
+
+/* line 1039, ../sass/home.scss */
+.about_content {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+/* line 1044, ../sass/home.scss */
+.about_content_title {
+  position: relative;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  z-index: 1;
+  line-height: 44px;
+  margin: 0 auto;
+  width: 640px;
+  padding: 50px 0 0 0;
+}
+/* line 1056, ../sass/home.scss */
+.about_content_footer-grey {
+  position: absolute;
+  height: 273px;
+  width: 61px;
+  bottom: 0;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+/* line 1066, ../sass/home.scss */
+.about_content_column-grey {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  width: 266px;
+  height: 100%;
+  left: 697px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 1076, ../sass/home.scss */
+.about_content_number-logo {
+  background: url(../images/30.png) no-repeat;
+  width: 246px;
+  height: 206px;
+  position: absolute;
+  top: 35px;
+  left: 81px;
+  z-index: 0;
+}
+/* line 1085, ../sass/home.scss */
+.about_content_items {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 70px 104px 0 253px;
+  align-items: flex-start;
+}
+/* line 1093, ../sass/home.scss */
+.about_content_items_text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+/* line 1099, ../sass/home.scss */
+.about_content_items_text_header {
+  font-size: 26px;
+  line-height: 30px;
+  font-family: Ubuntu, sans-serif;
+  color: #7F7873;
+  text-align: left;
+  font-weight: 500;
+}
+/* line 1107, ../sass/home.scss */
+.about_content_items_text_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Ubuntu, sans-serif;
+  color: #7F7873;
+  text-align: left;
+  padding: 35px 0 40px 0;
+}
+/* line 1114, ../sass/home.scss */
+.about_content_items_text_description span:first-child {
+  padding-bottom: 10px;
+  display: block;
+}
+/* line 1120, ../sass/home.scss */
+.about_content_items_text_moreinfo {
+  display: flex;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+/* line 1126, ../sass/home.scss */
+.about_content_items_text_moreinfo_left-dash, .about_content_items_text_moreinfo_right-dash {
+  height: 2px;
+  width: 21px;
+  background-color: #CBBC9D;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 1132, ../sass/home.scss */
+.about_content_items_text_moreinfo_text {
+  margin: 0 10px;
+  font-family: Ubuntu, sans-serif;
+  color: #231F20;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 1145, ../sass/home.scss */
+.about_content_items_img {
+  background: url(../images/30eating.png) center no-repeat;
+  background-size: cover;
+  width: 396px;
+  height: 545px;
+  margin-left: 127px;
+}
+
+/* line 7, ../sass/restaurant.scss */
+.main .menu-tabs_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 13, ../sass/restaurant.scss */
+.main .menu-tabs_all_tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: UbuntuCondensed, sans-serif;
+}
+/* line 19, ../sass/restaurant.scss */
+.main .menu-tabs_all_tabs_item {
+  margin-right: 44px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+/* line 24, ../sass/restaurant.scss */
+.main .menu-tabs_all_tabs_item:last-child {
+  margin-right: 0;
+}
+/* line 28, ../sass/restaurant.scss */
+.main .menu-tabs_all_tabs_item_dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 36, ../sass/restaurant.scss */
+.main .menu-tabs_all_tabs .active {
+  color: #A67B2C;
+  border-bottom: 3px solid #DAC69C;
+}
+/* line 41, ../sass/restaurant.scss */
+.main .menu-tabs_all_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-right: 30px;
+  align-items: center;
+}
+/* line 48, ../sass/restaurant.scss */
+.main .menu-tabs_all_search input {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  width: 320px;
+  border-radius: 2px;
+  padding: 14px 5px;
+  border: none;
+  border-bottom: 1px solid #CCC8C4;
+}
+/* line 60, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_img {
+  background-position: -0px -189px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+/* line 65, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #FFFFFF;
+  z-index: 2;
+  padding-bottom: 13px;
+  width: 330px;
+  top: 44px;
+}
+/* line 76, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_title {
+  color: #B8903E;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  padding: 20px 15px 0;
+}
+/* line 84, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 1200px;
+}
+/* line 90, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 0 15px;
+  border-bottom: 1px solid #E6E3E1;
+}
+/* line 95, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_img {
+  position: relative;
+}
+/* line 97, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_img .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 105, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  padding: 17px 0 0;
+}
+/* line 112, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content_name {
+  color: #231F20;
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 2px;
+}
+/* line 118, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content_time {
+  color: #867F7B;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 127, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0 0 10px 0;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 138, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item {
+  padding: 0 10px;
+}
+/* line 141, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item:first-child {
+  padding-left: 0;
+}
+/* line 145, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
+  background-position: -68px -26px;
+  width: 5px;
+  height: 5px;
+}
+/* line 150, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 152, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 55px 30px 55px;
+  position: absolute;
+  top: 0;
+}
+/* line 158, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main_text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 319px;
+}
+/* line 165, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 173, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item {
+  background-color: #1A1718;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+/* line 177, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item span {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 184, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item:last-child {
+  margin-right: 0;
+}
+/* line 196, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_title {
+  color: #B8903E;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  padding: 20px 15px 0;
+}
+/* line 204, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 210, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 0 15px;
+  border-bottom: 1px solid #E6E3E1;
+}
+/* line 215, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_img {
+  position: relative;
+}
+/* line 217, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_img .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 225, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Ubuntu, sans-serif;
+  padding: 17px 0 0;
+}
+/* line 232, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content_name {
+  color: #231F20;
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 2px;
+}
+/* line 238, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 247, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0 0 10px 0;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 258, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item {
+  padding-left: 10px;
+}
+/* line 260, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:first-child {
+  border-right: 1px solid #7F7873;
+  padding-right: 10px;
+  padding-left: 0;
+}
+/* line 265, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:last-child {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-left: 140px;
+}
+/* line 274, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
+  background-position: -27px -32px;
+  width: 9px;
+  height: 9px;
+}
+/* line 279, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover {
+  font-family: Ubuntu, sans-serif;
+}
+/* line 281, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 55px 30px 55px;
+  position: absolute;
+  top: 0;
+}
+/* line 287, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main_text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #FFFFFF;
+  width: 319px;
+}
+/* line 294, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin-top: 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 302, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item {
+  background-color: #1A1718;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+/* line 306, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item span {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+}
+/* line 313, ../sass/restaurant.scss */
+.main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item:last-child {
+  margin-right: 0;
+}
+
+/* line 332, ../sass/restaurant.scss */
+.slider_wraper {
+  background-color: #E7E3E1;
+  padding: 30px 50px;
+}
+/* line 335, ../sass/restaurant.scss */
+.slider_wraper .slider {
+  position: relative;
+}
+/* line 338, ../sass/restaurant.scss */
+.slider_wraper .slider .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+/* line 344, ../sass/restaurant.scss */
+.slider_wraper .slider .owl-carousel .owl-nav .owl-prev {
+  display: inline-block;
+  float: left;
+  background: none;
+  width: 13px;
+  height: 22px;
+}
+/* line 352, ../sass/restaurant.scss */
+.slider_wraper .slider .owl-carousel .owl-nav .owl-next {
+  display: inline-block;
+  float: right;
+  background: none;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  width: 13px;
+  height: 22px;
+  margin-right: 10px;
+}
+/* line 366, ../sass/restaurant.scss */
+.slider_wraper .slider .item {
+  width: 280px;
+  height: 140px;
+  position: relative;
+}
+/* line 370, ../sass/restaurant.scss */
+.slider_wraper .slider .item_text {
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 386, ../sass/restaurant.scss */
+.main_content .content_corners_items_item {
+  margin-bottom: 0;
+}
+
+/* line 3, ../sass/events.scss */
+.wrapper {
+  background-color: #F8F5F5;
+  padding-bottom: 55px;
+}
+/* line 10, ../sass/events.scss */
+.wrapper .events_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 15, ../sass/events.scss */
+.wrapper .events_column_text {
+  background-color: #FFFFFF;
+  padding: 53px 50px 44px;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 20, ../sass/events.scss */
+.wrapper .events_column_text span {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 25, ../sass/events.scss */
+.wrapper .events_column_text_title {
+  color: #231F20;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  padding: 30px 0 20px;
+}
+/* line 34, ../sass/events.scss */
+.wrapper .events_column .content_events {
+  padding: 30px 0 0 33px;
+}
+/* line 36, ../sass/events.scss */
+.wrapper .events_column .content_events_title {
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-size: 24px;
+}
+/* line 42, ../sass/events.scss */
+.wrapper .events_column .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 48, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 20px 0 0;
+}
+/* line 57, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 64, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 69, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 75, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+/* line 81, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 92, ../sass/events.scss */
+.wrapper .events_column .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+
+/* line 5, ../sass/delivery.scss */
+.delivery_banner {
+  width: 100%;
+  background-image: url(../images/deliv_banner_bg.png);
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 13, ../sass/delivery.scss */
+.delivery_banner_header {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  padding: 69px 0 50px;
+}
+/* line 22, ../sass/delivery.scss */
+.delivery_banner_info {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+}
+/* line 28, ../sass/delivery.scss */
+.delivery_banner_info_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 334px;
+}
+/* line 35, ../sass/delivery.scss */
+.delivery_banner_info_block_circle {
+  width: 140px;
+  height: 140px;
+  background-color: #34393E;
+  border-radius: 100%;
+  margin-bottom: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 45, ../sass/delivery.scss */
+.delivery_banner_info_block_circle_time {
+  background-position: -25px -189px;
+  width: 20px;
+  height: 20px;
+}
+/* line 50, ../sass/delivery.scss */
+.delivery_banner_info_block_text {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+}
+/* line 63, ../sass/delivery.scss */
+.delivery_banner_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 40px;
+  margin-top: 35px;
+  background-color: #B68D39;
+}
+/* line 72, ../sass/delivery.scss */
+.delivery_banner_button_text {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 83, ../sass/delivery.scss */
+.delivery_info {
+  width: 100%;
+  background-color: #F8F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 50px 0 50px;
+}
+/* line 91, ../sass/delivery.scss */
+.delivery_info_breadcrumbs {
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: Ubuntu, sans-serif;
+  padding-bottom: 27px;
+}
+/* line 99, ../sass/delivery.scss */
+.delivery_info_overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* line 104, ../sass/delivery.scss */
+.delivery_info_overview_header {
+  color: #231F20;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  font-family: Ubuntu, sans-serif;
+  padding-bottom: 27px;
+}
+/* line 113, ../sass/delivery.scss */
+.delivery_info_overview_text {
+  color: #7F7873;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Ubuntu, sans-serif;
+  padding-bottom: 27px;
+  display: flex;
+  flex-direction: column;
+  height: 203px;
+  justify-content: space-between;
+}
+
+/* line 5, ../sass/about.scss */
+.about_container {
+  width: 1180px;
+  margin: 0 auto 40px;
+  padding: 50px 50px 0;
+  background-color: #F8F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* line 14, ../sass/about.scss */
+.about_container_nav {
+  width: 280px;
+  height: 235px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 25px;
+  box-shadow: inset 0 1px 0 0 #CCC8C4, inset 0 -1px 0 0 #CCC8C4, 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 24, ../sass/about.scss */
+.about_container_nav_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+  padding: 30px;
+  cursor: pointer;
+}
+/* line 32, ../sass/about.scss */
+.about_container_nav_item_text {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 41, ../sass/about.scss */
+.about_container_nav_item_icon {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 52, ../sass/about.scss */
+.about_container_nav .active .about_container_nav_item_text {
+  color: #A67B2C;
+}
+/* line 55, ../sass/about.scss */
+.about_container_nav .active .about_container_nav_item_icon {
+  color: #A67B2C;
+}
+/* line 61, ../sass/about.scss */
+.about_container_content {
+  display: flex;
+  flex-direction: column;
+}
+/* line 65, ../sass/about.scss */
+.about_container_content_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #FFFFFF;
+  width: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #E6E3E1;
+  align-items: flex-end;
+}
+/* line 78, ../sass/about.scss */
+.about_container_content_item_image {
+  width: 286px;
+  height: 160px;
+}
+/* line 82, ../sass/about.scss */
+.about_container_content_item_image img {
+  width: 286px;
+  height: 160px;
+}
+/* line 88, ../sass/about.scss */
+.about_container_content_item_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+/* line 95, ../sass/about.scss */
+.about_container_content_item_text_header {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 9px;
+}
+/* line 103, ../sass/about.scss */
+.about_container_content_item_text_overview {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 9px;
+}
+/* line 111, ../sass/about.scss */
+.about_container_content_item_text_date {
+  color: #A67B2C;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+/* line 121, ../sass/about.scss */
+.about_container_content_vacancy-form {
+  padding: 30px 60px 41px 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 57px;
+}
+/* line 130, ../sass/about.scss */
+.about_container_content_vacancy-form_header {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  padding-bottom: 16px;
+}
+/* line 139, ../sass/about.scss */
+.about_container_content_vacancy-form_text {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 146, ../sass/about.scss */
+.about_container_content_vacancy-form_form {
+  margin: 0 auto;
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+  padding-top: 20px;
+}
+/* line 156, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* line 164, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_label {
+  width: auto;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: right;
+}
+/* line 174, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group select {
+  width: 394px;
+  height: 44px;
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
+  padding-left: 20px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+}
+/* line 191, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_arrow {
+  position: absolute;
+  font-size: 24px;
+  z-index: 1;
+  top: 12px;
+  right: 17px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+/* line 202, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_input {
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  width: 371px;
+  height: 44px;
+  padding-left: 20px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 225, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_resume-label {
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  background-color: #7F7873;
+  padding: 15px 10px 13px 50px;
+  margin-right: 60px;
+  border-radius: 2px;
+}
+/* line 238, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+/* line 247, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_textarea {
+  height: 104px;
+  width: 371px;
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-top: 16px;
+  resize: none;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 263, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_submit {
+  height: 44px;
+  padding: 0 15px;
+  border-radius: 2px;
+  background-color: #332C26;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* line 283, ../sass/about.scss */
+.about_container_content_project {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 25px 30px 30px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #E6E3E1;
+  margin-bottom: 40px;
+}
+/* line 293, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_header {
+  width: 606px;
+  line-height: 42px;
+}
+/* line 298, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_text {
+  width: 770px;
+}
+/* line 300, ../sass/about.scss */
+.about_container_content_project .about_container_content_vacancy-form_text span:first-child {
+  margin-bottom: 25px;
+  display: block;
+}
+
+/* line 6, ../sass/contacts.scss */
+.contacts {
+  width: auto;
+  margin: 0 auto 40px;
+  background-color: #F8F5F5;
+  padding: 32px 50px 38px 50px;
+  display: flex;
+  flex-direction: column;
+}
+/* line 17, ../sass/contacts.scss */
+.contacts_info .delivery_info_overview_header {
+  padding-bottom: 0;
+}
+/* line 21, ../sass/contacts.scss */
+.contacts_info_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* line 27, ../sass/contacts.scss */
+.contacts_info_main_connections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* line 33, ../sass/contacts.scss */
+.contacts_info_main_connections_delivery {
+  padding-top: 70px;
+}
+/* line 38, ../sass/contacts.scss */
+.contacts_info_main_form {
+  padding: 23px 30px 30px 30px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 442px;
+  height: 388px;
+  margin-right: 67px;
+}
+/* line 47, ../sass/contacts.scss */
+.contacts_info_main_form_header {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  padding-bottom: 17px;
+}
+/* line 56, ../sass/contacts.scss */
+.contacts_info_main_form_rectangle {
+  height: 1px;
+  width: 442px;
+  background-color: #CCC8C4;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 63, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form {
+  width: 442px;
+  align-items: flex-start;
+  height: 330px;
+  justify-content: space-between;
+  padding-top: 19px;
+}
+/* line 69, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group {
+  width: 443px;
+}
+/* line 73, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group:last-child {
+  padding-bottom: 0;
+}
+/* line 79, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group_select {
+  width: 323px;
+}
+/* line 84, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group_input {
+  width: 300px;
+}
+/* line 89, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group_submit {
+  background-color: #4D4239;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: right;
+  font-weight: normal;
+}
+/* line 99, ../sass/contacts.scss */
+.contacts_info_main_form .about_container_content_vacancy-form_form_group_textarea {
+  width: 300px;
+  height: 84px;
+}
+/* line 115, ../sass/contacts.scss */
+.contacts_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+/* line 121, ../sass/contacts.scss */
+.contacts_all_block {
+  display: flex;
+  flex-direction: column;
+}
+/* line 125, ../sass/contacts.scss */
+.contacts_all_block .footer_main_contacts_header {
+  padding-bottom: 20px;
+}
+/* line 131, ../sass/contacts.scss */
+.contacts .subscribe_content_socials {
+  padding-top: 101px;
+  width: 285px;
+}
+
+/* line 139, ../sass/contacts.scss */
+.contacts-main .subscribe_content {
+  padding: 0 0 30px;
+}
+/* line 142, ../sass/contacts.scss */
+.contacts-main .subscribe_content .subscribe_content_socials {
+  padding-top: 0;
+}
+
+/*
+ *  Owl Carousel - Core
+ */
+/* line 4, ../sass/owlcarousel/_core.scss */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+/* line 12, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  -moz-backface-visibility: hidden;
+  /* fix firefox animation glitch */
+}
+/* line 18, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 27, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  /* fix for flashing background */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+/* line 34, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+/* line 44, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+/* line 52, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+/* line 57, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: none;
+}
+/* line 62, ../sass/owlcarousel/_core.scss */
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 74, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-loaded {
+  display: block;
+}
+/* line 78, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+/* line 83, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+/* line 87, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden;
+}
+/* line 91, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-drag .owl-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 98, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab;
+}
+/* line 103, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+/* line 107, ../sass/owlcarousel/_core.scss */
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+
+/* No Js */
+/* line 113, ../sass/owlcarousel/_core.scss */
+.no-js .owl-carousel {
+  display: block;
+}
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+/* line 5, ../sass/owlcarousel/_animate.scss */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+}
+/* line 9, ../sass/owlcarousel/_animate.scss */
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+/* line 12, ../sass/owlcarousel/_animate.scss */
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+/* line 15, ../sass/owlcarousel/_animate.scss */
+.owl-carousel .fadeOut {
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+/* line 5, ../sass/owlcarousel/_autoheight.scss */
+.owl-height {
+  transition: height 500ms ease-in-out;
+}
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+/* line 7, ../sass/owlcarousel/_lazyload.scss */
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+/* line 12, ../sass/owlcarousel/_lazyload.scss */
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d;
+}
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+/* line 6, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+/* line 12, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease;
+}
+/* line 27, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-play-icon:hover {
+  transform: scale(1.3, 1.3);
+}
+/* line 31, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none;
+}
+/* line 36, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease;
+}
+/* line 45, ../sass/owlcarousel/_video.scss */
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+/* line 4, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 9, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+/* line 19, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: #869791;
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 25, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 32, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+/* line 36, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 40, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+/* line 45, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+/* line 58, ../sass/owlcarousel/_theme.scss */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791;
+}
