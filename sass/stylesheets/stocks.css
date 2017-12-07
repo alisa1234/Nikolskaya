@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2074;
+}
+@font-face {
+  font-family: 'UbuntuCondensed';
+  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
+}
+/* line 5, ../sass/stocks.scss */
+.wrapper .stock {
+  padding: 0;
+  width: 100%;
+}
+/* line 9, ../sass/stocks.scss */
+.wrapper .stock img {
+  width: 1280px;
+}
+/* line 13, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #FFFFFF;
+}
+/* line 21, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 100;
+}
+/* line 30, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item {
+  margin-right: 44px;
+  text-transform: uppercase;
+  padding: 25px 0;
+}
+/* line 35, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item:last-child {
+  margin-right: 0;
+}
+/* line 39, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs_item_dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 46, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_tabs .active {
+  color: #A67B2C;
+  border-bottom: 3px solid #DAC69C;
+}
+/* line 52, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_calendar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 42px;
+  width: 138px;
+  font-family: Ubuntu, sans-serif;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+}
+/* line 68, ../sass/stocks.scss */
+.wrapper .stocks-menu-tabs-all_calendar_icon {
+  margin-right: 16px;
+}
+/* line 73, ../sass/stocks.scss */
+.wrapper .stocks_list {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #F8F5F5;
+  padding: 30px 50px 30px;
+}
+/* line 82, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events {
+  padding: 30px 0 0 33px;
+}
+/* line 84, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_title {
+  text-transform: uppercase;
+  font-family: Ubuntu, sans-serif;
+  font-size: 24px;
+}
+/* line 90, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* line 96, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item {
+  width: 380px;
+  border: 1px solid #E6E3E1;
+  background-color: #FFFFFF;
+  margin: 0 0 20px;
+}
+/* line 105, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content {
+  font-family: Ubuntu, sans-serif;
+  padding: 15px 20px 10px;
+}
+/* line 109, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_name {
+  color: #231F20;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 4px;
+}
+/* line 115, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_date {
+  color: #A67B2C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-bottom: 4px;
+  margin-bottom: 23px;
+}
+/* line 124, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content_time {
+  color: #867F7B;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px 7px;
+  border-radius: 2px;
+  background-color: #F7F6F2;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+/* line 136, ../sass/stocks.scss */
+.wrapper .stocks_list .content_events_items_item_content-kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 133px 20px 20px;
+  align-items: center;
+}
+/* line 156, ../sass/stocks.scss */
+.wrapper .stocks_show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 348px;
+  border-radius: 2px;
+  background-color: #4D4239;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
+}

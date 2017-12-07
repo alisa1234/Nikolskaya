@@ -341,7 +341,7 @@
   border-radius: 2px;
   background-color: #332C26;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  margin: 20px auto 0;
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
   font-size: 16px;
@@ -349,9 +349,8 @@
   line-height: 22px;
   text-align: center;
   cursor: pointer;
-  margin-top: 20px;
 }
-/* line 290, ../sass/about.scss */
+/* line 289, ../sass/about.scss */
 .about_container_content_project {
   display: flex;
   flex-direction: column;
@@ -362,16 +361,16 @@
   border: 1px solid #E6E3E1;
   margin-bottom: 40px;
 }
-/* line 300, ../sass/about.scss */
+/* line 299, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_header {
   width: 606px;
   line-height: 42px;
 }
-/* line 305, ../sass/about.scss */
+/* line 304, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text {
   width: 770px;
 }
-/* line 307, ../sass/about.scss */
+/* line 306, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text span:first-child {
   margin-bottom: 25px;
   display: block;
