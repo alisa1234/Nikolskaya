@@ -3,58 +3,94 @@
 %sprite {
     content: '';
     background: url("img/svg-sprite.svg") no-repeat;
-    background-size: 81px 66px;
+    background-size: 167px 147px;
     display: inline-block;
     .no-svg & {
         background-image: url("img/svg-sprite.png");
     }
 }
 
-@mixin sp__array {
+@mixin sp__pinterest_circle-white {
     @extend %sprite;
     background-position: -5px -5px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__vk_circle-white {
+    @extend %sprite;
+    background-position: -59px -5px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__facebook_circle-white {
+    @extend %sprite;
+    background-position: -5px -59px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__twitter_circle-white {
+    @extend %sprite;
+    background-position: -59px -59px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__instagram_circle-white {
+    @extend %sprite;
+    background-position: -113px -5px;
+    width: 49px;
+    height: 49px;
+}
+@mixin sp__array {
+    @extend %sprite;
+    background-position: -113px -59px;
     width: 13px;
     height: 22px;
 }
 @mixin sp__instagram {
     @extend %sprite;
-    background-position: -23px -5px;
+    background-position: -131px -59px;
     width: 20px;
+    height: 20px;
+}
+@mixin sp__file_icon {
+    @extend %sprite;
+    background-position: -113px -86px;
+    width: 15px;
     height: 20px;
 }
 @mixin sp__pinterest {
     @extend %sprite;
-    background-position: -48px -5px;
+    background-position: -133px -86px;
     width: 15px;
     height: 18px;
 }
 @mixin sp__vk {
     @extend %sprite;
-    background-position: -5px -32px;
+    background-position: -5px -113px;
     width: 17px;
     height: 11px;
 }
 @mixin sp__twitter {
     @extend %sprite;
-    background-position: -5px -48px;
+    background-position: -5px -129px;
     width: 16px;
     height: 13px;
 }
 @mixin sp__facebook {
     @extend %sprite;
-    background-position: -68px -5px;
+    background-position: -153px -86px;
     width: 8px;
     height: 16px;
 }
 @mixin sp__rectangle {
     @extend %sprite;
-    background-position: -27px -32px;
+    background-position: -27px -113px;
     width: 9px;
     height: 9px;
 }
 @mixin sp__rectangle_small {
     @extend %sprite;
-    background-position: -68px -26px;
+    background-position: -156px -59px;
     width: 5px;
     height: 5px;
 }

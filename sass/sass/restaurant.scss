@@ -9,6 +9,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      padding: 0 40px;
 
       &_tabs {
         display: flex;
@@ -382,7 +383,4 @@
       }
     }
   }
-}
-.main_content .content_corners_items_item {
-  margin-bottom: 0;
 }

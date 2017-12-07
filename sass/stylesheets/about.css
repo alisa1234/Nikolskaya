@@ -66,6 +66,18 @@
   font-family: 'UbuntuCondensed';
   src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
 }
+/* line 3, ../sass/_svg-sprite.scss */
+.about_container_content_vacancy-form_form_group_inputfile_icon {
+  content: '';
+  background: url("img/svg-sprite.svg") no-repeat;
+  background-size: 167px 147px;
+  display: inline-block;
+}
+/* line 8, ../sass/_svg-sprite.scss */
+.no-svg .about_container_content_vacancy-form_form_group_inputfile_icon {
+  background-image: url("img/svg-sprite.png");
+}
+
 /* line 5, ../sass/about.scss */
 .about_container {
   width: 1180px;
@@ -299,6 +311,14 @@
   z-index: -1;
 }
 /* line 247, ../sass/about.scss */
+.about_container_content_vacancy-form_form_group_inputfile_icon {
+  background-position: -113px -86px;
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  left: 163px;
+}
+/* line 254, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_textarea {
   height: 104px;
   width: 371px;
@@ -314,7 +334,7 @@
   font-size: 14px;
   line-height: 16px;
 }
-/* line 263, ../sass/about.scss */
+/* line 270, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_submit {
   height: 44px;
   padding: 0 15px;

@@ -70,7 +70,7 @@
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 81px 66px;
+  background-size: 167px 147px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -92,36 +92,37 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 40px;
 }
-/* line 13, ../sass/restaurant.scss */
+/* line 14, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-family: UbuntuCondensed, sans-serif;
 }
-/* line 19, ../sass/restaurant.scss */
+/* line 20, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs_item {
   margin-right: 44px;
   text-transform: uppercase;
   padding: 25px 0;
 }
-/* line 24, ../sass/restaurant.scss */
+/* line 25, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs_item:last-child {
   margin-right: 0;
 }
-/* line 28, ../sass/restaurant.scss */
+/* line 29, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs_item_dropdown {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 36, ../sass/restaurant.scss */
+/* line 37, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs .active {
   color: #A67B2C;
   border-bottom: 3px solid #DAC69C;
 }
-/* line 41, ../sass/restaurant.scss */
+/* line 42, ../sass/restaurant.scss */
 .main .menu-tabs_all_search {
   display: flex;
   flex-direction: row;
@@ -130,7 +131,7 @@
   margin-right: 30px;
   align-items: center;
 }
-/* line 48, ../sass/restaurant.scss */
+/* line 49, ../sass/restaurant.scss */
 .main .menu-tabs_all_search input {
   color: #7F7873;
   font-family: Ubuntu, sans-serif;
@@ -143,7 +144,7 @@
   border: none;
   border-bottom: 1px solid #CCC8C4;
 }
-/* line 60, ../sass/restaurant.scss */
+/* line 61, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_img {
   background-position: -0px -189px;
   width: 20px;
@@ -151,7 +152,7 @@
   position: absolute;
   right: 0;
 }
-/* line 65, ../sass/restaurant.scss */
+/* line 66, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result {
   display: flex;
   flex-direction: column;
@@ -162,7 +163,7 @@
   width: 330px;
   top: 44px;
 }
-/* line 76, ../sass/restaurant.scss */
+/* line 77, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_title {
   color: #B8903E;
   font-family: UbuntuCondensed, sans-serif;
@@ -171,7 +172,7 @@
   line-height: 13px;
   padding: 20px 15px 0;
 }
-/* line 84, ../sass/restaurant.scss */
+/* line 85, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items {
   display: flex;
   flex-direction: row;
@@ -179,25 +180,25 @@
   flex-wrap: wrap;
   min-width: 1200px;
 }
-/* line 90, ../sass/restaurant.scss */
+/* line 91, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item {
   background-color: #FFFFFF;
   position: relative;
   padding: 0 15px;
   border-bottom: 1px solid #E6E3E1;
 }
-/* line 95, ../sass/restaurant.scss */
+/* line 96, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_img {
   position: relative;
 }
-/* line 97, ../sass/restaurant.scss */
+/* line 98, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_img .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 105, ../sass/restaurant.scss */
+/* line 106, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content {
   display: flex;
   flex-direction: row;
@@ -205,14 +206,14 @@
   font-family: Ubuntu, sans-serif;
   padding: 17px 0 0;
 }
-/* line 112, ../sass/restaurant.scss */
+/* line 113, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content_name {
   color: #231F20;
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 2px;
 }
-/* line 118, ../sass/restaurant.scss */
+/* line 119, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content_time {
   color: #867F7B;
   font-size: 10px;
@@ -222,7 +223,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 127, ../sass/restaurant.scss */
+/* line 128, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -234,32 +235,32 @@
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 138, ../sass/restaurant.scss */
+/* line 139, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item {
   padding: 0 10px;
 }
-/* line 141, ../sass/restaurant.scss */
+/* line 142, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item:first-child {
   padding-left: 0;
 }
-/* line 145, ../sass/restaurant.scss */
+/* line 146, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
-  background-position: -68px -26px;
+  background-position: -156px -59px;
   width: 5px;
   height: 5px;
 }
-/* line 150, ../sass/restaurant.scss */
+/* line 151, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover {
   font-family: Ubuntu, sans-serif;
 }
-/* line 152, ../sass/restaurant.scss */
+/* line 153, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 55px 30px 55px;
   position: absolute;
   top: 0;
 }
-/* line 158, ../sass/restaurant.scss */
+/* line 159, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_text {
   font-size: 18px;
   font-weight: 500;
@@ -267,7 +268,7 @@
   color: #FFFFFF;
   width: 319px;
 }
-/* line 165, ../sass/restaurant.scss */
+/* line 166, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin {
   display: flex;
   flex-direction: row;
@@ -277,24 +278,24 @@
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 173, ../sass/restaurant.scss */
+/* line 174, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item {
   background-color: #1A1718;
   padding: 5px 10px;
   margin-right: 5px;
 }
-/* line 177, ../sass/restaurant.scss */
+/* line 178, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item span {
   color: #FFFFFF;
   font-size: 13px;
   line-height: 19px;
   text-align: center;
 }
-/* line 184, ../sass/restaurant.scss */
+/* line 185, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item:last-child {
   margin-right: 0;
 }
-/* line 196, ../sass/restaurant.scss */
+/* line 197, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_title {
   color: #B8903E;
   font-family: UbuntuCondensed, sans-serif;
@@ -303,32 +304,32 @@
   line-height: 13px;
   padding: 20px 15px 0;
 }
-/* line 204, ../sass/restaurant.scss */
+/* line 205, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* line 210, ../sass/restaurant.scss */
+/* line 211, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item {
   background-color: #FFFFFF;
   position: relative;
   padding: 0 15px;
   border-bottom: 1px solid #E6E3E1;
 }
-/* line 215, ../sass/restaurant.scss */
+/* line 216, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_img {
   position: relative;
 }
-/* line 217, ../sass/restaurant.scss */
+/* line 218, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_img .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 225, ../sass/restaurant.scss */
+/* line 226, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content {
   display: flex;
   flex-direction: row;
@@ -336,14 +337,14 @@
   font-family: Ubuntu, sans-serif;
   padding: 17px 0 0;
 }
-/* line 232, ../sass/restaurant.scss */
+/* line 233, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content_name {
   color: #231F20;
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 2px;
 }
-/* line 238, ../sass/restaurant.scss */
+/* line 239, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -353,7 +354,7 @@
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 247, ../sass/restaurant.scss */
+/* line 248, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -365,17 +366,17 @@
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 258, ../sass/restaurant.scss */
+/* line 259, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item {
   padding-left: 10px;
 }
-/* line 260, ../sass/restaurant.scss */
+/* line 261, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:first-child {
   border-right: 1px solid #7F7873;
   padding-right: 10px;
   padding-left: 0;
 }
-/* line 265, ../sass/restaurant.scss */
+/* line 266, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:last-child {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -384,24 +385,24 @@
   line-height: 18px;
   padding-left: 140px;
 }
-/* line 274, ../sass/restaurant.scss */
+/* line 275, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
-  background-position: -27px -32px;
+  background-position: -27px -113px;
   width: 9px;
   height: 9px;
 }
-/* line 279, ../sass/restaurant.scss */
+/* line 280, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover {
   font-family: Ubuntu, sans-serif;
 }
-/* line 281, ../sass/restaurant.scss */
+/* line 282, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 55px 30px 55px;
   position: absolute;
   top: 0;
 }
-/* line 287, ../sass/restaurant.scss */
+/* line 288, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_text {
   font-size: 18px;
   font-weight: 500;
@@ -409,7 +410,7 @@
   color: #FFFFFF;
   width: 319px;
 }
-/* line 294, ../sass/restaurant.scss */
+/* line 295, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin {
   display: flex;
   flex-direction: row;
@@ -419,41 +420,41 @@
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 302, ../sass/restaurant.scss */
+/* line 303, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item {
   background-color: #1A1718;
   padding: 5px 10px;
   margin-right: 5px;
 }
-/* line 306, ../sass/restaurant.scss */
+/* line 307, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item span {
   color: #FFFFFF;
   font-size: 13px;
   line-height: 19px;
   text-align: center;
 }
-/* line 313, ../sass/restaurant.scss */
+/* line 314, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item:last-child {
   margin-right: 0;
 }
 
-/* line 332, ../sass/restaurant.scss */
+/* line 333, ../sass/restaurant.scss */
 .slider_wraper {
   background-color: #E7E3E1;
   padding: 30px 50px;
 }
-/* line 335, ../sass/restaurant.scss */
+/* line 336, ../sass/restaurant.scss */
 .slider_wraper .slider {
   position: relative;
 }
-/* line 338, ../sass/restaurant.scss */
+/* line 339, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
 }
-/* line 344, ../sass/restaurant.scss */
+/* line 345, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav .owl-prev {
   display: inline-block;
   float: left;
@@ -461,7 +462,7 @@
   width: 13px;
   height: 22px;
 }
-/* line 352, ../sass/restaurant.scss */
+/* line 353, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav .owl-next {
   display: inline-block;
   float: right;
@@ -472,13 +473,13 @@
   height: 22px;
   margin-right: 10px;
 }
-/* line 366, ../sass/restaurant.scss */
+/* line 367, ../sass/restaurant.scss */
 .slider_wraper .slider .item {
   width: 280px;
   height: 140px;
   position: relative;
 }
-/* line 370, ../sass/restaurant.scss */
+/* line 371, ../sass/restaurant.scss */
 .slider_wraper .slider .item_text {
   font-family: Ubuntu, sans-serif;
   font-size: 18px;
@@ -491,9 +492,4 @@
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-}
-
-/* line 386, ../sass/restaurant.scss */
-.main_content .content_corners_items_item {
-  margin-bottom: 0;
 }

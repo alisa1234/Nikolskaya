@@ -33,6 +33,28 @@
         &_delivery {
           padding-top: 70px;
         }
+        &_subscribe_content_socials {
+          &_vk {
+            @include sp__vk_circle-white;
+
+          }
+          &_fb {
+            @include sp__facebook_circle-white;
+
+          }
+          &_twit {
+            @include sp__twitter-circle-white;
+
+          }
+          &_inst {
+            @include sp__instagram_circle-white;
+
+          }
+          &_pint {
+            @include sp__pinterest-circle-white;
+
+          }
+        }
       }
 
       &_form {
