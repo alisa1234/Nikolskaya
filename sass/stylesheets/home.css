@@ -70,7 +70,7 @@
 .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 167px 147px;
+  background-size: 191px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -324,31 +324,31 @@
 }
 /* line 199, ../sass/home.scss */
 .main .menu-tabs_addit_socials .vk {
-  background-position: -5px -113px;
+  background-position: -124px -93px;
   width: 17px;
   height: 11px;
 }
 /* line 202, ../sass/home.scss */
 .main .menu-tabs_addit_socials .facebook {
-  background-position: -153px -86px;
+  background-position: -178px -5px;
   width: 8px;
   height: 16px;
 }
 /* line 205, ../sass/home.scss */
 .main .menu-tabs_addit_socials .twitter {
-  background-position: -5px -129px;
+  background-position: -90px -84px;
   width: 16px;
   height: 13px;
 }
 /* line 208, ../sass/home.scss */
 .main .menu-tabs_addit_socials .instagram {
-  background-position: -131px -59px;
+  background-position: -70px -59px;
   width: 20px;
   height: 20px;
 }
 /* line 211, ../sass/home.scss */
 .main .menu-tabs_addit_socials .pinterest {
-  background-position: -133px -86px;
+  background-position: -70px -84px;
   width: 15px;
   height: 18px;
 }
@@ -945,7 +945,7 @@
 }
 /* line 777, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
-  background-position: -27px -113px;
+  background-position: -146px -93px;
   width: 9px;
   height: 9px;
 }
@@ -1107,7 +1107,7 @@
 }
 /* line 935, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
-  background-position: -27px -113px;
+  background-position: -146px -93px;
   width: 9px;
   height: 9px;
 }

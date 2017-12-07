@@ -70,7 +70,7 @@
 .about_container_content_vacancy-form_form_group_inputfile_icon {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 167px 147px;
+  background-size: 191px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -312,7 +312,7 @@
 }
 /* line 247, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_inputfile_icon {
-  background-position: -113px -86px;
+  background-position: -95px -59px;
   width: 15px;
   height: 20px;
   position: absolute;

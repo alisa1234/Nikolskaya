@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -128,19 +129,19 @@ input {
   src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
 }
 /* line 3, ../sass/_svg-sprite.scss */
-.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .about_container_content_vacancy-form_form_group_inputfile_icon, .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint {
+.main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .delivery_banner_info_block_circle_time, .delivery_banner_info_block_circle_currenсy, .delivery_banner_info_block_circle_card, .about_container_content_vacancy-form_form_group_inputfile_icon, .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 167px 147px;
+  background-size: 191px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
-.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .no-svg .about_container_content_vacancy-form_form_group_inputfile_icon, .no-svg .contacts_info_main_connections_subscribe_content_socials_vk, .no-svg .contacts_info_main_connections_subscribe_content_socials_fb, .no-svg .contacts_info_main_connections_subscribe_content_socials_twit, .no-svg .contacts_info_main_connections_subscribe_content_socials_inst, .no-svg .contacts_info_main_connections_subscribe_content_socials_pint {
+.no-svg .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .no-svg .vk, .no-svg .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .no-svg .facebook, .no-svg .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .no-svg .twitter, .no-svg .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .no-svg .instagram, .no-svg .main .menu-tabs_addit_socials .pinterest, .main .menu-tabs_addit_socials .no-svg .pinterest, .no-svg .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content .no-svg .content_corners_items_item_content-kitchen_delimiter, .no-svg .main_content_events .content_events_items_item_content-kitchen_delimiter, .main_content_events .no-svg .content_events_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .no-svg .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .main .no-svg .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .no-svg .delivery_banner_info_block_circle_time, .no-svg .delivery_banner_info_block_circle_currenсy, .no-svg .delivery_banner_info_block_circle_card, .no-svg .about_container_content_vacancy-form_form_group_inputfile_icon, .no-svg .contacts_info_main_connections_subscribe_content_socials_vk, .no-svg .contacts_info_main_connections_subscribe_content_socials_fb, .no-svg .contacts_info_main_connections_subscribe_content_socials_twit, .no-svg .contacts_info_main_connections_subscribe_content_socials_inst, .no-svg .contacts_info_main_connections_subscribe_content_socials_pint {
   background-image: url("img/svg-sprite.png");
 }
 
 /* line 1, ../sass/_png-sprite.scss */
-.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .menu-tabs_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon, .main .menu-tabs_all_search_img, .delivery_banner_info_block_circle_time {
+.main .header_adress_name_location, .main .header_adress_time_logo, .main .header_adress_language_triangle, .main .header_tabs_search_logo, .main .header_tabs_login_logo, .main .header_tabs_bucket_logo, .main .menu-tabs_logo, .main .content_menu_about, .main .content_menu_other_search, .main .content_menu_other_basket, .main .content_menu_other_personality, .main .subscribe_content_socials_vk, .main .subscribe_content_socials_fb, .main .subscribe_content_socials_twit, .main .subscribe_content_socials_inst, .main .subscribe_content_socials_pint, .main .footer_info_payments_visa, .main .footer_info_payments_american-express, .main .footer_info_payments_master-card, .main .footer_info_payments_paypal, .main .footer_info_made-by_icon, .main .menu-tabs_all_search_img {
   content: '';
   background: url("img/png-sprite.png") no-repeat;
   background-size: 288px 209px;
@@ -385,31 +386,31 @@ input {
 }
 /* line 199, ../sass/home.scss */
 .main .menu-tabs_addit_socials .vk {
-  background-position: -5px -113px;
+  background-position: -124px -93px;
   width: 17px;
   height: 11px;
 }
 /* line 202, ../sass/home.scss */
 .main .menu-tabs_addit_socials .facebook {
-  background-position: -153px -86px;
+  background-position: -178px -5px;
   width: 8px;
   height: 16px;
 }
 /* line 205, ../sass/home.scss */
 .main .menu-tabs_addit_socials .twitter {
-  background-position: -5px -129px;
+  background-position: -90px -84px;
   width: 16px;
   height: 13px;
 }
 /* line 208, ../sass/home.scss */
 .main .menu-tabs_addit_socials .instagram {
-  background-position: -131px -59px;
+  background-position: -70px -59px;
   width: 20px;
   height: 20px;
 }
 /* line 211, ../sass/home.scss */
 .main .menu-tabs_addit_socials .pinterest {
-  background-position: -133px -86px;
+  background-position: -70px -84px;
   width: 15px;
   height: 18px;
 }
@@ -1006,7 +1007,7 @@ input {
 }
 /* line 777, ../sass/home.scss */
 .main_content .content_corners_items_item_content-kitchen_delimiter {
-  background-position: -27px -113px;
+  background-position: -146px -93px;
   width: 9px;
   height: 9px;
 }
@@ -1168,7 +1169,7 @@ input {
 }
 /* line 935, ../sass/home.scss */
 .main_content_events .content_events_items_item_content-kitchen_delimiter {
-  background-position: -27px -113px;
+  background-position: -146px -93px;
   width: 9px;
   height: 9px;
 }
@@ -1564,7 +1565,7 @@ input {
 }
 /* line 146, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
-  background-position: -156px -59px;
+  background-position: -178px -26px;
   width: 5px;
   height: 5px;
 }
@@ -1706,7 +1707,7 @@ input {
 }
 /* line 275, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
-  background-position: -27px -113px;
+  background-position: -146px -93px;
   width: 9px;
   height: 9px;
 }
@@ -1998,11 +1999,23 @@ input {
 }
 /* line 45, ../sass/delivery.scss */
 .delivery_banner_info_block_circle_time {
-  background-position: -25px -189px;
-  width: 20px;
-  height: 20px;
+  background-position: -5px -52px;
+  width: 52px;
+  height: 52px;
 }
-/* line 50, ../sass/delivery.scss */
+/* line 48, ../sass/delivery.scss */
+.delivery_banner_info_block_circle_currenсy {
+  background-position: -124px -59px;
+  width: 22px;
+  height: 29px;
+}
+/* line 51, ../sass/delivery.scss */
+.delivery_banner_info_block_circle_card {
+  background-position: -5px -5px;
+  width: 60px;
+  height: 42px;
+}
+/* line 56, ../sass/delivery.scss */
 .delivery_banner_info_block_text {
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
@@ -2010,7 +2023,7 @@ input {
   font-weight: bold;
   line-height: 21px;
 }
-/* line 63, ../sass/delivery.scss */
+/* line 69, ../sass/delivery.scss */
 .delivery_banner_button {
   display: flex;
   justify-content: center;
@@ -2020,7 +2033,7 @@ input {
   margin-top: 35px;
   background-color: #B68D39;
 }
-/* line 72, ../sass/delivery.scss */
+/* line 78, ../sass/delivery.scss */
 .delivery_banner_button_text {
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
@@ -2028,7 +2041,7 @@ input {
   line-height: 18px;
 }
 
-/* line 83, ../sass/delivery.scss */
+/* line 89, ../sass/delivery.scss */
 .delivery_info {
   width: 100%;
   background-color: #F8F5F5;
@@ -2037,7 +2050,7 @@ input {
   justify-content: flex-start;
   padding: 30px 50px 0 50px;
 }
-/* line 91, ../sass/delivery.scss */
+/* line 97, ../sass/delivery.scss */
 .delivery_info_breadcrumbs {
   color: #7F7873;
   font-size: 13px;
@@ -2045,13 +2058,13 @@ input {
   font-family: Ubuntu, sans-serif;
   padding-bottom: 27px;
 }
-/* line 99, ../sass/delivery.scss */
+/* line 105, ../sass/delivery.scss */
 .delivery_info_overview {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-/* line 104, ../sass/delivery.scss */
+/* line 110, ../sass/delivery.scss */
 .delivery_info_overview_header {
   color: #231F20;
   font-size: 30px;
@@ -2060,7 +2073,7 @@ input {
   font-family: Ubuntu, sans-serif;
   padding-bottom: 27px;
 }
-/* line 113, ../sass/delivery.scss */
+/* line 119, ../sass/delivery.scss */
 .delivery_info_overview_text {
   color: #7F7873;
   font-size: 16px;
@@ -2307,7 +2320,7 @@ input {
 }
 /* line 247, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_inputfile_icon {
-  background-position: -113px -86px;
+  background-position: -95px -59px;
   width: 15px;
   height: 20px;
   position: absolute;
@@ -2380,31 +2393,31 @@ input {
 }
 /* line 37, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_vk {
-  background-position: -59px -5px;
+  background-position: -5px -109px;
   width: 49px;
   height: 49px;
 }
 /* line 41, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_fb {
-  background-position: -5px -59px;
+  background-position: -124px -5px;
   width: 49px;
   height: 49px;
 }
 /* line 45, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_twit {
-  background-position: -59px -59px;
+  background-position: -59px -109px;
   width: 49px;
   height: 49px;
 }
 /* line 49, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_inst {
-  background-position: -113px -5px;
+  background-position: -113px -109px;
   width: 49px;
   height: 49px;
 }
 /* line 53, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_pint {
-  background-position: -5px -5px;
+  background-position: -70px -5px;
   width: 49px;
   height: 49px;
 }

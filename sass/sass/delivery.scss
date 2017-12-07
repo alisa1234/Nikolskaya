@@ -43,7 +43,13 @@
         justify-content: center;
 
         &_time {
-          @include sp__time;
+          @include sp__time_icon;
+        }
+        &_currenсy {
+          @include sp__rub_icon;
+        }
+        &_card {
+          @include sp__card_icon;
         }
       }
 
