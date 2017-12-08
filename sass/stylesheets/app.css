@@ -1524,8 +1524,9 @@ input {
   padding-bottom: 13px;
   width: 330px;
   top: 44px;
+  left: 0;
 }
-/* line 79, ../sass/restaurant.scss */
+/* line 80, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_title {
   color: #B8903E;
   font-family: UbuntuCondensed, sans-serif;
@@ -1534,7 +1535,7 @@ input {
   line-height: 13px;
   padding: 20px 15px 0;
 }
-/* line 87, ../sass/restaurant.scss */
+/* line 88, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items {
   display: flex;
   flex-direction: row;
@@ -1542,25 +1543,25 @@ input {
   flex-wrap: wrap;
   min-width: 1200px;
 }
-/* line 93, ../sass/restaurant.scss */
+/* line 94, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item {
   background-color: #FFFFFF;
   position: relative;
   padding: 0 15px;
   border-bottom: 1px solid #E6E3E1;
 }
-/* line 98, ../sass/restaurant.scss */
+/* line 99, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_img {
   position: relative;
 }
-/* line 100, ../sass/restaurant.scss */
+/* line 101, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_img .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 108, ../sass/restaurant.scss */
+/* line 109, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content {
   display: flex;
   flex-direction: row;
@@ -1568,14 +1569,14 @@ input {
   font-family: Ubuntu, sans-serif;
   padding: 17px 0 0;
 }
-/* line 115, ../sass/restaurant.scss */
+/* line 116, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content_name {
   color: #231F20;
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 2px;
 }
-/* line 121, ../sass/restaurant.scss */
+/* line 122, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content_time {
   color: #867F7B;
   font-size: 10px;
@@ -1585,7 +1586,7 @@ input {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 130, ../sass/restaurant.scss */
+/* line 131, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -1597,32 +1598,32 @@ input {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 141, ../sass/restaurant.scss */
+/* line 142, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item {
   padding: 0 10px;
 }
-/* line 144, ../sass/restaurant.scss */
+/* line 145, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_item:first-child {
   padding-left: 0;
 }
-/* line 148, ../sass/restaurant.scss */
+/* line 149, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter {
   background-position: -178px -96px;
   width: 5px;
   height: 5px;
 }
-/* line 153, ../sass/restaurant.scss */
+/* line 154, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover {
   font-family: Ubuntu, sans-serif;
 }
-/* line 155, ../sass/restaurant.scss */
+/* line 156, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 55px 30px 55px;
   position: absolute;
   top: 0;
 }
-/* line 161, ../sass/restaurant.scss */
+/* line 162, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_text {
   font-size: 18px;
   font-weight: 500;
@@ -1630,7 +1631,7 @@ input {
   color: #FFFFFF;
   width: 319px;
 }
-/* line 168, ../sass/restaurant.scss */
+/* line 169, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin {
   display: flex;
   flex-direction: row;
@@ -1640,24 +1641,24 @@ input {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 176, ../sass/restaurant.scss */
+/* line 177, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item {
   background-color: #1A1718;
   padding: 5px 10px;
   margin-right: 5px;
 }
-/* line 180, ../sass/restaurant.scss */
+/* line 181, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item span {
   color: #FFFFFF;
   font-size: 13px;
   line-height: 19px;
   text-align: center;
 }
-/* line 187, ../sass/restaurant.scss */
+/* line 188, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_items_item-hover_main_checkin_item:last-child {
   margin-right: 0;
 }
-/* line 199, ../sass/restaurant.scss */
+/* line 200, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_title {
   color: #B8903E;
   font-family: UbuntuCondensed, sans-serif;
@@ -1666,32 +1667,32 @@ input {
   line-height: 13px;
   padding: 20px 15px 0;
 }
-/* line 207, ../sass/restaurant.scss */
+/* line 208, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* line 213, ../sass/restaurant.scss */
+/* line 214, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item {
   background-color: #FFFFFF;
   position: relative;
   padding: 0 15px;
   border-bottom: 1px solid #E6E3E1;
 }
-/* line 218, ../sass/restaurant.scss */
+/* line 219, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_img {
   position: relative;
 }
-/* line 220, ../sass/restaurant.scss */
+/* line 221, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_img .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 228, ../sass/restaurant.scss */
+/* line 229, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content {
   display: flex;
   flex-direction: row;
@@ -1699,14 +1700,14 @@ input {
   font-family: Ubuntu, sans-serif;
   padding: 17px 0 0;
 }
-/* line 235, ../sass/restaurant.scss */
+/* line 236, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content_name {
   color: #231F20;
   font-size: 13px;
   line-height: 13px;
   margin-bottom: 2px;
 }
-/* line 241, ../sass/restaurant.scss */
+/* line 242, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1716,7 +1717,7 @@ input {
   background-color: #F7F6F2;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
-/* line 250, ../sass/restaurant.scss */
+/* line 251, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -1728,17 +1729,17 @@ input {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 261, ../sass/restaurant.scss */
+/* line 262, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item {
   padding-left: 10px;
 }
-/* line 263, ../sass/restaurant.scss */
+/* line 264, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:first-child {
   border-right: 1px solid #7F7873;
   padding-right: 10px;
   padding-left: 0;
 }
-/* line 268, ../sass/restaurant.scss */
+/* line 269, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:last-child {
   color: #231F20;
   font-family: UbuntuCondensed, sans-serif;
@@ -1747,24 +1748,24 @@ input {
   line-height: 18px;
   padding-left: 140px;
 }
-/* line 277, ../sass/restaurant.scss */
+/* line 278, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter {
   background-position: -178px -82px;
   width: 9px;
   height: 9px;
 }
-/* line 282, ../sass/restaurant.scss */
+/* line 283, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover {
   font-family: Ubuntu, sans-serif;
 }
-/* line 284, ../sass/restaurant.scss */
+/* line 285, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 55px 30px 55px;
   position: absolute;
   top: 0;
 }
-/* line 290, ../sass/restaurant.scss */
+/* line 291, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_text {
   font-size: 18px;
   font-weight: 500;
@@ -1772,7 +1773,7 @@ input {
   color: #FFFFFF;
   width: 319px;
 }
-/* line 297, ../sass/restaurant.scss */
+/* line 298, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin {
   display: flex;
   flex-direction: row;
@@ -1782,41 +1783,41 @@ input {
   align-items: center;
   font-family: Ubuntu, sans-serif;
 }
-/* line 305, ../sass/restaurant.scss */
+/* line 306, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item {
   background-color: #1A1718;
   padding: 5px 10px;
   margin-right: 5px;
 }
-/* line 309, ../sass/restaurant.scss */
+/* line 310, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item span {
   color: #FFFFFF;
   font-size: 13px;
   line-height: 19px;
   text-align: center;
 }
-/* line 316, ../sass/restaurant.scss */
+/* line 317, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item-hover_main_checkin_item:last-child {
   margin-right: 0;
 }
 
-/* line 335, ../sass/restaurant.scss */
+/* line 336, ../sass/restaurant.scss */
 .slider_wraper {
   background-color: #E7E3E1;
   padding: 30px 50px;
 }
-/* line 338, ../sass/restaurant.scss */
+/* line 339, ../sass/restaurant.scss */
 .slider_wraper .slider {
   position: relative;
 }
-/* line 341, ../sass/restaurant.scss */
+/* line 342, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
 }
-/* line 347, ../sass/restaurant.scss */
+/* line 348, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav .owl-prev {
   display: inline-block;
   float: left;
@@ -1824,7 +1825,7 @@ input {
   width: 13px;
   height: 22px;
 }
-/* line 355, ../sass/restaurant.scss */
+/* line 356, ../sass/restaurant.scss */
 .slider_wraper .slider .owl-carousel .owl-nav .owl-next {
   display: inline-block;
   float: right;
@@ -1835,13 +1836,13 @@ input {
   height: 22px;
   margin-right: 10px;
 }
-/* line 369, ../sass/restaurant.scss */
+/* line 370, ../sass/restaurant.scss */
 .slider_wraper .slider .item {
   width: 280px;
   height: 140px;
   position: relative;
 }
-/* line 373, ../sass/restaurant.scss */
+/* line 374, ../sass/restaurant.scss */
 .slider_wraper .slider .item_text {
   font-family: Ubuntu, sans-serif;
   font-size: 18px;
@@ -1890,33 +1891,34 @@ input {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 40px;
+  width: 1200px;
 }
-/* line 35, ../sass/events.scss */
+/* line 36, ../sass/events.scss */
 .wrapper .events_column_text {
   background-color: #FFFFFF;
   padding: 53px 50px 44px;
   font-family: Ubuntu, sans-serif;
 }
-/* line 40, ../sass/events.scss */
+/* line 41, ../sass/events.scss */
 .wrapper .events_column_text_collage {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
 }
-/* line 48, ../sass/events.scss */
+/* line 49, ../sass/events.scss */
 .wrapper .events_column_text_collage_item:last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 56, ../sass/events.scss */
+/* line 57, ../sass/events.scss */
 .wrapper .events_column_text span {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
 }
-/* line 61, ../sass/events.scss */
+/* line 62, ../sass/events.scss */
 .wrapper .events_column_text_title {
   color: #231F20;
   font-size: 18px;
@@ -1924,17 +1926,17 @@ input {
   line-height: 21px;
   padding: 30px 0 20px;
 }
-/* line 70, ../sass/events.scss */
+/* line 71, ../sass/events.scss */
 .wrapper .events_column .content_events {
   padding: 30px 0 0 33px;
 }
-/* line 72, ../sass/events.scss */
+/* line 73, ../sass/events.scss */
 .wrapper .events_column .content_events_title {
   text-transform: uppercase;
   font-family: Ubuntu, sans-serif;
   font-size: 24px;
 }
-/* line 78, ../sass/events.scss */
+/* line 79, ../sass/events.scss */
 .wrapper .events_column .content_events_items {
   display: flex;
   flex-direction: row;
@@ -1942,7 +1944,7 @@ input {
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 84, ../sass/events.scss */
+/* line 85, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -1950,36 +1952,36 @@ input {
   margin: 20px 0 0;
   cursor: pointer;
 }
-/* line 91, ../sass/events.scss */
+/* line 92, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_img img {
   width: 380px;
 }
-/* line 97, ../sass/events.scss */
+/* line 98, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 104, ../sass/events.scss */
+/* line 105, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
 }
-/* line 109, ../sass/events.scss */
+/* line 110, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
 }
-/* line 115, ../sass/events.scss */
+/* line 116, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 121, ../sass/events.scss */
+/* line 122, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -1991,7 +1993,7 @@ input {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 132, ../sass/events.scss */
+/* line 133, ../sass/events.scss */
 .wrapper .events_column .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -2092,12 +2094,12 @@ input {
 
 /* line 87, ../sass/delivery.scss */
 .delivery_info {
-  width: 1230px;
+  width: 1180px;
   background-color: #F8F5F5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 30px 0 0 50px;
+  padding: 30px 50px 0 50px;
 }
 /* line 95, ../sass/delivery.scss */
 .delivery_info_breadcrumbs {
@@ -2135,24 +2137,23 @@ input {
   border: 1px solid #E6E3E1;
   border-radius: 2px;
   background-color: #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   font-family: Ubuntu, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 134, ../sass/delivery.scss */
+/* line 133, ../sass/delivery.scss */
 .delivery_info_overview_header_showmore span {
   color: #231F20;
   font-size: 14px;
   line-height: 16px;
 }
-/* line 139, ../sass/delivery.scss */
+/* line 138, ../sass/delivery.scss */
 .delivery_info_overview_header_showmore span:before {
   content: '↓';
   padding-right: 10px;
 }
-/* line 149, ../sass/delivery.scss */
+/* line 148, ../sass/delivery.scss */
 .delivery_info_overview_text {
   color: #7F7873;
   font-size: 16px;
@@ -2167,30 +2168,32 @@ input {
 
 /* line 5, ../sass/about.scss */
 .about_container {
+  width: 1180px;
+  margin: 0 auto 40px;
   padding: 50px 50px 0;
   background-color: #F8F5F5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-/* line 15, ../sass/about.scss */
+/* line 14, ../sass/about.scss */
 .about_container_nav {
-  width: 280px;
-  height: 235px;
+  height: 160px;
   background-color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-right: 25px;
+  width: 230px;
+  padding: 30px 20px 30px 30px;
 }
-/* line 25, ../sass/about.scss */
+/* line 21, ../sass/about.scss */
 .about_container_nav_item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 220px;
-  padding: 30px;
   cursor: pointer;
+  margin-bottom: 52px;
+}
+/* line 28, ../sass/about.scss */
+.about_container_nav_item:last-child {
+  margin-bottom: 0;
 }
 /* line 33, ../sass/about.scss */
 .about_container_nav_item_text {
@@ -2228,31 +2231,25 @@ input {
   justify-content: space-between;
   padding: 20px;
   background-color: #FFFFFF;
-  width: auto;
   margin-bottom: 20px;
   border-radius: 0 0 4px 4px;
   border: 1px solid #E6E3E1;
   align-items: flex-end;
 }
-/* line 78, ../sass/about.scss */
-.about_container_content_item_image {
-  width: 286px;
-  height: 160px;
-}
-/* line 82, ../sass/about.scss */
+/* line 79, ../sass/about.scss */
 .about_container_content_item_image img {
   width: 286px;
   height: 160px;
 }
-/* line 88, ../sass/about.scss */
+/* line 85, ../sass/about.scss */
 .about_container_content_item_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   padding-left: 30px;
   padding-right: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 475px;
 }
-/* line 95, ../sass/about.scss */
+/* line 92, ../sass/about.scss */
 .about_container_content_item_text_header {
   color: #231F20;
   font-family: Ubuntu, sans-serif;
@@ -2260,7 +2257,7 @@ input {
   line-height: 21px;
   padding-bottom: 9px;
 }
-/* line 103, ../sass/about.scss */
+/* line 100, ../sass/about.scss */
 .about_container_content_item_text_overview {
   color: #7F7873;
   font-family: Ubuntu, sans-serif;
@@ -2268,7 +2265,7 @@ input {
   line-height: 24px;
   padding-bottom: 9px;
 }
-/* line 111, ../sass/about.scss */
+/* line 108, ../sass/about.scss */
 .about_container_content_item_text_date {
   color: #A67B2C;
   font-family: Ubuntu, sans-serif;
@@ -2276,7 +2273,7 @@ input {
   font-weight: 500;
   line-height: 16px;
 }
-/* line 121, ../sass/about.scss */
+/* line 118, ../sass/about.scss */
 .about_container_content_vacancy-form {
   padding: 30px 60px 41px 30px;
   background-color: #FFFFFF;
@@ -2285,7 +2282,7 @@ input {
   justify-content: flex-start;
   margin-bottom: 57px;
 }
-/* line 129, ../sass/about.scss */
+/* line 126, ../sass/about.scss */
 .about_container_content_vacancy-form_header {
   color: #231F20;
   font-family: Ubuntu, sans-serif;
@@ -2294,14 +2291,15 @@ input {
   line-height: 35px;
   padding-bottom: 16px;
 }
-/* line 138, ../sass/about.scss */
+/* line 135, ../sass/about.scss */
 .about_container_content_vacancy-form_text {
   color: #7F7873;
   font-family: Ubuntu, sans-serif;
   font-size: 16px;
   line-height: 24px;
+  width: 740px;
 }
-/* line 145, ../sass/about.scss */
+/* line 143, ../sass/about.scss */
 .about_container_content_vacancy-form_form {
   margin: 0 auto;
   display: flex;
@@ -2310,7 +2308,7 @@ input {
   justify-content: space-between;
   padding-top: 20px;
 }
-/* line 155, ../sass/about.scss */
+/* line 151, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group {
   position: relative;
   display: flex;
@@ -2320,7 +2318,7 @@ input {
   width: 100%;
   margin-top: 10px;
 }
-/* line 164, ../sass/about.scss */
+/* line 160, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_label {
   color: #231F20;
   font-family: Ubuntu, sans-serif;
@@ -2329,7 +2327,7 @@ input {
   line-height: 22px;
   text-align: right;
 }
-/* line 174, ../sass/about.scss */
+/* line 169, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group select {
   padding: 13px 20px;
   width: 395px;
@@ -2344,7 +2342,7 @@ input {
   cursor: pointer;
   outline: none;
 }
-/* line 190, ../sass/about.scss */
+/* line 185, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_arrow {
   position: absolute;
   font-size: 24px;
@@ -2354,7 +2352,7 @@ input {
   transform: rotate(90deg);
   cursor: pointer;
 }
-/* line 201, ../sass/about.scss */
+/* line 196, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_input {
   border: 1px solid #E6E3E1;
   border-radius: 2px;
@@ -2365,7 +2363,7 @@ input {
   font-size: 14px;
   line-height: 16px;
 }
-/* line 212, ../sass/about.scss */
+/* line 207, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_resume-label {
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
@@ -2377,7 +2375,7 @@ input {
   margin-right: 60px;
   border-radius: 2px;
 }
-/* line 225, ../sass/about.scss */
+/* line 220, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_inputfile {
   width: 0.1px;
   height: 0.1px;
@@ -2386,7 +2384,7 @@ input {
   position: absolute;
   z-index: -1;
 }
-/* line 234, ../sass/about.scss */
+/* line 229, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_inputfile_icon {
   background-position: -95px -59px;
   width: 15px;
@@ -2394,7 +2392,7 @@ input {
   position: absolute;
   left: 158px;
 }
-/* line 241, ../sass/about.scss */
+/* line 236, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_textarea {
   margin-left: 33px;
   width: 361px;
@@ -2409,7 +2407,7 @@ input {
   line-height: 16px;
   outline: none;
 }
-/* line 256, ../sass/about.scss */
+/* line 251, ../sass/about.scss */
 .about_container_content_vacancy-form_form_group_submit {
   height: 44px;
   padding: 0 15px;
@@ -2425,7 +2423,7 @@ input {
   cursor: pointer;
   outline: none;
 }
-/* line 275, ../sass/about.scss */
+/* line 270, ../sass/about.scss */
 .about_container_content_project {
   display: flex;
   flex-direction: column;
@@ -2435,16 +2433,16 @@ input {
   border: 1px solid #E6E3E1;
   margin-bottom: 40px;
 }
-/* line 284, ../sass/about.scss */
+/* line 279, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_header {
   width: 606px;
   line-height: 42px;
 }
-/* line 289, ../sass/about.scss */
+/* line 284, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text {
   width: 770px;
 }
-/* line 291, ../sass/about.scss */
+/* line 286, ../sass/about.scss */
 .about_container_content_project .about_container_content_vacancy-form_text span:first-child {
   margin-bottom: 25px;
   display: block;
