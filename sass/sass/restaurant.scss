@@ -21,6 +21,7 @@
           margin-right: 44px;
           text-transform: uppercase;
           padding:25px 0;
+          cursor: pointer;
 
           &:last-child {
             margin-right: 0;
@@ -62,6 +63,7 @@
           @include sp__Search;
           position: absolute;
           right: 0;
+          cursor: pointer;
         }
         &_result {
           display: flex;

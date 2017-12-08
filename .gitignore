@@ -1,3 +1,5 @@
 node_modules/*
 .idea/*
 index.html
+.sass-cache
+sass/.sass-cache

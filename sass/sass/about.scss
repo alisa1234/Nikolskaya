@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 25px;
-    box-shadow: inset 0 1px 0 0 #CCC8C4, inset 0 -1px 0 0 #CCC8C4, 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
 
     &_item {
       display: flex;
@@ -70,7 +70,6 @@
       background-color: #FFFFFF;
       width: auto;
       margin-bottom: 20px;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
       border-radius: 0 0 4px 4px;
       border: 1px solid #E6E3E1;
       align-items: flex-end;
@@ -124,7 +123,6 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
       margin-bottom: 57px;
 
       &_header {
@@ -145,12 +143,12 @@
 
       &_form {
         margin: 0 auto;
-        width: 535px;
+        //width: 535px;px
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 450px;
+        //height: 450px;
         padding-top: 20px;
 
         &_group {
@@ -160,9 +158,10 @@
           justify-content: space-between;
           align-items: center;
           width: 100%;
+          margin-top: 10px;
 
           &_label {
-            width: auto;
+            //width: auto;
             color: #231F20;
             font-family: $font_ubuntu;
             font-size: 16px;
@@ -172,19 +171,18 @@
           }
 
           select {
-            width: 394px;
-            height: 44px;
+            padding: 13px 20px;
+            width: 395px;
             border: 1px solid #E6E3E1;
-            border-radius: 2px;
             background-color: #FFFFFF;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            border-radius: 2px;
             -webkit-appearance: none;
-            padding-left: 20px;
             color: #231F20;
             font-family: $font_ubuntu;
             font-size: 14px;
             line-height: 16px;
             cursor: pointer;
+            outline: none;
 
           }
 
@@ -202,24 +200,12 @@
           &_input {
             border: 1px solid #E6E3E1;
             border-radius: 2px;
-            background-color: #FFFFFF;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-            width: 371px;
-            height: 44px;
-            padding-left: 20px;
+            padding: 13px 20px;
+            width: 353px;
             color: #231F20;
             font-family: $font_ubuntu;
             font-size: 14px;
             line-height: 16px;
-
-
-
-            //&::placeholder {
-            //  color: #7F7873;
-            //  font-family: $font_ubuntu;
-            //  font-size: 14px;
-            //  line-height: 16px;
-            //}
           }
 
           &_resume-label {
@@ -247,24 +233,23 @@
             &_icon {
               @include sp__file_icon;
               position: absolute;
-              left: 163px;
+              left: 158px;
             }
           }
 
           &_textarea {
-            height: 104px;
-            width: 371px;
+            margin-left: 33px;
+            width: 361px;
+            height: 82px;
             border: 1px solid #E6E3E1;
             border-radius: 2px;
-            background-color: #FFFFFF;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-            padding-left: 20px;
-            padding-top: 16px;
+            padding: 20px 16px 0;
             resize: none;
             color: #231F20;
             font-family: $font_ubuntu;
             font-size: 14px;
             line-height: 16px;
+            outline: none;
           }
 
           &_submit {
@@ -272,7 +257,6 @@
             padding: 0 15px;
             border-radius: 2px;
             background-color: #332C26;
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
             margin: 20px auto 0;
             color: #FFFFFF;
             font-family: $font_ubuntu;
@@ -281,6 +265,7 @@
             line-height: 22px;
             text-align: center;
             cursor: pointer;
+            outline: none;
           }
         }
       }
@@ -291,7 +276,6 @@
       flex-direction: column;
       background-color: #FFFFFF;
       padding: 25px 30px 30px;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
       border-radius: 0 0 4px 4px;
       border: 1px solid #E6E3E1;
       margin-bottom: 40px;

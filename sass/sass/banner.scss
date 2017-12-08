@@ -34,6 +34,7 @@
           padding: 4px 8px;
           color: #B3AFAB;
           margin: 20px 0;
+        cursor: pointer;
       }
       &_img {
         img {
@@ -49,7 +50,6 @@
       }
     }
     &_close {
-
       width: 50px;
       height: 50px;
       background-color: #B8903E;
@@ -57,6 +57,7 @@
       top: -25px;
       right: -25px;
       border-radius: 50%;
+      cursor: pointer;
 
       &_icon {
         @include sp__close;

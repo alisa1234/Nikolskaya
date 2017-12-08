@@ -118,19 +118,20 @@
   padding: 4px 8px;
   color: #B3AFAB;
   margin: 20px 0;
+  cursor: pointer;
 }
-/* line 39, ../sass/banner.scss */
+/* line 40, ../sass/banner.scss */
 .wrapper_banner .banner_main_content_img img {
   width: 100%;
 }
-/* line 44, ../sass/banner.scss */
+/* line 45, ../sass/banner.scss */
 .wrapper_banner .banner_main_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   margin-top: 40px;
 }
-/* line 51, ../sass/banner.scss */
+/* line 52, ../sass/banner.scss */
 .wrapper_banner .banner_main_close {
   width: 50px;
   height: 50px;
@@ -139,8 +140,9 @@
   top: -25px;
   right: -25px;
   border-radius: 50%;
+  cursor: pointer;
 }
-/* line 61, ../sass/banner.scss */
+/* line 62, ../sass/banner.scss */
 .wrapper_banner .banner_main_close_icon {
   background-position: -90px -84px;
   width: 17px;
@@ -150,7 +152,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 71, ../sass/banner.scss */
+/* line 72, ../sass/banner.scss */
 .wrapper_banner:before {
   content: '';
   display: block;

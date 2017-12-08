@@ -4,7 +4,7 @@
 
 
 .contacts {
-  width: auto;
+  //width: auto;
   margin: 0 auto 40px;
   background-color: #F8F5F5;
   padding: 32px 50px 38px 50px;
@@ -62,8 +62,8 @@
         background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
-        width: 442px;
-        height: 388px;
+        //width: 442px;442
+        //height: 388px;
         margin-right: 67px;
 
         &_header {
@@ -73,23 +73,24 @@
           font-weight: 500;
           line-height: 21px;
           padding-bottom: 17px;
+          border-bottom: 1px solid #CCC8C4;
         }
 
         &_rectangle {
           height: 1px;
           width: 442px;
           background-color: #CCC8C4;
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+          //box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
         }
 
         .about_container_content_vacancy-form_form {
-          width: 442px;
+          //width: 442px;
           align-items: flex-start;
-          height: 330px;
+          //height: 330px;
           justify-content: space-between;
           padding-top: 19px;
           &_group {
-            width: 443px;
+            //width: 443px;
             //padding-bottom: 10px;
 
             &:last-child {
@@ -99,12 +100,12 @@
 
             }
             &_select {
-              width: 323px;
+              width: 320px;
 
             }
 
             &_input {
-              width: 300px;
+              width: 278px;
 
             }
 
@@ -119,8 +120,8 @@
             }
 
             &_textarea {
-              width: 300px;
-              height: 84px;
+              width: 285px;
+              height: 62px;
             }
           }
         }

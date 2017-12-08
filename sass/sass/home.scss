@@ -86,7 +86,8 @@
         padding-right: 20px;
         &_logo {
           @include sp__search_small;
-          margin-right: 10px
+          margin-right: 10px;
+          cursor: pointer;
         }
         input {
           height: 17px;
@@ -104,6 +105,7 @@
         flex-direction: row;
         align-items: center;
         padding-right: 30px;
+        cursor: pointer;
         &_logo {
           @include sp__user_small;
           margin-right: 10px
@@ -121,6 +123,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        cursor: pointer;
         &_logo {
           @include sp__basket_small;
           margin-right: 10px;
@@ -155,6 +158,7 @@
       text-transform: uppercase;
       &_item {
         padding-right: 40px;
+        cursor: pointer;
 
         &:last-child {
           padding-right: 0;
@@ -178,6 +182,7 @@
         color: #7F7873;
         &_item {
           padding-right: 20px;
+          cursor: pointer;
 
           &:last-child {
             padding-right: 0;
@@ -191,6 +196,7 @@
         align-items: center;
         &_item {
           margin-right: 18px;
+          cursor: pointer;
 
           &:last-child {
             margin-right: 0;
@@ -301,12 +307,13 @@
         }
         &_moreinfo-text {
           display: flex;
-          width: 200px;
+          width: auto;
           align-items: center;
           top: 90%;
           position: absolute;
-          left: 55%;
+          left: 50%;
           transform: translate(-50%, -50%);
+          cursor: pointer;
 
           &_left-dash, &_right-dash {
             height: 2px;
@@ -355,21 +362,6 @@
     padding: 37px 40px;
     &_about {
       @include sp__Logo1;
-      //font-family: $font_underground;
-      //
-      //&_logo-text {
-      //  color: #231F20;
-      //  font-size: 22px;
-      //  font-weight: 500;
-      //  line-height: 27px;
-      //}
-      //&_text {
-      //  color: #C9BA9B;
-      //  font-size: 16px;
-      //  font-weight: 500;
-      //  line-height: 19px;
-      //  text-align: right;
-      //}
     }
     &_other {
       display: flex;
@@ -382,18 +374,22 @@
         font-size: 16px;
         line-height: 18px;
         margin-right: 40px;
+        cursor: pointer;
       }
       &_search {
         @include sp__Search;
         margin-right: 40px;
+        cursor: pointer;
       }
       &_basket {
         @include sp__basket;
+        cursor: pointer;
 
       }
       &_personality {
         @include sp__User;
         margin-right: 40px;
+        cursor: pointer;
       }
     }
   }
@@ -494,21 +490,26 @@
       &_vk {
         @include sp__vk_sircle;
         margin-right: 10px;
+        cursor: pointer;
       }
       &_fb {
         @include sp__facebook_sircle;
         margin-right: 10px;
+        cursor: pointer;
       }
       &_twit {
         @include sp__twitter_sircle;
         margin-right: 10px;
+        cursor: pointer;
       }
       &_inst {
         @include sp__instagram_sircle;
         margin-right: 10px;
+        cursor: pointer;
       }
       &_pint {
-        @include sp__pinterest_sircle
+        @include sp__pinterest_sircle;
+        cursor: pointer;
       }
     }
     &_main {
@@ -544,6 +545,8 @@
           color: #FFFFFF;
           font-size: 16px;
           line-height: 16px;
+          cursor: pointer;
+          outline: none;
         }
       }
     }
@@ -576,6 +579,7 @@
             color: #231F20;
             line-height: 16px;
             font-family: $font_ubuntu;
+            cursor: pointer;
           }
         }
 
@@ -589,6 +593,7 @@
             color: #7F7873;
             line-height: 13px;
             font-family: $font_ubuntu;
+            cursor: pointer;
           }
 
         }
@@ -689,6 +694,7 @@
 
         &_icon {
           @include sp__decus;
+          cursor: pointer;
         }
 
       }
@@ -731,8 +737,14 @@
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
         margin: 30px 0 0;
         position: relative;
+        cursor: pointer;
         &_img {
           position: relative;
+
+          &_main {
+            width: 380px;
+            height: 214px;
+          }
           .logo {
             position: absolute;
             top: 50%;
@@ -831,6 +843,7 @@
       font-family: $font_ubuntu;
       text-transform: uppercase;
       margin-top: 40px;
+      cursor: pointer;
 
       &_left-dash, &_right-dash {
         height: 2px;
@@ -882,14 +895,15 @@
         border: 1px solid #E6E3E1;
         background-color: #FFFFFF;
         margin: 30px 0 0;
+        cursor: pointer;
         &_img {
+          img {
+            width: 380px;
+          }
 
         }
 
         &_content {
-          //display: flex;
-          //flex-direction: row;
-          //justify-content: space-between;
           font-family: $font_ubuntu;
           padding: 15px 20px 10px;
 
@@ -947,6 +961,7 @@
       font-family: $font_ubuntu;
       text-transform: uppercase;
       margin-top: 40px;
+      cursor: pointer;
 
       &_left-dash, &_right-dash {
         height: 2px;
@@ -1013,7 +1028,7 @@
           background: url(../images/Appstore.png) center no-repeat;
           background-size: 100%;
           height: 44px;
-          width: 149px;
+          width: 145px;
         }
       }
       &_logo {
@@ -1129,6 +1144,7 @@
         align-items: center;
         font-family: $font_ubuntu;
         text-transform: uppercase;
+        cursor: pointer;
 
         &_left-dash, &_right-dash {
           height: 2px;

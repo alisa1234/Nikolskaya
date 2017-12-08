@@ -86,7 +86,11 @@
           border: 1px solid #E6E3E1;
           background-color: #FFFFFF;
           margin: 20px 0 0;
+          cursor: pointer;
           &_img {
+            img {
+              width: 380px;
+            }
 
           }
 
