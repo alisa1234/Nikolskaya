@@ -31,7 +31,6 @@
       align-items: center;
       width: 334px;
 
-
       &_circle {
         width: 140px;
         height: 140px;
@@ -62,7 +61,6 @@
 
       }
 
-
     }
   }
 
@@ -87,12 +85,12 @@
 }
 
 .delivery_info {
-  width: 100%;
+  width: 1230px;
   background-color: #F8F5F5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 30px 50px 0 50px;
+  padding: 30px 0 0 50px;
 
   &_breadcrumbs {
     color: #7F7873;
@@ -108,12 +106,44 @@
     justify-content: flex-start;
 
     &_header {
-      color: #231F20;
-      font-size: 30px;
-      line-height: 35px;
-      font-weight: 500;
-      font-family: $font_ubuntu;
-      padding-bottom: 27px;
+      display: flex;
+      flex-direction: row;
+
+      &_text {
+        color: #231F20;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 500;
+        font-family: $font_ubuntu;
+        padding-bottom: 27px;
+        padding-right: 16px;
+      }
+
+      &_showmore {
+        height: 34px;
+        width: 134px;
+        border: 1px solid #E6E3E1;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        font-family: $font_ubuntu;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          color: #231F20;
+          font-size: 14px;
+          line-height: 16px;
+
+          &:before {
+            content: '↓';
+            padding-right: 10px;
+
+          }
+
+        }
+      }
     }
 
     &_text {
@@ -127,8 +157,6 @@
       height: 203px;
       justify-content: space-between;
     }
-
-
 
   }
 
