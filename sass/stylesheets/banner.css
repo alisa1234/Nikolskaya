@@ -70,7 +70,7 @@
 .wrapper_banner .banner_main_close_icon {
   content: '';
   background: url("img/svg-sprite.svg") no-repeat;
-  background-size: 199px 163px;
+  background-size: 200px 163px;
   display: inline-block;
 }
 /* line 8, ../sass/_svg-sprite.scss */
@@ -144,7 +144,7 @@
 }
 /* line 62, ../sass/banner.scss */
 .wrapper_banner .banner_main_close_icon {
-  background-position: -90px -84px;
+  background-position: -178px -5px;
   width: 17px;
   height: 17px;
   position: absolute;

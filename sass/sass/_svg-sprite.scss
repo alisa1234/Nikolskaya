@@ -3,7 +3,7 @@
 %sprite {
     content: '';
     background: url("img/svg-sprite.svg") no-repeat;
-    background-size: 199px 163px;
+    background-size: 200px 163px;
     display: inline-block;
     .no-svg & {
         background-image: url("img/svg-sprite.png");
@@ -22,13 +22,13 @@
     width: 52px;
     height: 52px;
 }
-@mixin sp__pinterest_circle-white {
+@mixin sp__vk_circle-white {
     @extend %sprite;
     background-position: -70px -5px;
     width: 49px;
     height: 49px;
 }
-@mixin sp__vk_circle-white {
+@mixin sp__twitter_circle-white {
     @extend %sprite;
     background-position: -124px -5px;
     width: 49px;
@@ -40,7 +40,7 @@
     width: 49px;
     height: 49px;
 }
-@mixin sp__twitter_circle-white {
+@mixin sp__pinterest_circle-white {
     @extend %sprite;
     background-position: -59px -109px;
     width: 49px;
@@ -76,45 +76,51 @@
     width: 15px;
     height: 20px;
 }
-@mixin sp__pinterest {
+@mixin sp__calendar {
     @extend %sprite;
     background-position: -70px -84px;
+    width: 16px;
+    height: 18px;
+}
+@mixin sp__pinterest {
+    @extend %sprite;
+    background-position: -91px -84px;
     width: 15px;
     height: 18px;
 }
 @mixin sp__close {
     @extend %sprite;
-    background-position: -90px -84px;
+    background-position: -178px -5px;
     width: 17px;
     height: 17px;
 }
 @mixin sp__vk {
     @extend %sprite;
-    background-position: -124px -93px;
+    background-position: -178px -27px;
     width: 17px;
     height: 11px;
 }
 @mixin sp__twitter {
     @extend %sprite;
-    background-position: -178px -5px;
+    background-position: -178px -43px;
     width: 16px;
     height: 13px;
 }
 @mixin sp__facebook {
     @extend %sprite;
-    background-position: -178px -23px;
+    background-position: -178px -61px;
     width: 8px;
     height: 16px;
 }
 @mixin sp__rectangle {
     @extend %sprite;
-    background-position: -178px -44px;
+    background-position: -178px -82px;
     width: 9px;
     height: 9px;
 }
 @mixin sp__rectangle_small {
     @extend %sprite;
-    background-position: -178px -58px;
+    background-position: -178px -96px;
     width: 5px;
     height: 5px;
 }

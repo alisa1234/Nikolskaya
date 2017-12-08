@@ -67,6 +67,7 @@
       font-weight: normal;
 
       &_icon {
+        @include sp__calendar;
         margin-right: 16px;
       }
     }
