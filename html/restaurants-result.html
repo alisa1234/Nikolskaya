@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Рестораны - Результаты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../sass/stylesheets/app.css">
+</head>
+<body>
+<div class="main">
+    <header class="header">
+        <div class="header_adress">
+            <div class="header_adress_name">
+                <div class="header_adress_name_location"></div>
+                <span>ул. Никольская 10</span>
+            </div>
+            <div class="header_adress_time">
+                <div class="header_adress_time_logo"></div>
+                <span>8:00 - 23:00</span>
+            </div>
+            <div class="header_adress_language">
+                <ul>
+                    <li>Rus</li>
+                    <li>Eng</li>
+                </ul>
+                <div class="header_adress_language_triangle"></div>
+            </div>
+        </div>
+        <div class="header_tabs">
+            <div class="header_tabs_search">
+                <div class="header_tabs_search_logo"></div>
+                <input type="search" placeholder="Поиск"/>
+            </div>
+            <div class="header_tabs_login">
+                <div class="header_tabs_login_logo"></div>
+                <span>Вход</span>
+            </div>
+            <div class="header_tabs_bucket">
+                <div class="header_tabs_bucket_logo"></div>
+                <span>Корзина</span>
+            </div>
+        </div>
+    </header>
+    <div class="menu-tabs">
+        <div class="menu-tabs_menu">
+            <div class="menu-tabs_menu_item">
+                <span>Рестораны</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>События</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>О проекте</span>
+            </div>
+            <div class="menu-tabs_menu_item">
+                <span>Контакты</span>
+            </div>
+        </div>
+        <div class="menu-tabs_logo"></div>
+        <div class="menu-tabs_addit">
+            <div class="menu-tabs_addit_delivery">
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кешбек</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Доставка</span>
+                </div>
+                <div class="menu-tabs_addit_delivery_item">
+                    <span>Кейтеринг</span>
+                </div>
+            </div>
+            <div class="menu-tabs_addit_socials">
+                <div class="menu-tabs_addit_socials_item vk"></div>
+                <div class="menu-tabs_addit_socials_item facebook"></div>
+                <div class="menu-tabs_addit_socials_item twitter"></div>
+                <div class="menu-tabs_addit_socials_item instagram"></div>
+                <div class="menu-tabs_addit_socials_item pinterest"></div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div class="menu-tabs_all">
+        <div class="menu-tabs_all_tabs">
+            <div class="menu-tabs_all_tabs_item active">Все</div>
+            <div class="menu-tabs_all_tabs_item">Бургеры</div>
+            <div class="menu-tabs_all_tabs_item">Лапша</div>
+            <div class="menu-tabs_all_tabs_item">Сендвичи</div>
+            <div class="menu-tabs_all_tabs_item">Пицца</div>
+            <div class="menu-tabs_all_tabs_item">
+                <div class="menu-tabs_all_tabs_item_dropdown">
+                    <ul>
+                        <li>Еще</li>
+                    </ul>
+                    <div class="header_adress_language_triangle"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="menu-tabs_all_search">
+            <input placeholder="Поиск">
+            <div class="menu-tabs_all_search_img"></div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="main_content">
+    <div class="restaurants_choosing">
+        <div class="restaurants_choosing_item active" id="restaurants">
+            <div class="restaurants_choosing_item_text">
+                <div class="restaurants_choosing_item_text_name">Рестораны</div>
+                <div class="restaurants_choosing_item_text_quantity">6</div>
+            </div>
+            <div class="restaurants_choosing_item_rectangle"></div>
+        </div>
+        <div class="restaurants_choosing_item" id="eat">
+            <div class="restaurants_choosing_item_text">
+                <div class="restaurants_choosing_item_text_name">Блюда</div>
+                <div class="restaurants_choosing_item_text_quantity">8</div>
+            </div>
+            <div class="restaurants_choosing_item_rectangle"></div>
+        </div>
+    </div>
+    <div class="content_corners">
+        <div class="content_corners_items">
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+            <div class="content_corners_items_item">
+                <div class="content_corners_items_item_img">
+                    <img src="../sass/sass/img/1.png">
+                    <img class="logo" src="../sass/sass/img/proect24.png">
+                </div>
+                <div class="content_corners_items_item_content">
+                    <div class="content_corners_items_item_content_name">Проект 24</div>
+                    <div class="content_corners_items_item_content_time">15 мин</div>
+                </div>
+                <div class="content_corners_items_item_content-kitchen">
+                    <div class="content_corners_items_item_content-kitchen_item">Европейская</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Гриль</div>
+                    <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                    <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main_content">
+    <div class="dish-output">
+        <div class="restaurants_choosing">
+            <div class="restaurants_choosing_item active" id="restaurants_dish" data-item-type="dish">
+                <div class="restaurants_choosing_item_text">
+                    <div class="restaurants_choosing_item_text_name">Блюда</div>
+                    <div class="restaurants_choosing_item_text_quantity">6</div>
+                </div>
+                <div class="restaurants_choosing_item_rectangle"></div>
+            </div>
+            <div class="restaurants_choosing_item" id="eat_dish" data-item-type="dish">
+                <div class="restaurants_choosing_item_text">
+                    <div class="restaurants_choosing_item_text_name">Рестораны</div>
+                    <div class="restaurants_choosing_item_text_quantity">8</div>
+                </div>
+                <div class="restaurants_choosing_item_rectangle"></div>
+            </div>
+        </div>
+        <div class="dish-output_result">
+            <div class="dish-output_result_overview">
+                <div class="dish-output_result_overview_header">
+                    <div class="dish-output_result_overview_header_name">
+                        <div class="dish-output_result_overview_header_name_restaurant">Burger Factory</div>
+                        <div class="dish-output_result_overview_header_name_tags">
+                            <div class="content_corners_items_item_content-kitchen">
+                                <div class="content_corners_items_item_content-kitchen_item">Бургеры</div>
+                                <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                                <div class="content_corners_items_item_content-kitchen_item">Салаты</div>
+                                <div class="content_corners_items_item_content-kitchen_delimiter"></div>
+                                <div class="content_corners_items_item_content-kitchen_item">Сендвичи</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dish-output_result_overview_header_time">
+                        <div class="content_corners_items_item_content_time">15 мин</div>
+                    </div>
+                </div>
+                <div class="dish-output_result_overview_text">
+                    За несколько десятков лет
+                    рамен превратился из еды японских рабочих кварталов в мировой культурный
+                    феномен. Безусловно, такой быстрый успех был бы невозможен без рамен-шопов,
+                    которые и популяризировали …
+                </div>
+            </div>
+            <div class="dish-output_result_items">
+                <div class="dish-output_result_items_item">
+                    <div class="dish-output_result_items_item_img">
+                        <img src="../sass/images/rest_result_dish.png">
+                    </div>
+                    <div class="dish-output_result_items_item_info">
+                        <div class="dish-output_result_items_item_info_name">Бургер вегетарианский со свёклой и
+                            шампиньонами
+                        </div>
+
+                        <div class="dish-output_result_items_item_info_content">
+                            <div class="dish-output_result_items_item_info_content_weight">
+                                <div class="dish-output_result_items_item_info_content_weight_item">460 гр</div>
+                                <div class="dish-output_result_items_item_info_content_weight_item">775 ккал</div>
+                            </div>
+                            <div class="dish-output_result_items_item_info_content_item">330 руб.</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dish-output_result_items_item">
+                    <div class="dish-output_result_items_item_img">
+                        <img src="../sass/images/rest_result_dish.png">
+                    </div>
+                    <div class="dish-output_result_items_item_info">
+                        <div class="dish-output_result_items_item_info_name">Бургер вегетарианский со свёклой и
+                            шампиньонами
+                        </div>
+
+                        <div class="dish-output_result_items_item_info_content">
+                            <div class="dish-output_result_items_item_info_content_weight">
+                                <div class="dish-output_result_items_item_info_content_weight_item">460 гр</div>
+                                <div class="dish-output_result_items_item_info_content_weight_item">775 ккал</div>
+                            </div>
+                            <div class="dish-output_result_items_item_info_content_item">330 руб.</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dish-output_result_items_item">
+                    <div class="dish-output_result_items_item_img">
+                        <img src="../sass/images/rest_result_dish.png">
+                    </div>
+                    <div class="dish-output_result_items_item_info">
+                        <div class="dish-output_result_items_item_info_name">Бургер вегетарианский со свёклой и
+                            шампиньонами
+                        </div>
+
+                        <div class="dish-output_result_items_item_info_content">
+                            <div class="dish-output_result_items_item_info_content_weight">
+                                <div class="dish-output_result_items_item_info_content_weight_item">460 гр</div>
+                                <div class="dish-output_result_items_item_info_content_weight_item">775 ккал</div>
+                            </div>
+                            <div class="dish-output_result_items_item_info_content_item">330 руб.</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dish-output_result_items_item">
+                    <div class="dish-output_result_items_item_img">
+                        <img src="../sass/images/rest_result_dish.png">
+                    </div>
+                    <div class="dish-output_result_items_item_info">
+                        <div class="dish-output_result_items_item_info_name">Бургер вегетарианский со свёклой и
+                            шампиньонами
+                        </div>
+
+                        <div class="dish-output_result_items_item_info_content">
+                            <div class="dish-output_result_items_item_info_content_weight">
+                                <div class="dish-output_result_items_item_info_content_weight_item">460 гр</div>
+                                <div class="dish-output_result_items_item_info_content_weight_item">775 ккал</div>
+                            </div>
+                            <div class="dish-output_result_items_item_info_content_item">330 руб.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="main">
+    <div class="subscribe_content">
+        <div class="subscribe_content_socials">
+            <div class="subscribe_content_socials_vk"></div>
+            <div class="subscribe_content_socials_fb"></div>
+            <div class="subscribe_content_socials_twit"></div>
+            <div class="subscribe_content_socials_inst"></div>
+            <div class="subscribe_content_socials_pint"></div>
+        </div>
+        <div class="subscribe_content_main">
+            <div class="subscribe_content_main_text">Подпишитесь на рассылку и узнавайте обо всем первым:</div>
+            <div class="subscribe_content_main_form">
+                <input type="email" placeholder="Ваш email">
+                <button>Подписаться</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <footer class="footer">
+        <div class="footer_main">
+            <div class="footer_main_menu">
+                <div class="footer_main_menu_header">
+                    <div class="footer_main_menu_header_item">Корнеры</div>
+                    <div class="footer_main_menu_header_item">События</div>
+                    <div class="footer_main_menu_header_item">О проекте</div>
+                </div>
+                <div class="footer_main_menu_items">
+                    <div class="footer_main_menu_items_item">Доставка</div>
+                    <div class="footer_main_menu_items_item">Кейтеринг</div>
+                    <div class="footer_main_menu_items_item">Обратная связь</div>
+                </div>
+            </div>
+            <div class="footer_main_contacts">
+                <div class="footer_main_contacts_header">Служба доставки:</div>
+                <div class="footer_main_contacts_blocks">
+                    <div class="footer_main_contacts_blocks_items">
+                        <div class="footer_main_contacts_blocks_items_item">E-mail: delivery@nikolskaya.org</div>
+                        <div class="footer_main_contacts_blocks_items_item">Ежедневно, с 8.00 до 23.00</div>
+                        <div class="footer_main_contacts_blocks_items_item">Тел.: +7 (495) 951-19-47</div>
+                    </div>
+                    <div class="footer_main_contacts_blocks_items">
+                        <div class="footer_main_contacts_blocks_items_item">Адрес: г. Москва, ул. Никольская 10</div>
+                        <div class="footer_main_contacts_blocks_items_item">E-mail: info@nikolskaya.org</div>
+                        <div class="footer_main_contacts_blocks_items_item">Тел.: +7 (123) 456-78-90</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="footer_info">
+            <div class="footer_info_copyright">&copy; 2017 Nikolskaya. Все права сохранены.</div>
+            <div class="footer_info_payments">
+                <div class="footer_info_payments_visa"></div>
+                <div class="footer_info_payments_american-express"></div>
+                <div class="footer_info_payments_master-card"></div>
+                <div class="footer_info_payments_paypal"></div>
+            </div>
+            <div class="footer_info_made-by">
+                <div class="footer_info_made-by_text">Сделано в</div>
+                <div class="footer_info_made-by_icon"></div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+
+</html>
