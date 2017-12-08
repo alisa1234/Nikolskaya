@@ -81,7 +81,7 @@
 /* line 5, ../sass/about.scss */
 .about_container {
   width: 1180px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
   padding: 50px 50px 0;
   background-color: #F8F5F5;
   display: flex;

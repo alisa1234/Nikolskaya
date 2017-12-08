@@ -2035,7 +2035,7 @@ input {
   align-items: center;
   width: 334px;
 }
-/* line 35, ../sass/delivery.scss */
+/* line 34, ../sass/delivery.scss */
 .delivery_banner_info_block_circle {
   width: 140px;
   height: 140px;
@@ -2046,25 +2046,25 @@ input {
   align-items: center;
   justify-content: center;
 }
-/* line 45, ../sass/delivery.scss */
+/* line 44, ../sass/delivery.scss */
 .delivery_banner_info_block_circle_time {
   background-position: -5px -52px;
   width: 52px;
   height: 52px;
 }
-/* line 48, ../sass/delivery.scss */
+/* line 47, ../sass/delivery.scss */
 .delivery_banner_info_block_circle_currenсy {
   background-position: -124px -59px;
   width: 22px;
   height: 29px;
 }
-/* line 51, ../sass/delivery.scss */
+/* line 50, ../sass/delivery.scss */
 .delivery_banner_info_block_circle_card {
   background-position: -5px -5px;
   width: 60px;
   height: 42px;
 }
-/* line 56, ../sass/delivery.scss */
+/* line 55, ../sass/delivery.scss */
 .delivery_banner_info_block_text {
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
@@ -2072,7 +2072,7 @@ input {
   font-weight: bold;
   line-height: 21px;
 }
-/* line 69, ../sass/delivery.scss */
+/* line 67, ../sass/delivery.scss */
 .delivery_banner_button {
   display: flex;
   justify-content: center;
@@ -2082,7 +2082,7 @@ input {
   margin-top: 35px;
   background-color: #B68D39;
 }
-/* line 78, ../sass/delivery.scss */
+/* line 76, ../sass/delivery.scss */
 .delivery_banner_button_text {
   color: #FFFFFF;
   font-family: Ubuntu, sans-serif;
@@ -2090,16 +2090,16 @@ input {
   line-height: 18px;
 }
 
-/* line 89, ../sass/delivery.scss */
+/* line 87, ../sass/delivery.scss */
 .delivery_info {
-  width: 100%;
+  width: 1230px;
   background-color: #F8F5F5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 30px 50px 0 50px;
+  padding: 30px 0 0 50px;
 }
-/* line 97, ../sass/delivery.scss */
+/* line 95, ../sass/delivery.scss */
 .delivery_info_breadcrumbs {
   color: #7F7873;
   font-size: 13px;
@@ -2107,22 +2107,52 @@ input {
   font-family: Ubuntu, sans-serif;
   padding-bottom: 27px;
 }
-/* line 105, ../sass/delivery.scss */
+/* line 103, ../sass/delivery.scss */
 .delivery_info_overview {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-/* line 110, ../sass/delivery.scss */
+/* line 108, ../sass/delivery.scss */
 .delivery_info_overview_header {
+  display: flex;
+  flex-direction: row;
+}
+/* line 112, ../sass/delivery.scss */
+.delivery_info_overview_header_text {
   color: #231F20;
   font-size: 30px;
   line-height: 35px;
   font-weight: 500;
   font-family: Ubuntu, sans-serif;
   padding-bottom: 27px;
+  padding-right: 16px;
 }
-/* line 119, ../sass/delivery.scss */
+/* line 122, ../sass/delivery.scss */
+.delivery_info_overview_header_showmore {
+  height: 34px;
+  width: 134px;
+  border: 1px solid #E6E3E1;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  font-family: Ubuntu, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 134, ../sass/delivery.scss */
+.delivery_info_overview_header_showmore span {
+  color: #231F20;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 139, ../sass/delivery.scss */
+.delivery_info_overview_header_showmore span:before {
+  content: '↓';
+  padding-right: 10px;
+}
+/* line 149, ../sass/delivery.scss */
 .delivery_info_overview_text {
   color: #7F7873;
   font-size: 16px;
@@ -2138,7 +2168,7 @@ input {
 /* line 5, ../sass/about.scss */
 .about_container {
   width: 1180px;
-  margin: 0 auto 40px;
+  margin: 0 auto;
   padding: 50px 50px 0;
   background-color: #F8F5F5;
   display: flex;
@@ -3012,6 +3042,233 @@ input {
   line-height: 21px;
   text-align: center;
   cursor: pointer;
+}
+
+/* line 3, ../sass/restaurants-result.scss */
+.restaurants_choosing {
+  padding: 35px 0 0 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+/* line 8, ../sass/restaurants-result.scss */
+.restaurants_choosing_item {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 9px;
+}
+/* line 15, ../sass/restaurants-result.scss */
+.restaurants_choosing_item:nth-child(2) {
+  padding-left: 28px;
+}
+/* line 19, ../sass/restaurants-result.scss */
+.restaurants_choosing_item_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 23, ../sass/restaurants-result.scss */
+.restaurants_choosing_item_text_name {
+  padding-right: 6px;
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+/* line 33, ../sass/restaurants-result.scss */
+.restaurants_choosing_item_text_quantity {
+  background-color: #D6D2D0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 100%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 51, ../sass/restaurants-result.scss */
+.restaurants_choosing_item_rectangle {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #D6D2D0;
+  box-shadow: inset 0 1px 0 0 #E6E3E1, 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  right: 0;
+  bottom: 0;
+}
+/* line 66, ../sass/restaurants-result.scss */
+.restaurants_choosing .active .restaurants_choosing_item_text_name {
+  padding-right: 13px;
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+/* line 76, ../sass/restaurants-result.scss */
+.restaurants_choosing .active .restaurants_choosing_item_text_quantity {
+  background-color: #CBBC9D;
+  color: #FFFFFF;
+}
+/* line 83, ../sass/restaurants-result.scss */
+.restaurants_choosing .active .restaurants_choosing_item_rectangle {
+  height: 2px;
+  background-color: #7F7873;
+  padding: 0;
+  right: 0;
+}
+
+/* line 93, ../sass/restaurants-result.scss */
+.dish-output {
+  display: flex;
+  flex-direction: column;
+}
+/* line 97, ../sass/restaurants-result.scss */
+.dish-output_result {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 22px 40px;
+  width: 1200px;
+}
+/* line 103, ../sass/restaurants-result.scss */
+.dish-output_result_overview {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+/* line 108, ../sass/restaurants-result.scss */
+.dish-output_result_overview_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 113, ../sass/restaurants-result.scss */
+.dish-output_result_overview_header_name {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+/* line 117, ../sass/restaurants-result.scss */
+.dish-output_result_overview_header_name_restaurant {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+}
+/* line 126, ../sass/restaurants-result.scss */
+.dish-output_result_overview_header_name_tags .content_corners_items_item_content-kitchen {
+  width: 226px;
+}
+/* line 129, ../sass/restaurants-result.scss */
+.dish-output_result_overview_header_name_tags .content_corners_items_item_content-kitchen_item {
+  font-size: 13px;
+  line-height: 13px;
+}
+/* line 140, ../sass/restaurants-result.scss */
+.dish-output_result_overview_text {
+  color: #7F7873;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 156px;
+}
+/* line 149, ../sass/restaurants-result.scss */
+.dish-output_result_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+/* line 155, ../sass/restaurants-result.scss */
+.dish-output_result_items_item {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 276px;
+  background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 164, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_img {
+  width: 280px;
+  height: 160px;
+}
+/* line 168, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_img img {
+  width: 280px;
+  height: 160px;
+}
+/* line 174, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info {
+  display: flex;
+  width: 100%;
+  height: 116px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 181, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_name {
+  color: #231F20;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 20px;
+}
+/* line 190, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7F7873;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0 20px 20px;
+  align-items: center;
+  font-family: Ubuntu, sans-serif;
+}
+/* line 201, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_item {
+  padding-left: 10px;
+}
+/* line 203, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_item:first-child {
+  border-right: 1px solid #7F7873;
+  padding-right: 10px;
+  padding-left: 0;
+}
+/* line 208, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_item:last-child {
+  color: #231F20;
+  font-family: UbuntuCondensed, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+/* line 217, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_weight {
+  display: flex;
+  flex-direction: row;
+}
+/* line 220, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_weight_item {
+  padding-left: 10px;
+}
+/* line 222, ../sass/restaurants-result.scss */
+.dish-output_result_items_item_info_content_weight_item:first-child {
+  border-right: 1px solid #7F7873;
+  padding-right: 10px;
+  padding-left: 0;
 }
 
 /*
