@@ -2482,38 +2482,39 @@ input {
 /* line 33, ../sass/contacts.scss */
 .contacts_info_main_connections_delivery {
   padding-top: 70px;
+  margin-bottom: 100px;
 }
-/* line 37, ../sass/contacts.scss */
+/* line 38, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_vk {
   background-position: -70px -5px;
   width: 49px;
   height: 49px;
 }
-/* line 41, ../sass/contacts.scss */
+/* line 42, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_fb {
   background-position: -5px -109px;
   width: 49px;
   height: 49px;
 }
-/* line 45, ../sass/contacts.scss */
+/* line 46, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_twit {
   background-position: -124px -5px;
   width: 49px;
   height: 49px;
 }
-/* line 49, ../sass/contacts.scss */
+/* line 50, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_inst {
   background-position: -113px -109px;
   width: 49px;
   height: 49px;
 }
-/* line 53, ../sass/contacts.scss */
+/* line 54, ../sass/contacts.scss */
 .contacts_info_main_connections_subscribe_content_socials_pint {
   background-position: -59px -109px;
   width: 49px;
   height: 49px;
 }
-/* line 60, ../sass/contacts.scss */
+/* line 61, ../sass/contacts.scss */
 .contacts_info_main_form {
   padding: 23px 30px 30px 30px;
   background-color: #FFFFFF;
@@ -2521,7 +2522,7 @@ input {
   flex-direction: column;
   margin-right: 67px;
 }
-/* line 69, ../sass/contacts.scss */
+/* line 70, ../sass/contacts.scss */
 .contacts_info_main_form_header {
   color: #231F20;
   font-family: Ubuntu, sans-serif;
@@ -2531,31 +2532,31 @@ input {
   padding-bottom: 17px;
   border-bottom: 1px solid #CCC8C4;
 }
-/* line 79, ../sass/contacts.scss */
+/* line 80, ../sass/contacts.scss */
 .contacts_info_main_form_rectangle {
   height: 1px;
   width: 442px;
   background-color: #CCC8C4;
 }
-/* line 86, ../sass/contacts.scss */
+/* line 87, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form {
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 19px;
 }
-/* line 96, ../sass/contacts.scss */
+/* line 97, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form_group:last-child {
   padding-bottom: 0;
 }
-/* line 102, ../sass/contacts.scss */
+/* line 103, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form_group_select {
   width: 320px;
 }
-/* line 107, ../sass/contacts.scss */
+/* line 108, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form_group_input {
   width: 278px;
 }
-/* line 112, ../sass/contacts.scss */
+/* line 113, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form_group_submit {
   background-color: #4D4239;
   color: #FFFFFF;
@@ -2565,38 +2566,38 @@ input {
   text-align: right;
   font-weight: normal;
 }
-/* line 122, ../sass/contacts.scss */
+/* line 123, ../sass/contacts.scss */
 .contacts_info_main_form .about_container_content_vacancy-form_form_group_textarea {
   width: 285px;
   height: 62px;
 }
-/* line 138, ../sass/contacts.scss */
+/* line 139, ../sass/contacts.scss */
 .contacts_all {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 40px;
 }
-/* line 144, ../sass/contacts.scss */
+/* line 145, ../sass/contacts.scss */
 .contacts_all_block {
   display: flex;
   flex-direction: column;
 }
-/* line 148, ../sass/contacts.scss */
+/* line 149, ../sass/contacts.scss */
 .contacts_all_block .footer_main_contacts_header {
   padding-bottom: 20px;
 }
-/* line 154, ../sass/contacts.scss */
+/* line 155, ../sass/contacts.scss */
 .contacts .subscribe_content_socials {
   padding-top: 101px;
   width: 285px;
 }
 
-/* line 162, ../sass/contacts.scss */
+/* line 163, ../sass/contacts.scss */
 .contacts-main .subscribe_content {
   padding: 0 0 30px;
 }
-/* line 165, ../sass/contacts.scss */
+/* line 166, ../sass/contacts.scss */
 .contacts-main .subscribe_content .subscribe_content_socials {
   padding-top: 0;
 }
@@ -2862,16 +2863,16 @@ input {
   cursor: pointer;
 }
 
-/* line 5, ../sass/events-list.scss */
+/* line 7, ../sass/events-list.scss */
 .wrapper .event {
   padding: 0;
   width: 100%;
 }
-/* line 9, ../sass/events-list.scss */
+/* line 11, ../sass/events-list.scss */
 .wrapper .event img {
   width: 1280px;
 }
-/* line 13, ../sass/events-list.scss */
+/* line 15, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all {
   display: flex;
   flex-direction: row;
@@ -2880,7 +2881,7 @@ input {
   padding: 0 50px;
   background-color: #FFFFFF;
 }
-/* line 21, ../sass/events-list.scss */
+/* line 23, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_tabs {
   display: flex;
   flex-direction: row;
@@ -2890,29 +2891,29 @@ input {
   line-height: 18px;
   font-weight: 100;
 }
-/* line 30, ../sass/events-list.scss */
+/* line 32, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_tabs_item {
   margin-right: 44px;
   text-transform: uppercase;
   padding: 25px 0;
   cursor: pointer;
 }
-/* line 36, ../sass/events-list.scss */
+/* line 38, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_tabs_item:last-child {
   margin-right: 0;
 }
-/* line 40, ../sass/events-list.scss */
+/* line 42, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_tabs_item_dropdown {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 47, ../sass/events-list.scss */
+/* line 49, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_tabs .active {
   color: #A67B2C;
   border-bottom: 3px solid #DAC69C;
 }
-/* line 53, ../sass/events-list.scss */
+/* line 55, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_calendar {
   display: flex;
   align-items: center;
@@ -2929,14 +2930,14 @@ input {
   line-height: 16px;
   font-weight: normal;
 }
-/* line 69, ../sass/events-list.scss */
+/* line 71, ../sass/events-list.scss */
 .wrapper .events-menu-tabs-all_calendar_icon {
   background-position: -70px -84px;
   width: 16px;
   height: 18px;
   margin-right: 16px;
 }
-/* line 75, ../sass/events-list.scss */
+/* line 77, ../sass/events-list.scss */
 .wrapper .events_list {
   width: 1180px;
   display: flex;
@@ -2946,17 +2947,17 @@ input {
   background-color: #F8F5F5;
   padding: 30px 50px 30px;
 }
-/* line 84, ../sass/events-list.scss */
+/* line 86, ../sass/events-list.scss */
 .wrapper .events_list .content_events {
   padding: 30px 0 0 33px;
 }
-/* line 86, ../sass/events-list.scss */
+/* line 88, ../sass/events-list.scss */
 .wrapper .events_list .content_events_title {
   text-transform: uppercase;
   font-family: Ubuntu, sans-serif;
   font-size: 24px;
 }
-/* line 92, ../sass/events-list.scss */
+/* line 94, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items {
   display: flex;
   flex-direction: row;
@@ -2964,7 +2965,7 @@ input {
   flex-wrap: wrap;
   width: 100%;
 }
-/* line 98, ../sass/events-list.scss */
+/* line 100, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item {
   width: 380px;
   border: 1px solid #E6E3E1;
@@ -2972,23 +2973,23 @@ input {
   margin: 0 0 20px;
   cursor: pointer;
 }
-/* line 105, ../sass/events-list.scss */
+/* line 107, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_img img {
   width: 380px;
 }
-/* line 111, ../sass/events-list.scss */
+/* line 113, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content {
   font-family: Ubuntu, sans-serif;
   padding: 15px 20px 10px;
 }
-/* line 115, ../sass/events-list.scss */
+/* line 117, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content_name {
   color: #231F20;
   font-size: 18px;
   line-height: 21px;
   padding-bottom: 4px;
 }
-/* line 121, ../sass/events-list.scss */
+/* line 123, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content_date {
   color: #A67B2C;
   font-size: 16px;
@@ -2996,14 +2997,14 @@ input {
   line-height: 16px;
   padding-bottom: 4px;
 }
-/* line 128, ../sass/events-list.scss */
+/* line 130, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content_text {
   color: #7F7873;
   font-size: 16px;
   line-height: 24px;
   padding: 10px 0;
 }
-/* line 135, ../sass/events-list.scss */
+/* line 137, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content_time {
   color: #867F7B;
   font-size: 13px;
@@ -3015,7 +3016,7 @@ input {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
-/* line 147, ../sass/events-list.scss */
+/* line 149, ../sass/events-list.scss */
 .wrapper .events_list .content_events_items_item_content-kitchen {
   display: flex;
   flex-direction: row;
@@ -3026,7 +3027,7 @@ input {
   padding: 10px 133px 20px 20px;
   align-items: center;
 }
-/* line 167, ../sass/events-list.scss */
+/* line 169, ../sass/events-list.scss */
 .wrapper .events_show-more {
   display: flex;
   align-items: center;
