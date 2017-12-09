@@ -37,19 +37,29 @@
       background-color: #FFFFFF;
       padding: 53px 50px 44px;
       font-family: $font_ubuntu;
+      width: 772px;
 
       &_collage {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        //justify-content: space-between;
         margin-top: 30px;
+        //width: 665px;
 
         &_item {
+          margin-right: 13px;
+          //width: 170px;
+          //height: 256px;
+          //&:first-child {
+          //  width: 385px;
+          //  height: 256px;
+          //}
 
           &:last-child {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            margin-right: 13px;
           }
         }
       }
@@ -69,7 +79,8 @@
 
     }
     .content_events {
-      padding: 30px 0 0 33px;
+      margin: 30px 0 0 33px;
+      width: 398px;
       &_title {
         text-transform: uppercase;
         font-family: $font_ubuntu;
@@ -81,9 +92,10 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
+        width: 380px;
+        //width: 100%;
         &_item {
-          width: 380px;
+
           border: 1px solid #E6E3E1;
           background-color: #FFFFFF;
           margin: 20px 0 0;
