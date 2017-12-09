@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'sp__calendar'.
-        on line 70 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss, in `sp__calendar'
-        from line 70 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss
+        on line 70 of /Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss, in `sp__calendar'
+        from line 70 of /Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss
 
 65:       font-size: 14px;
 66:       line-height: 16px;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'sp__calendar'.
 75:   .events_list {
 
 Backtrace:
-/Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss:70:in `sp__calendar'
-/Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss:70
+/Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss:70:in `sp__calendar'
+/Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss:70
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `visit_mixin'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
@@ -106,7 +106,7 @@ file:/Applications/compass.app/Contents/Java/compass-app.jar!/ui/tray.rb:381:in 
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/app.rb:230:in `try'
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/ui/tray.rb:380:in `clean_project'
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/ui/tray.rb:373:in `clean_project_handler'
-anon_class1537805706_2043893975.gen:13:in `handleEvent'
+anon_class430976509_1684002403.gen:13:in `handleEvent'
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/ui/tray.rb:70:in `run'
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/main.rb:129:in `run_tray'
 file:/Applications/compass.app/Contents/Java/compass-app.jar!/main.rb:145:in `(root)'
@@ -117,4 +117,4 @@ org/jruby/RubyKernel.java:1071:in `require'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'sp__calendar'.\A         on line 70 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss, in `sp__calendar'\A         from line 70 of /Volumes/Disk/Alice/Work/Nikolskaya/sass/sass/events-list.scss\A \A 65:       font-size: 14px;\A 66:       line-height: 16px;\A 67:       font-weight: normal;\A 68: \A 69:       &_icon {\A 70:         @include sp__calendar;\A 71:         margin-right: 16px;\A 72:       }\A 73:     }\A 74:   }\A 75:   .events_list {"; }
+  content: "Error: Undefined mixin 'sp__calendar'.\A         on line 70 of /Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss, in `sp__calendar'\A         from line 70 of /Applications/XAMPP/xamppfiles/htdocs/Nikolskaya/sass/sass/events-list.scss\A \A 65:       font-size: 14px;\A 66:       line-height: 16px;\A 67:       font-weight: normal;\A 68: \A 69:       &_icon {\A 70:         @include sp__calendar;\A 71:         margin-right: 16px;\A 72:       }\A 73:     }\A 74:   }\A 75:   .events_list {"; }
