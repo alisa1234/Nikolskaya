@@ -167,6 +167,7 @@
     }
     &_logo {
       @include sp__Logo;
+      margin-left: 5px;
     }
     &_addit {
       display: flex;
