@@ -60,74 +60,6 @@ input {
   outline: none;
 }
 
-@font-face {
-  font-family: 'Ubuntu Light';
-  src: url("../../fonts/Ubuntu/UbuntuLight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu Light';
-  src: url("../../fonts/Ubuntu/UbuntuLightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-2212;
-}
-@font-face {
-  font-family: 'Ubuntu Medium';
-  src: url("../../fonts/Ubuntu/UbuntuMedium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu Medium';
-  src: url("../../fonts/Ubuntu/UbuntuMediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../../fonts/Ubuntu/UbuntuBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../../fonts/Ubuntu/UbuntuBoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../../fonts/Ubuntu/UbuntuItalic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url("../../fonts/Ubuntu/UbuntuRegular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-2074;
-}
-@font-face {
-  font-family: 'UbuntuCondensed';
-  src: url(../../fonts/UbuntuCondensed/UbuntuCondensed.ttf);
-}
 /* line 3, ../sass/_svg-sprite.scss */
 .main .menu-tabs_addit_socials .vk, .main .menu-tabs_addit_socials .facebook, .main .menu-tabs_addit_socials .twitter, .main .menu-tabs_addit_socials .instagram, .main .menu-tabs_addit_socials .pinterest, .main_content .content_corners_items_item_content-kitchen_delimiter, .main_content_events .content_events_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_restaurants_items_item_content-kitchen_delimiter, .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_delimiter, .delivery_banner_info_block_circle_time, .delivery_banner_info_block_circle_currenсy, .delivery_banner_info_block_circle_card, .about_container_content_vacancy-form_form_group_inputfile_icon, .contacts_info_main_connections_subscribe_content_socials_vk, .contacts_info_main_connections_subscribe_content_socials_fb, .contacts_info_main_connections_subscribe_content_socials_twit, .contacts_info_main_connections_subscribe_content_socials_inst, .contacts_info_main_connections_subscribe_content_socials_pint, .wrapper_banner .banner_main_close_icon, .wrapper .events-menu-tabs-all_calendar_icon {
   content: '';
@@ -327,7 +259,7 @@ input {
 .main .menu-tabs_menu {
   display: flex;
   flex-direction: row;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 16px;
   color: #231F20;
   font-weight: 600;
@@ -579,7 +511,7 @@ input {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 /* line 372, ../sass/home.scss */
 .main .content_menu_other_item {
@@ -960,7 +892,7 @@ input {
 /* line 718, ../sass/home.scss */
 .main_content .content_corners_title {
   color: #231F20;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
@@ -1132,7 +1064,7 @@ input {
 /* line 880, ../sass/home.scss */
 .main_content_events .content_events_title {
   color: #231F20;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
@@ -1459,7 +1391,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 /* line 20, ../sass/restaurant.scss */
 .main .menu-tabs_all_tabs_item {
@@ -1529,7 +1461,7 @@ input {
 /* line 80, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_restaurants_title {
   color: #B8903E;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 13px;
@@ -1661,7 +1593,7 @@ input {
 /* line 200, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_title {
   color: #B8903E;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 13px;
@@ -1742,7 +1674,7 @@ input {
 /* line 269, ../sass/restaurant.scss */
 .main .menu-tabs_all_search_result_dishes_items_item_content-kitchen_item:last-child {
   color: #231F20;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
@@ -1875,7 +1807,7 @@ input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 70px;
   line-height: 70px;
   color: #ffffff;
@@ -2712,7 +2644,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 100;
@@ -2886,7 +2818,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 100;
@@ -3252,7 +3184,7 @@ input {
 /* line 208, ../sass/restaurants-result.scss */
 .dish-output_result_items_item_info_content_item:last-child {
   color: #231F20;
-  font-family: UbuntuCondensed, sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
