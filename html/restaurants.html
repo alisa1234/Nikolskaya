@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Рестораны</title>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="../sass/stylesheets/app.css">
@@ -21,12 +21,27 @@
                 <span>8:00 - 23:00</span>
             </div>
             <div class="header_adress_language">
-                <ul>
-                    <li>Rus</li>
-                    <li>Eng</li>
-                </ul>
-                <div class="header_adress_language_triangle"></div>
+                <div class="header_adress_language_active">
+                    <div class="header_adress_language_active_lang-icon">
+                        <img src="../sass/images/language.png">
+                    </div>
+                    <div class="header_adress_language_active_arrow"></div>
+                </div>
+                <div class="header_adress_language_list">
+                    <div class="header_adress_language_list_item">
+                        <div class="header_adress_language_list_item_lang-icon">
+                            <img src="../sass/images/language.png">
+                        </div>
+                        <div class="header_adress_language_list_item_arrow"></div>
+                    </div>
+                    <div class="header_adress_language_list_item">
+                        <div class="header_adress_language_list_item_lang-icon">
+                            <img src="../sass/images/language.png">
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
         <div class="header_tabs">
             <div class="header_tabs_search">
@@ -43,6 +58,14 @@
             </div>
         </div>
     </header>
+    <header class="header-mobile">
+        <div class="header-mobile_burger"></div>
+        <div class="header-mobile_logo"></div>
+        <div class="header-mobile_bucket">
+            <div class="header-mobile_bucket_icon"></div>
+        </div>
+    </header>
+
     <div class="menu-tabs">
         <div class="menu-tabs_menu">
             <div class="menu-tabs_menu_item">
@@ -83,6 +106,7 @@
 
         </div>
     </div>
+    <div class="menu-tabs_hide-icon"></div>
     <div class="menu-tabs_all">
         <div class="menu-tabs_all_tabs">
             <div class="menu-tabs_all_tabs_item active">Все</div>
@@ -342,6 +366,64 @@
                     </div>
                 </div>
             </div>
+            <div class="content_corners_items_item-shadow">
+                <div class="content_corners_items_item-shadow_img">
+                    <img class="content_corners_items_item-shadow_img_main" src="../sass/images/6.png">
+                </div>
+                <div class="content_corners_items_item-shadow-hover">
+                    <div class="content_corners_items_item-shadow-hover_main">
+                        <div class="content_corners_items_item-shadow-hover_main_text">
+                            Мы дарим всем гостям 10% скидку на меню а-ля-карт в ресторане за чекин
+                        </div>
+                        <div class="content_corners_items_item-shadow-hover_main_checkin">
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>РОКЕ</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Mama-mia</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>How to green</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Батуми</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content_corners_items_item-shadow">
+                <div class="content_corners_items_item-shadow_img">
+                    <img class="content_corners_items_item-shadow_img_main" src="../sass/images/6.png">
+                </div>
+                <div class="content_corners_items_item-shadow-hover">
+                    <div class="content_corners_items_item-shadow-hover_main">
+                        <div class="content_corners_items_item-shadow-hover_main_text">
+                            Мы дарим всем гостям 10% скидку на меню а-ля-карт в ресторане за чекин
+                        </div>
+                        <div class="content_corners_items_item-shadow-hover_main_checkin">
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>РОКЕ</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Mama-mia</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>How to green</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Батуми</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content_corners_items_item-shadow">
+                <div class="content_corners_items_item-shadow_img">
+                    <img class="content_corners_items_item-shadow_img_main" src="../sass/images/6.png">
+                </div>
+                <div class="content_corners_items_item-shadow-hover">
+                    <div class="content_corners_items_item-shadow-hover_main">
+                        <div class="content_corners_items_item-shadow-hover_main_text">
+                            Мы дарим всем гостям 10% скидку на меню а-ля-карт в ресторане за чекин
+                        </div>
+                        <div class="content_corners_items_item-shadow-hover_main_checkin">
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>РОКЕ</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Mama-mia</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>How to green</span></div>
+                            <div class="content_corners_items_item-shadow-hover_main_checkin_item"><span>Батуми</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 </div>
@@ -429,5 +511,7 @@
 
         });
     });
+
+
 </script>
 </html>

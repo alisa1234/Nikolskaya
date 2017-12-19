@@ -2,9 +2,19 @@
 @import "svg-sprite";
 @import "png-sprite";
 
+body {
+  @media screen and (max-width: 768px) {
+    overflow-x: hidden;
+  }
+}
+
 .main {
   width: 1280px;
   margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 
   .header {
     display: flex;
@@ -15,6 +25,9 @@
     background-color: #FFFFFF;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
     padding: 0 40px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
 
     &_adress {
       display: flex;
@@ -57,6 +70,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        position: relative;
+        justify-content: center;
+        width: 58px;
+        padding: 0 5px;
         ul {
           background: url(../images/language.png) no-repeat;
           width: 22px;
@@ -72,6 +89,67 @@
           height: 6px;
           width: 8px;
           margin-left: 7px;
+        }
+
+        &_active {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-left: 5px;
+
+
+          &_lang-icon {
+            width: 22px;
+            height: 14px;
+            cursor: pointer;
+          }
+
+          &_arrow {
+            @include sp__Triangle2;
+            height: 6px;
+            width: 8px;
+            margin-left: 7px;
+            cursor: pointer;
+          }
+        }
+
+        &_list {
+          display: block;
+          position: absolute;
+          top: -10px;
+          left: 0;
+          height: auto;
+          width: 58px;
+          border-radius: 2px;
+          background-color: #FFFFFF;
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.07);
+          padding: 5px;
+
+          &_item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 5px 0 5px 5px;
+            cursor: pointer;
+            &:nth-child(2) {
+              margin-right: 15px;
+            }
+
+            &_lang-icon {
+              width: 22px;
+              height: 14px;
+            }
+
+            &_arrow {
+              @include sp__Triangle2;
+              height: 6px;
+              width: 8px;
+              margin-left: 7px;
+            }
+          }
+
         }
       }
 
@@ -140,12 +218,52 @@
 
     }
   }
+  .header-mobile {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: 980px) {
+      display: none;
+    }
+
+    &_burger {
+      width: 60px;
+      height: 59px;
+      border-right: 1px rgba(231, 227, 225, 1) solid;
+
+    }
+
+    &_logo {
+      @include sp__Logo;
+    }
+
+    &_bucket {
+      border-left: 1px #e7e3e1 solid;
+      width: 59px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &_icon {
+        @include sp__basket_small;
+      }
+
+    }
+  }
   .menu-tabs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 35px 40px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
     &_menu {
       display: flex;
       flex-direction: row;
@@ -229,6 +347,14 @@
     //  width: 100%;
     //  height: 500px;
     //}
+
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      width: 100%;
+      height: auto;
+      //height: 188px;
+    }
+
     .owl-carousel {
       .owl-nav {
         position: absolute;
@@ -258,6 +384,11 @@
       }
       .item {
         height: 500px;
+
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          height: auto;
+        }
       }
     }
 
@@ -266,6 +397,12 @@
       flex-direction: row;
       position: relative;
       padding: 0 40px;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+      }
+
       &_delivery {
         height: 170px;
         width: 600px;
@@ -273,6 +410,12 @@
         padding-bottom: 10px;
         font-family: $font_ubuntu;
         position: relative;
+
+        @media screen and (max-width: 768px) {
+          width: 50%;
+          height: auto;
+          padding: 5% 0;
+        }
         &_main-text {
           color: #EBE8DD;
           font-size: 90px;
@@ -283,6 +426,11 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
+
+          @media screen and (max-width: 768px) {
+            font-size: 24px;
+            line-height: 24px;
+          }
         }
         &_secondary-text {
           position: absolute;
@@ -294,6 +442,13 @@
           font-size: 18px;
           line-height: 24px;
           text-align: center;
+          @media screen and (max-width: 768px) {
+            font-size: 12px;
+            line-height: 18px;
+            width: 120px;
+            position: relative;
+            z-index: 5;
+          }
         }
         &_secondary-text_preorder {
           position: absolute;
@@ -305,6 +460,14 @@
           font-size: 18px;
           line-height: 24px;
           text-align: center;
+
+          @media screen and (max-width: 768px) {
+            font-size: 12px;
+            line-height: 18px;
+            width: 120px;
+            position: relative;
+            z-index: 5;
+          }
         }
         &_moreinfo-text {
           display: flex;
@@ -315,6 +478,9 @@
           left: 50%;
           transform: translate(-50%, -50%);
           cursor: pointer;
+          @media screen and (max-width: 768px) {
+            display: none;
+          }
 
           &_left-dash, &_right-dash {
             height: 2px;
@@ -336,10 +502,32 @@
           position: absolute;
           bottom: 0;
           right: 65px;
+          @media screen and (max-width: 768px) {
+            right: 50%;
+            transform: translateX(50%);
+            width: 80px;
+            z-index: 0;
+
+            img {
+              width: 80px;
+            }
+          }
           &_right {
             position: absolute;
             top: 0;
             right: 133px;
+
+            @media screen and (max-width: 768px) {
+              right: 50%;
+              transform: translateX(50%);
+              width: 80px;
+              z-index: 0;
+
+              img {
+                width: 80px;
+              }
+            }
+
           }
         }
       }
@@ -364,6 +552,11 @@
     &_about {
       @include sp__Logo1;
     }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
     &_other {
       display: flex;
       flex-direction: row;
@@ -400,11 +593,46 @@
     justify-content: space-between;
     padding: 40px 40px 0;
     font-family: $font_ubuntu;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      margin-top: 30px;
+      padding: 40px 20px 40px;
+    }
 
     &_item {
       width: 263px;
       height: 263px;
       position: relative;
+
+      &:last-child {
+        display: none;
+      }
+
+      @media screen and (max-width: 768px) {
+        height: auto;
+        width: 48%;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+
+        }
+
+        &:first-child {
+          top: 0;
+          width: calc(100% - 40px);
+          height: 100%;
+          display: block;
+          position: absolute;
+
+        }
+
+        &:last-child {
+          display: block;
+        }
+      }
 
       &_main-text {
         color: #7F7873;
@@ -415,6 +643,15 @@
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
+        @media screen and (max-width: 768px) {
+          padding: 0;
+          left: 0;
+          transform: none;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 26px;
+
+        }
 
       }
     }
@@ -422,12 +659,23 @@
       width: 100%;
       top: 55%;
       left: 54%;
-      transform: translate(-50%, -55%)
+      transform: translate(-50%, -55%);
+      @media screen and (max-width: 768px) {
+        display: flex;
+        top: 100%;
+        left: 44%;
+        width: auto;
+        min-width: 250px;
+      }
     }
   }
   .main_map {
     padding: 40px 40px 0;
     position: relative;
+    @media screen and (max-width: 768px) {
+      padding: 0;
+      margin-top: 40px;
+    }
 
     &_buttons {
       position: absolute;
@@ -440,6 +688,18 @@
       transform: translateY(-50%);
       font-family: $font_ubuntu;
 
+      @media screen and (max-width: 768px) {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        width: calc(100% - 30px);
+        height: 40px;
+        background-color: #231f20;
+        padding: 0 15px;
+      }
+
       &_button {
         margin-bottom: 10px;
         border-radius: 2px;
@@ -447,7 +707,13 @@
         width: 147px;
         color: #FFFFFF;
 
-
+        @media screen and (max-width: 768px) {
+          margin-bottom: 0;
+          border-radius: 0;
+          cursor: pointer;
+          width: auto;
+          color: #FFFFFF;
+        }
 
         &_text {
           padding: 12px 0 14px 20px;
@@ -458,18 +724,34 @@
           font-size: 16px;
           line-height: 24px;
           font-weight: normal;
+          @media screen and (max-width: 768px) {
+            padding: 14px 0 14px 15px;
+            font-size: 11px;
+            line-height: 11px;
+          }
 
         }
 
       }
       .active {
         width: 187px;
+        @media screen and (max-width: 768px) {
+          width: auto;
+        }
 
         .main_map_buttons_button_text {
           padding: 17px 0 17px 20px;
           background-color: #FFFFFF;
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
           color: #1A1718;
+          @media screen and (max-width: 768px) {
+            padding: 14px 0 11px 0;
+            background-color: rgba(35, 31, 32, 1);
+            box-shadow: none;
+            color: #BFAF8C;
+            border-bottom: 4px #CBBC9D solid;
+
+          }
         }
       }
     }
@@ -482,11 +764,21 @@
     padding: 33px 0;
     width: 1200px;
     margin: 0 auto;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      flex-direction: column;
+      padding: 30px 0 20px;
+    }
 
     &_socials {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
+      @media screen and (max-width: 768px) {
+        margin: 0 auto 20px;
+        max-width: 420px;
+      }
 
       &_vk {
         @include sp__vk_sircle;
@@ -519,23 +811,42 @@
       justify-content: space-between;
       font-family: $font_ubuntu;
       align-items: center;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
       &_text {
         color: #1A1718;
         font-size: 16px;
         line-height: 24px;
         margin-right: 10px;
+        @media screen and (max-width: 768px) {
+          width: calc(100% - 80px);
+          margin: 0 40px 10px;
+          color: #6C6560;
+          font-size: 13px;
+          line-height: 20px;
+          text-align: center;
+        }
       }
       &_form {
         display: flex;
         flex-direction: row;
         justify-content: center;
+
         input[type=email] {
-            border: 1px solid #CCC8C4;
-            border-radius: 2px;
-            background-color: #FFFFFF;
-            padding: 10px;
-            margin-right: 10px;
-            font-size: 16px;
+          border: 1px solid #CCC8C4;
+          border-radius: 2px;
+          background-color: #FFFFFF;
+          padding: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+
+          @media screen and (max-width: 768px) {
+            width: 130px;
+            font-size: 13px;
+            line-height: 13px;
+          }
+
         }
         button {
           height: 44px;
@@ -548,6 +859,13 @@
           line-height: 16px;
           cursor: pointer;
           outline: none;
+
+          @media screen and (max-width: 768px) {
+            width: 119px;
+            font-size: 13px;
+            line-height: 13px;
+          }
+
         }
       }
     }
@@ -558,17 +876,29 @@
     flex-direction: column;
     background-color: #FFFFFF;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 768px) {
+      width: calc(100% - 40px);
+      padding: 0 20px;
+    }
     &_main {
       display: flex;
       flex-direction: row;
       padding: 74px 0 32px;
       width: 100%;
       justify-content: space-between;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px 0 32px;
+      }
 
       &_menu {
         display: flex;
         flex-direction: column;
         width: 297px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         &_header {
           display: flex;
@@ -581,6 +911,19 @@
             line-height: 16px;
             font-family: $font_ubuntu;
             cursor: pointer;
+
+            @media screen and (max-width: 768px) {
+              font-size: 13px;
+              font-weight: 500;
+              line-height: 13px;
+            }
+
+            &:last-child {
+              display: none;
+              @media screen and (max-width: 768px) {
+                display: block;
+              }
+            }
           }
         }
 
@@ -604,6 +947,9 @@
       &_contacts {
         display: flex;
         flex-direction: column;
+        @media screen and (max-width: 768px) {
+          margin-top: 30px;
+        }
 
         &_header {
           font-size: 16px;
@@ -617,14 +963,26 @@
         &_blocks {
           display: flex;
           flex-direction: row;
+          @media screen and (max-width: 768px) {
+            flex-direction: column;
+          }
 
           &_items {
+
+            @media screen and (max-width: 768px) {
+              margin-top: 10px;
+            }
 
             &_item {
               font-size: 13px;
               color: #1A1718;
               line-height: 26px;
               font-family: $font_ubuntu;
+
+              @media screen and (max-width: 768px) {
+
+                line-height: 20px;
+              }
             }
 
             &:first-child {
@@ -640,8 +998,13 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
       width: 100%;
       padding: 0 0 32px;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
 
       &_copyright {
         font-size: 13px;
@@ -652,6 +1015,13 @@
         padding-right: 81px;
         width: 249px;
 
+        @media screen and (max-width: 768px) {
+          padding: 0;
+          width: 100%;
+          margin-bottom: 30px;
+          text-align: center;
+        }
+
       }
 
       &_payments {
@@ -659,6 +1029,9 @@
         flex-direction: row;
         margin-right: 156px;
         align-items: center;
+        @media screen and (max-width: 768px) {
+          margin: 0;
+        }
 
         &_visa {
           @include sp__Visa;
@@ -684,6 +1057,9 @@
       &_made-by {
         display: flex;
         flex-direction: row;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
 
         &_text {
           font-size: 13px;
@@ -708,6 +1084,10 @@
   width: 1280px;
   margin: 0 auto;
 
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
   .content_corners {
     padding: 0 30px 40px;
     margin: 0 auto;
@@ -716,20 +1096,89 @@
     flex-direction: column;
     align-items: center;
 
-    &_title {
-      color: #231F20;
-      font-family: $font_condensed;
-      font-size: 30px;
-      line-height: 30px;
-      text-align: center;
-      margin-top: 40px;
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      align-items: flex-start;
+
     }
+
+    &_title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+
+      @media screen and (max-width: 768px) {
+        margin: 0 20px;
+        width: calc(100% - 40px);
+      }
+
+      &_text {
+        color: #231F20;
+        font-family: $font_condensed;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 40px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+          line-height: 20px;
+          text-transform: uppercase;
+        }
+      }
+
+      &_moreinfo-text-mobile {
+        display: flex;
+        align-items: center;
+        font-family: $font_ubuntu;
+        text-transform: uppercase;
+        margin-top: 40px;
+        cursor: pointer;
+        flex-direction: row;
+        //margin-right: 40px;
+
+        @media screen and (min-width: 768px) {
+          display: none;
+        }
+
+        &_left-dash, &_right-dash {
+          height: 2px;
+          width: 21px;
+          background-color: #CBBC9D;
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        &_text {
+          margin: 0 10px;
+          color: #231F20;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 12px;
+          text-align: center;
+        }
+      }
+    }
+
     &_items {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
       min-width: 1200px;
+      @media screen and (max-width: 768px) {
+        min-width: 100%;
+        width: 100%;
+        flex-direction: column;
+
+        .content_corners_items_item:nth-child(3) ~ .content_corners_items_item {
+          display: none;
+        }
+
+      }
+
       &_item {
         width: 380px;
         border: 1px solid #E6E3E1;
@@ -739,12 +1188,25 @@
         margin: 30px 0 0;
         position: relative;
         cursor: pointer;
+
+        @media screen and (max-width: 768px) {
+          width: calc(100% - 40px);
+          padding: 0;
+          margin: 20px auto 0;
+          //padding: 0 40px;
+        }
+
         &_img {
           position: relative;
 
           &_main {
             width: 380px;
             height: 214px;
+            @media screen and (max-width: 768px) {
+              width: 100%;
+              height: auto;
+            }
+
           }
           .logo {
             position: absolute;
@@ -760,6 +1222,10 @@
           justify-content: space-between;
           font-family: $font_ubuntu;
           padding: 15px 20px 10px;
+
+          @media screen and (max-width: 768px) {
+            padding: 10% 20px 10px;
+          }
 
           &_name {
             color: #231F20;
@@ -786,6 +1252,12 @@
             align-items: center;
             font-family: $font_ubuntu;
 
+            @media screen and (max-width: 768px) {
+              width: 195px;
+              font-size: 11px;
+              line-height: 11px;
+            }
+
             &_item {
 
             }
@@ -796,9 +1268,10 @@
         }
         &-hover {
           font-family: $font_ubuntu;
+
           &_main {
-            background-color: rgba(0,0,0,0.8);
-            padding: 55px 30px 55px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 55px 30px 50px;
             position: absolute;
             top: 0;
 
@@ -822,10 +1295,84 @@
                 padding: 5px 10px;
                 margin-right: 5px;
                 span {
-                    color: #FFFFFF;
-                    font-size: 13px;
-                    line-height: 19px;
-                    text-align: center;
+                  color: #FFFFFF;
+                  font-size: 13px;
+                  line-height: 19px;
+                  text-align: center;
+                }
+
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+
+      }
+
+      &_item-shadow {
+        width: 380px;
+        border: 1px solid #E6E3E1;
+        border-radius: 0 0 4px 4px;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        margin: 30px 0 0;
+        position: relative;
+        cursor: pointer;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        &_img {
+          position: relative;
+          height: 214px;
+
+          &_main {
+            width: 380px;
+            height: 214px;
+            @media screen and (max-width: 768px) {
+              width: 100%;
+              height: auto;
+            }
+
+          }
+
+        }
+        &-hover {
+          font-family: $font_ubuntu;
+
+          &_main {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 55px 30px 50px;
+            position: absolute;
+            top: 0;
+
+            &_text {
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 319px;
+            }
+            &_checkin {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              color: #FFFFFF;
+              margin-top: 20px;
+              align-items: center;
+              font-family: $font_ubuntu;
+              &_item {
+                background-color: #1A1718;
+                padding: 5px 10px;
+                margin-right: 5px;
+                span {
+                  color: #FFFFFF;
+                  font-size: 13px;
+                  line-height: 19px;
+                  text-align: center;
                 }
 
                 &:last-child {
@@ -843,14 +1390,22 @@
       align-items: center;
       font-family: $font_ubuntu;
       text-transform: uppercase;
+      justify-content: center;
       margin-top: 40px;
       cursor: pointer;
+
+      @media screen and (max-width: 768px) {
+        margin: 40px auto 0;
+        width: calc(100% - 20px);
+
+      }
 
       &_left-dash, &_right-dash {
         height: 2px;
         width: 21px;
         background-color: #CBBC9D;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
       }
       &_text {
         margin: 0 10px;
@@ -859,6 +1414,11 @@
         font-weight: bold;
         line-height: 16px;
         text-align: center;
+        @media screen and (max-width: 768px) {
+          font-size: 12px;
+          line-height: 12px;
+
+        }
 
       }
     }
@@ -877,6 +1437,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
 
     &_title {
       color: #231F20;
@@ -982,78 +1546,292 @@
   }
 }
 
+//.app_content {
+//  background: url(../images/phones_bg.png) right no-repeat;
+//  height: 710px;
+//  background-color: #F7F6F2;
+//  width: 1280px;
+//  margin: 0 auto;
+//
+//  @media screen and (max-width: 768px) {
+//    width: 100%;
+//    background: url(../images/phones_bg_mobile.png) right no-repeat;
+//    background-color: #F7F6F2;
+//
+//
+//  }
+//
+//  &_items {
+//    display: flex;
+//    flex-direction: row;
+//    justify-content: space-between;
+//    padding: 0 40px;
+//    height: 100%;
+//    @media screen and (max-width: 768px) {
+//      padding: 0;
+//      flex-direction: column;
+//    }
+//    &_text {
+//      display: block;
+//      font-family: $font_ubuntu;
+//      padding: 212px 0;
+//      position: relative;
+//
+//
+//      &_main {
+//        color: #231F20;
+//        font-size: 40px;
+//        font-weight: 500;
+//        line-height: 44px;
+//        width: 442px;
+//      }
+//      &_other {
+//        color: #7F7873;
+//        font-size: 26px;
+//        font-weight: 500;
+//        line-height: 30px;
+//        width: 400px;
+//        padding: 20px 0 30px;
+//      }
+//      &_download {
+//        display: flex;
+//        flex-direction: row;
+//
+//        &_google {
+//          background: url(../images/Playstore.png) center no-repeat;
+//          background-size: 100%;
+//          height: 44px;
+//          width: 149px;
+//          margin-right: 20px;
+//        }
+//        &_apple {
+//          background: url(../images/Appstore.png) center no-repeat;
+//          background-size: 100%;
+//          height: 44px;
+//          width: 145px;
+//        }
+//      }
+//      &_logo {
+//        background: url(../images/logo_N.png) no-repeat;
+//        height: 212px;
+//        width: 325px;
+//        opacity: 0.2;
+//        position: absolute;
+//        top: 212px;
+//      }
+//      &_url {
+//        color: #7F7873;
+//        font-size: 16px;
+//        line-height: 18px;
+//        margin-top: 145px;
+//        a {
+//          color: #332C26;
+//          text-decoration: none;
+//        }
+//      }
+//
+//
+//
+//    }
+//    &_img {
+//      background: url(../images/phones.png) right bottom no-repeat;
+//      width: 563px;
+//
+//      @media screen and (max-width: 768px) {
+//        position: absolute;
+//        right: 25px;
+//      }
+//    }
+//
+//  }
+//}
+
 .app_content {
-  background: url(../images/phones_bg.png) right no-repeat;
+  position: relative;
   height: 710px;
-  background-color: #F7F6F2;
   width: 1280px;
   margin: 0 auto;
+  background-color: #F7F6F2;
 
-  &_items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 40px;
-    height: 100%;
-    &_text {
-      font-family: $font_ubuntu;
-      padding: 212px 0;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  &_images {
+    position: absolute;
+    height: 710px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+
+    &_bg {
+      width: 100%;
+      height: 710px;
       position: relative;
-      &_main {
-        color: #231F20;
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 44px;
-        width: 442px;
-      }
-      &_other {
-        color: #7F7873;
-        font-size: 26px;
-        font-weight: 500;
-        line-height: 30px;
-        width: 400px;
-        padding: 20px 0 30px;
-      }
-      &_download {
-        display: flex;
-        flex-direction: row;
 
-        &_google {
-          background: url(../images/Playstore.png) center no-repeat;
-          background-size: 100%;
-          height: 44px;
-          width: 149px;
-          margin-right: 20px;
-        }
-        &_apple {
-          background: url(../images/Appstore.png) center no-repeat;
-          background-size: 100%;
-          height: 44px;
-          width: 145px;
-        }
-      }
-      &_logo {
-        background: url(../images/logo_N.png) no-repeat;
-        height: 212px;
-        width: 325px;
-        opacity: 0.2;
+      @media screen and (max-width: 768px) {
         position: absolute;
-        top: 212px;
+        bottom: 0;
+        right: 0;
+        height: auto;
+
       }
-      &_url {
-        color: #7F7873;
-        font-size: 16px;
-        line-height: 18px;
-        margin-top: 145px;
-        a {
-          color: #332C26;
-          text-decoration: none;
+
+      &-desktop {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @media screen and (max-width: 768px) {
+          display: none;
         }
+
+      }
+
+      &-mobile {
+        display: none;
+
+        @media screen and (max-width: 768px) {
+          position: absolute;
+          display: block;
+          width: 80%;
+          //max-width: 340px;
+          right: 0;
+          bottom: 0;
+
+        }
+
+      }
+
+    }
+
+    &_phones {
+      position: absolute;
+      right: 40px;
+      bottom: 0;
+      //width: 100%;
+
+      @media screen and (max-width: 768px) {
+        right: 0;
+        width: 100%;
+      }
+
+      &-desktop {
+        display: block;
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+
+      }
+
+      &-mobile {
+        display: none;
+
+        @media screen and (max-width: 768px) {
+          display: block;
+          width: 44%;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+
+        }
+
       }
     }
-    &_img {
-      background: url(../images/phones.png) right bottom no-repeat;
-      width: 563px;
+  }
+
+  &_text {
+    display: block;
+    font-family: $font_ubuntu;
+    padding: 212px 0 0 40px;
+    position: relative;
+    @media screen and (max-width: 768px) {
+      padding: 80px 20px 0 20px;
+      max-width: 280px;
+    }
+
+    &_main {
+      color: #231F20;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 44px;
+      width: 442px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 26px;
+        width: 100%;
+      }
+    }
+    &_other {
+      color: #7F7873;
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 30px;
+      width: 400px;
+      padding: 20px 0 30px;
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 60px;
+        font-weight: normal;
+        width: 100%;
+      }
+    }
+    &_download {
+      display: flex;
+      flex-direction: row;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        position: absolute;
+        bottom: -70px;
+      }
+
+      &_google {
+        background: url(../images/Playstore.png) center no-repeat;
+        background-size: 100%;
+        height: 45px;
+        width: 150px;
+        margin-right: 20px;
+
+        @media screen and (max-width: 768px) {
+          margin-bottom: 10px;
+        }
+      }
+      &_apple {
+        background: url(../images/Appstore.png) center no-repeat;
+        background-size: 100%;
+        height: 45px;
+        width: 150px;
+      }
+    }
+    &_logo {
+      background: url(../images/logo_N.png) no-repeat;
+      height: 212px;
+      width: 325px;
+      opacity: 0.2;
+      position: absolute;
+      top: 212px;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+    &_url {
+      color: #7F7873;
+      font-size: 16px;
+      line-height: 18px;
+      margin-top: 145px;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+      a {
+        color: #332C26;
+        text-decoration: none;
+      }
     }
 
   }
@@ -1064,6 +1842,11 @@
   width: 1280px;
   margin: 0 auto;
   //flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
   &_title {
     position: relative;
     font-family: $font_ubuntu;
@@ -1074,6 +1857,13 @@
     margin: 0 auto;
     width: 640px;
     padding: 50px 0 0 0;
+    @media screen and (max-width: 768px) {
+      width: 60%;
+      margin: 0 20px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 26px;
+    }
 
   }
   &_footer-grey {
@@ -1084,6 +1874,9 @@
     background-color: #F7F6F2;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     z-index: 0;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   &_column-grey {
@@ -1095,6 +1888,9 @@
     left: 697px;
     background-color: #F7F6F2;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
   &_number-logo {
     background: url(../images/30.png) no-repeat;
@@ -1104,6 +1900,12 @@
     top: 35px;
     left: 81px;
     z-index: 0;
+    @media screen and (max-width: 768px) {
+      background-size: cover;
+      width: 140px;
+      height: 80px;
+      left: 20px;
+    }
   }
   &_items {
     position: relative;
@@ -1112,13 +1914,22 @@
     flex-direction: row;
     padding: 70px 104px 0 253px;
     align-items: flex-start;
+    @media screen and (max-width: 768px) {
+      padding: 0;
+    }
 
     &_text {
       width: 400px;
       display: flex;
       flex-direction: column;
+      align-items: center;
       //padding-bottom: 106px;
       padding-top: 10px;
+      @media screen and (max-width: 768px) {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+      }
+
       &_header {
         font-size: 26px;
         line-height: 30px;
@@ -1126,6 +1937,12 @@
         color: #7F7873;
         text-align: left;
         font-weight: 500;
+
+        @media screen and (max-width: 768px) {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 22px;
+        }
       }
       &_description {
         font-size: 16px;
@@ -1138,6 +1955,22 @@
           padding-bottom: 10px;
           display: block;
         }
+        @media screen and (max-width: 768px) {
+          font-size: 13px;
+          line-height: 20px;
+          padding: 0;
+        }
+      }
+      &_mobile-img {
+        display: none;
+        @media screen and (max-width: 768px) {
+          display: block;
+          img {
+            width: 100%;
+            margin: 20px auto 20px;
+          }
+        }
+
       }
 
       &_moreinfo {
@@ -1146,6 +1979,9 @@
         font-family: $font_ubuntu;
         text-transform: uppercase;
         cursor: pointer;
+        @media screen and (max-width: 768px) {
+          margin-top: 20px;
+        }
 
         &_left-dash, &_right-dash {
           height: 2px;
@@ -1172,6 +2008,10 @@
       width: 396px;
       height: 545px;
       margin-left: 127px;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
   }
 }
