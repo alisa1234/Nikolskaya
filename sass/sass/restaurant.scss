@@ -4,12 +4,21 @@
 
 .main {
   .menu-tabs {
+    @media screen and (max-width: 768px) {
+      display: flex;
+      padding: 0;
+    }
     &_all {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
       padding: 0 40px;
+      @media screen and (max-width: 768px) {
+        padding: 14px 20px 14px;
+        width: calc(100% - 40px);
+        background-color: #F7F6F2;
+      }
 
       &_tabs {
         display: flex;
@@ -21,11 +30,10 @@
           display: none;
         }
 
-
         &_item {
           margin-right: 44px;
           text-transform: uppercase;
-          padding:25px 0;
+          padding: 25px 0;
           cursor: pointer;
 
           &:last-child {
@@ -38,13 +46,26 @@
             align-items: center;
           }
 
-
         }
         .active {
           color: #A67B2C;
           border-bottom: 3px solid #DAC69C;
         }
       }
+      &_hide-icon {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #E6E3E1;
+        box-sizing: border-box;
+        margin-right: 10px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        @media screen and (min-width: 768px) {
+          display: none;
+        }
+
+      }
+
       &_search {
         display: flex;
         flex-direction: row;
@@ -52,6 +73,11 @@
         position: relative;
         margin-right: 30px;
         align-items: center;
+        @media screen and (max-width: 768px) {
+          width: 86%;
+          margin-right: 0;
+        }
+
         input {
           color: #7F7873;
           font-family: $font_ubuntu;
@@ -63,12 +89,23 @@
           padding: 14px 5px;
           border: none;
           border-bottom: 1px solid #CCC8C4;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #CCC8C4;
+            padding: 12px 15px;
+          }
         }
         &_img {
           @include sp__Search;
           position: absolute;
           right: 0;
           cursor: pointer;
+
+          @media screen and (max-width: 768px) {
+            margin-right: 15px;
+          }
+
         }
         &_result {
           display: none;
@@ -78,17 +115,17 @@
           z-index: 2;
           padding-bottom: 13px;
           width: 330px;
-          top:44px;
+          top: 44px;
           left: 0;
 
           &_restaurants {
             &_title {
-                color: #B8903E;
-                font-family: $font_condensed;
-                font-size: 10px;
-                font-weight: 500;
-                line-height: 13px;
-                padding: 20px 15px 0;
+              color: #B8903E;
+              font-family: $font_condensed;
+              font-size: 10px;
+              font-weight: 500;
+              line-height: 13px;
+              padding: 20px 15px 0;
             }
             &_items {
               display: flex;
@@ -146,7 +183,7 @@
                     font-family: $font_ubuntu;
 
                     &_item {
-                      padding:0 10px;
+                      padding: 0 10px;
 
                       &:first-child {
                         padding-left: 0;
@@ -160,7 +197,7 @@
                 &-hover {
                   font-family: $font_ubuntu;
                   &_main {
-                    background-color: rgba(0,0,0,0.8);
+                    background-color: rgba(0, 0, 0, 0.8);
                     padding: 55px 30px 55px;
                     position: absolute;
                     top: 0;
@@ -290,7 +327,7 @@
                 &-hover {
                   font-family: $font_ubuntu;
                   &_main {
-                    background-color: rgba(0,0,0,0.8);
+                    background-color: rgba(0, 0, 0, 0.8);
                     padding: 55px 30px 55px;
                     position: absolute;
                     top: 0;
@@ -336,11 +373,12 @@
         }
       }
     }
+
   }
 
-
 }
-.slider_wraper{
+
+.slider_wraper {
   background-color: #E7E3E1;
   //padding: 30px 50px;
 
@@ -383,17 +421,17 @@
       height: 140px;
       position: relative;
       &_text {
-          font-family: $font_ubuntu;
-          font-size: 18px;
-          font-weight: 500;
-          line-height: 21px;
-          text-align: center;
-          position: absolute;
-          color: #FFFFFF;
-          top: 50%;
-          left: 50%;
-          width: 100%;
-          transform: translate(-50%, -50%);
+        font-family: $font_ubuntu;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        position: absolute;
+        color: #FFFFFF;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
       }
     }
 

@@ -274,6 +274,9 @@ body {
       line-height: 20px;
       text-align: center;
       text-transform: uppercase;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
       &_item {
         padding-right: 40px;
         cursor: pointer;
@@ -286,10 +289,17 @@ body {
     &_logo {
       @include sp__Logo;
       margin-left: 5px;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
     &_addit {
       display: flex;
       flex-direction: row;
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
       &_delivery {
         display: flex;
         flex-direction: row;
